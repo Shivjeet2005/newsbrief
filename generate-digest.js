@@ -11,12 +11,26 @@ const CONFIG = JSON.parse(readFileSync('config.json', 'utf-8'));
 const POOL_SIZE = 15;
 const STORIES_PER_CITY = 5;
 
-// Your public website address — read from config.json (edit it there).
-const SITE_URL = CONFIG.siteUrl;
+// Base site URL — read from config.json (edit it there).
+// Trailing slash is normalized below so city links always build correctly.
+const SITE_URL = CONFIG.siteUrl.endsWith('/') ? CONFIG.siteUrl : CONFIG.siteUrl + '/';
 
 const GEMINI_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/` +
   `gemini-3.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
+
+// Turn a city name into a safe filename part: "New York" -> "new-york"
+function slug(cityName) {
+  return cityName
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')  // non-letters/numbers -> hyphen
+    .replace(/^-+|-+$/g, '');     // trim hyphens from ends
+}
+
+// Full public URL for a city's page.
+function cityUrl(cityName) {
+  return SITE_URL + slug(cityName) + '.html';
+}
 
 async function callGemini(promptText) {
   for (let attempt = 1; attempt <= 4; attempt++) {
@@ -133,43 +147,25 @@ function esc(text) {
     .replace(/"/g, '&quot;');
 }
 
-function buildWebpage(dateKey, digest) {
-  let citySections = '';
-
-  for (const cityName of Object.keys(digest)) {
-    const articles = (digest[cityName].articles || [])
-      .filter(a => a.summary && a.summary !== 'Summary unavailable.');
-
-    if (articles.length === 0) continue;
-
-    let items = '';
-    for (const a of articles) {
-      items +=
-        `<article class="story">` +
-        `<h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>` +
-        `<p class="summary">${esc(a.summary)}</p>` +
-        `<p class="source">Source: ${esc(a.source)}</p>` +
-        `</article>`;
-    }
-
-    citySections +=
-      `<section class="city"><h2>${esc(cityName)}</h2>${items}</section>`;
-  }
-
-  const html =
-`<!DOCTYPE html>
+// Shared page styling + wrapper.
+function pageShell(title, dateKey, bodyContent, backLink) {
+  return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily News Digest — ${esc(dateKey)}</title>
+<title>${esc(title)} — ${esc(dateKey)}</title>
 <style>
   body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 680px; margin: 0 auto; padding: 20px; color: #1a1a1a; line-height: 1.5; }
   header { border-bottom: 2px solid #1a1a1a; margin-bottom: 24px; padding-bottom: 12px; }
   header h1 { margin: 0 0 4px; font-size: 1.6rem; }
   header .date { color: #666; font-size: 0.9rem; }
-  .city { margin-bottom: 32px; }
-  .city > h2 { font-size: 1.2rem; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  .backlink { display: inline-block; margin-bottom: 16px; color: #0b57d0; text-decoration: none; font-size: 0.9rem; }
+  .backlink:hover { text-decoration: underline; }
+  .city-list { list-style: none; padding: 0; }
+  .city-list li { margin-bottom: 12px; font-size: 1.15rem; }
+  .city-list a { color: #0b57d0; text-decoration: none; }
+  .city-list a:hover { text-decoration: underline; }
   .story { margin-bottom: 20px; }
   .story h3 { margin: 0 0 6px; font-size: 1.05rem; }
   .story h3 a { color: #0b57d0; text-decoration: none; }
@@ -181,19 +177,63 @@ function buildWebpage(dateKey, digest) {
 </head>
 <body>
 <header>
-  <h1>Daily News Digest</h1>
+  <h1>${esc(title)}</h1>
   <div class="date">${esc(dateKey)}</div>
 </header>
-${citySections}
+${backLink ? `<a class="backlink" href="${esc(SITE_URL)}">← All cities</a>` : ''}
+${bodyContent}
 <footer>Summaries are AI-generated. Click any headline to read the full story at the source.</footer>
 </body>
 </html>`;
-
-  writeFileSync('index.html', html);
-  console.log('Webpage (index.html) written.');
 }
 
-// Build one social post (text) for a city. Returns null if no usable articles.
+// Build one city page.
+function buildCityPage(cityName, dateKey, digest) {
+  const articles = (digest[cityName].articles || [])
+    .filter(a => a.summary && a.summary !== 'Summary unavailable.');
+
+  let items = '';
+  for (const a of articles) {
+    items +=
+      `<article class="story">` +
+      `<h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>` +
+      `<p class="summary">${esc(a.summary)}</p>` +
+      `<p class="source">Source: ${esc(a.source)}</p>` +
+      `</article>`;
+  }
+
+  const html = pageShell(`${cityName} News`, dateKey, items, true);
+  writeFileSync(slug(cityName) + '.html', html);
+}
+
+// Build the home page listing all cities.
+function buildHomePage(dateKey, digest) {
+  let list = '<ul class="city-list">';
+  for (const cityName of Object.keys(digest)) {
+    const hasArticles = (digest[cityName].articles || [])
+      .some(a => a.summary && a.summary !== 'Summary unavailable.');
+    if (!hasArticles) continue;
+    list += `<li><a href="${esc(cityUrl(cityName))}">${esc(cityName)} →</a></li>`;
+  }
+  list += '</ul>';
+
+  const html = pageShell('Daily News Digest', dateKey, list, false);
+  writeFileSync('index.html', html);
+}
+
+// Build all pages: home + one per city.
+function buildAllPages(dateKey, digest) {
+  buildHomePage(dateKey, digest);
+  for (const cityName of Object.keys(digest)) {
+    const hasArticles = (digest[cityName].articles || [])
+      .some(a => a.summary && a.summary !== 'Summary unavailable.');
+    if (!hasArticles) continue;
+    buildCityPage(cityName, dateKey, digest);
+  }
+  console.log('Webpages written (home + one per city).');
+}
+
+// Build one social post for a city — links to that CITY's page.
 function buildCityPost(cityName, digest) {
   const articles = (digest[cityName].articles || [])
     .filter(a => a.summary && a.summary !== 'Summary unavailable.');
@@ -206,14 +246,13 @@ function buildCityPost(cityName, digest) {
   for (const a of articles) {
     post += `• ${a.title}\n`;
   }
-  post += `\n📰 Full summaries: ${SITE_URL}\n\n${hashtag}`;
+  post += `\n📰 Full summaries: ${cityUrl(cityName)}\n\n${hashtag}`;
   return post;
 }
 
-// Save social posts to a text file AND to Firebase (city-segregated).
 async function saveSocialPosts(dateKey, digest) {
-  const postsByCity = {};   // for Firebase
-  let fileText =            // for the text file
+  const postsByCity = {};
+  let fileText =
     `SOCIAL POSTS — ${dateKey}\n` +
     `(Copy any city's post below and paste to social media.)\n\n`;
 
@@ -230,11 +269,9 @@ async function saveSocialPosts(dateKey, digest) {
       post + `\n\n`;
   }
 
-  // 1) Write the text file (committed to repo alongside index.html)
   writeFileSync('social-posts.txt', fileText);
   console.log('Social posts written to social-posts.txt');
 
-  // 2) Save to Firebase, segregated by city
   const url = `${FIREBASE_URL}/social_posts/${dateKey}.json`;
   const response = await fetch(url, {
     method: 'PUT',
@@ -281,7 +318,7 @@ async function main() {
   }
 
   await saveDigest(today, digest);
-  buildWebpage(today, digest);
+  buildAllPages(today, digest);
   await saveSocialPosts(today, digest);
   console.log('Done!');
 }
