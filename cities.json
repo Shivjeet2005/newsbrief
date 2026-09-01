@@ -1,6 +1,6 @@
 [
-  { "name": "Toronto", "query": "Toronto" },
-  { "name": "New York", "query": "New York City" },
-  { "name": "San Francisco", "query": "San Francisco" },
+  { "name": "Greater Toronto Area", "query": "Greater Toronto Area" },
+  { "name": "Oakville", "query": "Oakville" },
+  { "name": "London, ON", "query": "London, ON" },
   { "name": "Brampton", "query": "Brampton" }
 ]
