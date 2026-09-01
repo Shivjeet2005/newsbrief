@@ -6,10 +6,10 @@ Toronto
 ==================================================
 📍 Toronto — Today's top stories
 
-• [Tech] City of Toronto Launches AI Pre-Check with Clariti to Speed Up Housing Approvals
-• [Local] Toronto police issue over 300 tickets and warnings in 2-week crackdown on e-bikes and scooters
-• [Local] Parts of Toronto could get over 50 mm of rain Monday: Environment Canada
-• [Local] Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
+• [Real Estate] City of Toronto Launches AI Pre-Check with Clariti to Speed Up Housing Approvals
+• [Crime] Toronto police issue over 300 tickets and warnings in 2-week crackdown on e-bikes and scooters
+• [Other] Parts of Toronto could get over 50 mm of rain Monday: Environment Canada
+• [Crime] Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
 • [Culture] Toronto cinema says it was forced to cancel screenings over decades-old, unofficial 'zone' system
 
 📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/toronto.html
@@ -21,11 +21,11 @@ New York
 ==================================================
 📍 New York — Today's top stories
 
-• [Politics] Mamdani turns on New York City teachers union with lawsuit blocking pay raises for educators
 • [Tech] New York City 911 System Missed 1,700 Calls Due To Software Update
 • [Real Estate] New York City sends 11,000 more pied-à-terre tax letters as it apologizes to the 1,200 wrongly targeted because it didn’t check 2025 tax returns
 • [Politics] Mayor Mamdani’s Friendly Influencers and the Funding of Public Messaging in New York City
 • [Politics] Hindu nationalist leader spurs protests and calls for sanctions ahead of New York City speech
+• [Culture] New York City Wine & Food Festival Returns to the Seaport October 15–18
 
 📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/new-york.html
 
@@ -39,7 +39,7 @@ San Francisco
 • [Real Estate] How San Francisco Overtook NYC in Rent Prices
 • [Culture] ‘Time Capsules’: Huge San Francisco Archive of Kids’ Books Traces Long History of LGBTQ Families
 • [Business] United Airlines to resume Tel Aviv-San Francisco flights in March
-• [Business] Man posed as San Francisco 49er to defraud women of $1.3 million in multi-state romance scheme, feds say
+• [Crime] Man posed as San Francisco 49er to defraud women of $1.3 million in multi-state romance scheme, feds say
 • [Tech] I went to a private longevity night hosted by Bryan Johnson in San Francisco. I needed a cookie afterward
 
 📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/san-francisco.html
@@ -52,10 +52,10 @@ Brampton
 📍 Brampton — Today's top stories
 
 • [Business] Stellantis weighs closure of Brampton plant in Canada, says Unifor
-• [Local] 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
-• [Local] Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
-• [Local] Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
-• [Local] Man in his 60s dead after 2-vehicle collision in Brampton: police
+• [Crime] 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
+• [Crime] Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
+• [Other] Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
+• [Crime] Man in his 60s dead after 2-vehicle collision in Brampton: police
 
 📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/brampton.html
 
