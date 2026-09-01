@@ -12,6 +12,7 @@ const POOL_SIZE = 20;
 const STORIES_PER_CITY = 5;
 
 const SITE_URL = CONFIG.siteUrl.endsWith('/') ? CONFIG.siteUrl : CONFIG.siteUrl + '/';
+const CATEGORIES = CONFIG.categories || ['Other'];
 
 const GEMINI_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/` +
@@ -69,8 +70,6 @@ function cleanPool(articles) {
   });
 }
 
-// Cluster same-story articles. Returns an array of representative articles,
-// each tagged with sourceCount (how many pool articles covered that story).
 async function clusterArticles(articles, cityName) {
   const headlineList = articles
     .map((a, i) => `${i + 1}. ${a.title}`)
@@ -87,13 +86,11 @@ async function clusterArticles(articles, cityName) {
 
   const answer = await callGemini(promptText);
 
-  // Fallback: if clustering fails, treat every article as its own cluster.
   if (!answer) {
     console.log('  Clustering unavailable — treating each article separately.');
     return articles.map(a => ({ ...a, sourceCount: 1 }));
   }
 
-  // Parse each line into a group of indexes.
   const seen = new Set();
   const reps = [];
   const lines = answer.split('\n');
@@ -106,11 +103,9 @@ async function clusterArticles(articles, cityName) {
       .filter(i => i >= 0 && i < articles.length && !seen.has(i));
     if (idxs.length === 0) continue;
     idxs.forEach(i => seen.add(i));
-    // Representative = first article in the group; sourceCount = group size.
     reps.push({ ...articles[idxs[0]], sourceCount: idxs.length });
   }
 
-  // Safety net: include any article the model forgot, as its own cluster.
   articles.forEach((a, i) => {
     if (!seen.has(i)) reps.push({ ...a, sourceCount: 1 });
   });
@@ -119,7 +114,6 @@ async function clusterArticles(articles, cityName) {
   return reps;
 }
 
-// Rank the de-duplicated stories; source count is available as a signal.
 async function rankArticles(articles, cityName) {
   const headlineList = articles
     .map((a, i) => `${i + 1}. [${a.sourceCount} source(s)] ${a.title}`)
@@ -166,16 +160,42 @@ async function rankArticles(articles, cityName) {
   };
 }
 
-async function summarize(title, description, content) {
+// Returns { summary, category } in one call. Category comes from CATEGORIES.
+async function summarizeAndCategorize(title, description, content) {
+  const catList = CATEGORIES.join(', ');
   const promptText =
-    `Summarize this news article in 2 concise, neutral sentences ` +
-    `(strictly under 100 words). Just the summary, no preamble.\n\n` +
+    `Summarize and categorize this news article.\n\n` +
+    `Respond in EXACTLY this format:\n` +
+    `CATEGORY: <one of: ${catList}>\n` +
+    `SUMMARY: <2 concise, neutral sentences, strictly under 100 words>\n\n` +
     `Title: ${title}\n` +
     `Description: ${description || 'N/A'}\n` +
     `Content: ${content ? content.substring(0, 800) : 'N/A'}`;
 
-  const summary = await callGemini(promptText);
-  return summary || 'Summary unavailable.';
+  const answer = await callGemini(promptText);
+
+  if (!answer) {
+    return { summary: 'Summary unavailable.', category: 'Other' };
+  }
+
+  // Parse the two labelled parts.
+  let category = 'Other';
+  let summary = answer;
+
+  const catMatch = answer.match(/CATEGORY:\s*(.+)/i);
+  const sumMatch = answer.match(/SUMMARY:\s*([\s\S]+)/i);
+
+  if (catMatch) {
+    const raw = catMatch[1].trim();
+    // Only accept a category that's in our list (case-insensitive); else "Other".
+    const found = CATEGORIES.find(c => c.toLowerCase() === raw.toLowerCase());
+    category = found || 'Other';
+  }
+  if (sumMatch) {
+    summary = sumMatch[1].trim();
+  }
+
+  return { summary, category };
 }
 
 async function fetchNews(city) {
@@ -208,7 +228,6 @@ async function saveDigest(dateKey, digest) {
   }
 }
 
-// Save the clustered story set per city, marking which were selected.
 async function savePool(dateKey, poolData) {
   const payload = {};
 
@@ -267,6 +286,7 @@ function pageShell(title, dateKey, bodyContent, backLink) {
   .story h3 { margin: 0 0 6px; font-size: 1.05rem; }
   .story h3 a { color: #0b57d0; text-decoration: none; }
   .story h3 a:hover { text-decoration: underline; }
+  .cat { display: inline-block; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: #fff; background: #0b57d0; padding: 2px 8px; border-radius: 10px; margin-bottom: 6px; }
   .summary { margin: 0 0 4px; }
   .source { margin: 0; color: #888; font-size: 0.85rem; }
   footer { border-top: 1px solid #ddd; margin-top: 32px; padding-top: 16px; color: #888; font-size: 0.85rem; text-align: center; }
@@ -292,6 +312,7 @@ function buildCityPage(cityName, dateKey, digest) {
   for (const a of articles) {
     items +=
       `<article class="story">` +
+      `<span class="cat">${esc(a.category || 'Other')}</span>` +
       `<h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>` +
       `<p class="summary">${esc(a.summary)}</p>` +
       `<p class="source">Source: ${esc(a.source)}</p>` +
@@ -337,7 +358,7 @@ function buildCityPost(cityName, digest) {
 
   let post = `📍 ${cityName} — Today's top stories\n\n`;
   for (const a of articles) {
-    post += `• ${a.title}\n`;
+    post += `• [${a.category || 'Other'}] ${a.title}\n`;
   }
   post += `\n📰 Full summaries: ${cityUrl(cityName)}\n\n${hashtag}`;
   return post;
@@ -386,7 +407,7 @@ function buildFeedbackTemplate(dateKey, feedbackData) {
     `When done, save this as feedback/${dateKey}.txt and commit it.\n\n`;
 
   for (const cityName of Object.keys(feedbackData)) {
-    const { stories, chosenIdx, summaries } = feedbackData[cityName];
+    const { stories, chosenIdx, summaries, categories } = feedbackData[cityName];
 
     out += `##################################################\n`;
     out += `CITY: ${cityName}\n`;
@@ -399,12 +420,16 @@ function buildFeedbackTemplate(dateKey, feedbackData) {
              `  (${article.sourceCount} source(s))\n`;
       out += `Headline: ${article.title}\n`;
       out += `URL: ${article.url}\n`;
+      if (selected && categories[i]) {
+        out += `Category: ${categories[i]}\n`;
+      }
       if (selected && summaries[i]) {
         out += `Summary: ${summaries[i]}\n`;
       }
       out += `  Selection (good / bad / missed): \n`;
       out += `  Headline  (good / bad / note):   \n`;
       if (selected) {
+        out += `  Category  (good / bad / note):   \n`;
         out += `  Summary   (good / bad / note):   \n`;
       }
       out += `  Notes:                            \n\n`;
@@ -432,20 +457,20 @@ async function main() {
     if (cleaned.length === 0) {
       console.log(`  No usable articles for ${city.name} — skipping.`);
       digest[city.name] = { articles: [] };
-      feedbackData[city.name] = { stories: [], chosenIdx: new Set(), summaries: {} };
+      feedbackData[city.name] = { stories: [], chosenIdx: new Set(), summaries: {}, categories: {} };
       poolData[city.name] = { stories: [], chosenIdx: new Set() };
       continue;
     }
 
-    // De-duplicate via clustering, then rank the distinct stories.
     const stories = await clusterArticles(cleaned, city.name);
     const { chosen, chosenIdx } = await rankArticles(stories, city.name);
 
     const summariesByStoryIndex = {};
+    const categoriesByStoryIndex = {};
     const summarized = [];
     for (const article of chosen) {
       console.log(`  Summarizing: ${article.title}`);
-      const summary = await summarize(
+      const { summary, category } = await summarizeAndCategorize(
         article.title, article.description, article.content
       );
       summarized.push({
@@ -453,16 +478,24 @@ async function main() {
         source: article.source?.name || 'Unknown',
         url: article.url,
         summary: summary,
+        category: category,
         sourceCount: article.sourceCount || 1,
         publishedAt: article.publishedAt
       });
       const storyIndex = stories.indexOf(article);
-      if (storyIndex !== -1) summariesByStoryIndex[storyIndex] = summary;
+      if (storyIndex !== -1) {
+        summariesByStoryIndex[storyIndex] = summary;
+        categoriesByStoryIndex[storyIndex] = category;
+      }
       await new Promise(r => setTimeout(r, 2000));
     }
 
     digest[city.name] = { articles: summarized };
-    feedbackData[city.name] = { stories, chosenIdx, summaries: summariesByStoryIndex };
+    feedbackData[city.name] = {
+      stories, chosenIdx,
+      summaries: summariesByStoryIndex,
+      categories: categoriesByStoryIndex
+    };
     poolData[city.name] = { stories, chosenIdx };
   }
 
