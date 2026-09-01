@@ -9,16 +9,16 @@ CITY: Toronto
 
 --- Toronto | Article 1 --- [not selected]
 Headline: Former Maple Leafs forward Calle Jarnkrok leaves NHL club, returns to Sweden after four-year Toronto run
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
+  Selection (good / bad / missed): good
+  Headline  (good / bad / note):   ok
   Notes:                            
 
 --- Toronto | Article 2 --- [✓ SELECTED]
 Headline: Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
 Summary: Allen Chow, a 73-year-old paroled sex offender and former Toronto pharmacist, faces new charges for allegedly drugging, sexually assaulting, and recording a woman. Police suspect there may be additional victims following an investigation reminiscent of his past crimes involving 18 women over 15 years ago.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Summary   (good / bad / note):   
+  Selection (good / bad / missed): good
+  Headline  (good / bad / note):   good
+  Summary   (good / bad / note):   good
   Notes:                            
 
 --- Toronto | Article 3 --- [not selected]
