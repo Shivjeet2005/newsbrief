@@ -31,7 +31,7 @@ async function summarize(title, description, content) {
 
   const url =
     `https://generativelanguage.googleapis.com/v1beta/models/` +
-    `gemini-3.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
+    `gemini-3.6-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
   const response = await fetch(url, {
     method: 'POST',
