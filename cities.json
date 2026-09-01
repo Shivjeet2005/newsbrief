@@ -4,6 +4,7 @@
   { "name": "Greater Toronto Area", "query": "\"Toronto\" OR \"Mississauga\"" },
   { "name": "Toronto", "query": "\"Toronto\" OR \"North York\"" },
   { "name": "London, Ontario", "query": "London, Ontario" },
+  { "name": "Brampton", "query": "Brampton" },
   { "name": "York", "query": "\"Vaughan\" OR \"Richmond Hill\" OR \"Markham\"" },
   { "name": "Peel", "query": "\"Brampton\" or \"Mississauga\" or \"Caledon\"" }
 ]
