@@ -8,26 +8,22 @@ const FIREBASE_URL = process.env.FIREBASE_URL;
 const CITIES = JSON.parse(readFileSync('cities.json', 'utf-8'));
 const CONFIG = JSON.parse(readFileSync('config.json', 'utf-8'));
 
-const POOL_SIZE = 15;
+const POOL_SIZE = 20;
 const STORIES_PER_CITY = 5;
 
-// Base site URL — read from config.json (edit it there).
-// Trailing slash is normalized below so city links always build correctly.
 const SITE_URL = CONFIG.siteUrl.endsWith('/') ? CONFIG.siteUrl : CONFIG.siteUrl + '/';
 
 const GEMINI_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/` +
   `gemini-3.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
-// Turn a city name into a safe filename part: "New York" -> "new-york"
 function slug(cityName) {
   return cityName
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')  // non-letters/numbers -> hyphen
-    .replace(/^-+|-+$/g, '');     // trim hyphens from ends
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
 
-// Full public URL for a city's page.
 function cityUrl(cityName) {
   return SITE_URL + slug(cityName) + '.html';
 }
@@ -63,44 +59,65 @@ async function callGemini(promptText) {
   return null;
 }
 
-async function rankArticles(articles) {
+function cleanPool(articles) {
+  return articles.filter(a => {
+    if (!a || !a.title || !a.url) return false;
+    const t = a.title.trim();
+    if (t === '' || t === '[Removed]') return false;
+    if (a.url === 'https://removed.com') return false;
+    return true;
+  });
+}
+
+// Returns the chosen ARTICLE OBJECTS and the indexes chosen (so we can mark the template).
+async function rankArticles(articles, cityName) {
   const headlineList = articles
     .map((a, i) => `${i + 1}. ${a.title}`)
     .join('\n');
 
   const promptText =
-    `Below are ${articles.length} news headlines. Pick the ${STORIES_PER_CITY} ` +
-    `MOST SIGNIFICANT and newsworthy overall. Consider genuine importance and ` +
-    `broad relevance. Respond with ONLY the numbers of your chosen headlines, ` +
-    `separated by commas, in order of importance. Example: 4, 1, 9, 2, 7\n\n` +
+    `You are curating a local news digest for ${cityName}. Below are ${articles.length} ` +
+    `headlines. Choose the ${STORIES_PER_CITY} most valuable for a ${cityName} resident.\n\n` +
+    `Selection criteria:\n` +
+    `- Prioritize genuine local impact: civic decisions, local business, community, ` +
+    `public safety, local development — over stories that only mention ${cityName} in passing.\n` +
+    `- Choose a varied set: avoid picking multiple headlines about the SAME event or story.\n` +
+    `- Favor substance over clickbait or celebrity/entertainment filler.\n\n` +
+    `Respond with ONLY the numbers of your chosen headlines, separated by commas, ` +
+    `in order of importance. Example: 4, 1, 9, 2, 7\n\n` +
     headlineList;
 
   const answer = await callGemini(promptText);
 
+  let chosenIdx;
   if (!answer) {
     console.log('  Ranking unavailable — falling back to first articles.');
-    return articles.slice(0, STORIES_PER_CITY);
+    chosenIdx = articles.map((_, i) => i).slice(0, STORIES_PER_CITY);
+  } else {
+    const picks = answer
+      .match(/\d+/g)
+      ?.map(n => parseInt(n, 10))
+      .filter(n => n >= 1 && n <= articles.length)
+      .map(n => n - 1);
+
+    if (!picks || picks.length === 0) {
+      console.log('  Could not read ranking — falling back to first articles.');
+      chosenIdx = articles.map((_, i) => i).slice(0, STORIES_PER_CITY);
+    } else {
+      chosenIdx = [...new Set(picks)].slice(0, STORIES_PER_CITY);
+    }
   }
 
-  const picks = answer
-    .match(/\d+/g)
-    ?.map(n => parseInt(n, 10))
-    .filter(n => n >= 1 && n <= articles.length)
-    .map(n => n - 1);
-
-  if (!picks || picks.length === 0) {
-    console.log('  Could not read ranking — falling back to first articles.');
-    return articles.slice(0, STORIES_PER_CITY);
-  }
-
-  const uniquePicks = [...new Set(picks)].slice(0, STORIES_PER_CITY);
-  return uniquePicks.map(i => articles[i]);
+  return {
+    chosen: chosenIdx.map(i => articles[i]),
+    chosenIdx: new Set(chosenIdx)
+  };
 }
 
 async function summarize(title, description, content) {
   const promptText =
-    `Summarize this news article in 2-3 clear, neutral sentences ` +
-    `(under 150 words). Just the summary, no preamble.\n\n` +
+    `Summarize this news article in 2 concise, clear, neutral sentences ` +
+    `(strictly under 100 words). Just the summary, no preamble.\n\n` +
     `Title: ${title}\n` +
     `Description: ${description || 'N/A'}\n` +
     `Content: ${content ? content.substring(0, 800) : 'N/A'}`;
@@ -111,7 +128,7 @@ async function summarize(title, description, content) {
 
 async function fetchNews(city) {
   const url =
-    `https://newsapi.org/v2/everything?q=${encodeURIComponent(city.query)}` +
+    `https://newsapi.org/v2/everything?qInTitle=${encodeURIComponent(city.query)}` +
     `&language=en&sortBy=publishedAt&pageSize=${POOL_SIZE}` +
     `&apiKey=${NEWSAPI_KEY}`;
 
@@ -147,7 +164,6 @@ function esc(text) {
     .replace(/"/g, '&quot;');
 }
 
-// Shared page styling + wrapper.
 function pageShell(title, dateKey, bodyContent, backLink) {
   return `<!DOCTYPE html>
 <html lang="en">
@@ -187,7 +203,6 @@ ${bodyContent}
 </html>`;
 }
 
-// Build one city page.
 function buildCityPage(cityName, dateKey, digest) {
   const articles = (digest[cityName].articles || [])
     .filter(a => a.summary && a.summary !== 'Summary unavailable.');
@@ -206,7 +221,6 @@ function buildCityPage(cityName, dateKey, digest) {
   writeFileSync(slug(cityName) + '.html', html);
 }
 
-// Build the home page listing all cities.
 function buildHomePage(dateKey, digest) {
   let list = '<ul class="city-list">';
   for (const cityName of Object.keys(digest)) {
@@ -221,7 +235,6 @@ function buildHomePage(dateKey, digest) {
   writeFileSync('index.html', html);
 }
 
-// Build all pages: home + one per city.
 function buildAllPages(dateKey, digest) {
   buildHomePage(dateKey, digest);
   for (const cityName of Object.keys(digest)) {
@@ -233,7 +246,6 @@ function buildAllPages(dateKey, digest) {
   console.log('Webpages written (home + one per city).');
 }
 
-// Build one social post for a city — links to that CITY's page.
 function buildCityPost(cityName, digest) {
   const articles = (digest[cityName].articles || [])
     .filter(a => a.summary && a.summary !== 'Summary unavailable.');
@@ -285,19 +297,66 @@ async function saveSocialPosts(dateKey, digest) {
   }
 }
 
+// LEVEL 2 HIL: write a feedback template covering the full pool per city.
+function buildFeedbackTemplate(dateKey, feedbackData) {
+  let out =
+    `DAILY FEEDBACK TEMPLATE — ${dateKey}\n` +
+    `Fill in each field with: good / bad / (or a short note).\n` +
+    `Rate every article — both SELECTED picks and the ones that were not chosen.\n` +
+    `Save your filled-in copy to build up editorial training data.\n\n`;
+
+  for (const cityName of Object.keys(feedbackData)) {
+    const { pool, chosenIdx, summaries } = feedbackData[cityName];
+
+    out += `##################################################\n`;
+    out += `CITY: ${cityName}\n`;
+    out += `##################################################\n\n`;
+
+    pool.forEach((article, i) => {
+      const selected = chosenIdx.has(i);
+      out += `--- ${cityName} | Article ${i + 1} --- ` +
+             (selected ? `[✓ SELECTED]` : `[not selected]`) + `\n`;
+      out += `Headline: ${article.title}\n`;
+      if (selected && summaries[i]) {
+        out += `Summary: ${summaries[i]}\n`;
+      }
+      out += `  Selection (good / bad / missed): \n`;
+      out += `  Headline  (good / bad / note):   \n`;
+      if (selected) {
+        out += `  Summary   (good / bad / note):   \n`;
+      }
+      out += `  Notes:                            \n\n`;
+    });
+  }
+
+  writeFileSync('feedback-template.txt', out);
+  console.log('Feedback template written to feedback-template.txt');
+}
+
 async function main() {
   console.log('Starting digest generation...');
   console.log(`Loaded ${CITIES.length} cities from cities.json`);
   const today = new Date().toISOString().split('T')[0];
   const digest = {};
+  const feedbackData = {};  // holds full pool + picks + summaries for the template
 
   for (const city of CITIES) {
     console.log(`\nFetching news for ${city.name}...`);
-    const pool = await fetchNews(city);
-    console.log(`  Fetched ${pool.length} articles, ranking best ${STORIES_PER_CITY}...`);
+    const rawPool = await fetchNews(city);
+    const pool = cleanPool(rawPool);
+    console.log(`  Fetched ${rawPool.length}, ${pool.length} after cleaning. Ranking best ${STORIES_PER_CITY}...`);
 
-    const chosen = await rankArticles(pool);
+    if (pool.length === 0) {
+      console.log(`  No usable articles for ${city.name} — skipping.`);
+      digest[city.name] = { articles: [] };
+      feedbackData[city.name] = { pool: [], chosenIdx: new Set(), summaries: {} };
+      continue;
+    }
 
+    const { chosen, chosenIdx } = await rankArticles(pool, city.name);
+
+    // Map each chosen article back to its index in the pool, and store its summary there.
+    const summariesByPoolIndex = {};
     const summarized = [];
     for (const article of chosen) {
       console.log(`  Summarizing: ${article.title}`);
@@ -311,15 +370,19 @@ async function main() {
         summary: summary,
         publishedAt: article.publishedAt
       });
+      const poolIndex = pool.indexOf(article);
+      if (poolIndex !== -1) summariesByPoolIndex[poolIndex] = summary;
       await new Promise(r => setTimeout(r, 2000));
     }
 
     digest[city.name] = { articles: summarized };
+    feedbackData[city.name] = { pool, chosenIdx, summaries: summariesByPoolIndex };
   }
 
   await saveDigest(today, digest);
   buildAllPages(today, digest);
   await saveSocialPosts(today, digest);
+  buildFeedbackTemplate(today, feedbackData);
   console.log('Done!');
 }
 
