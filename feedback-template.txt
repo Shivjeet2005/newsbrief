@@ -1,0 +1,529 @@
+DAILY FEEDBACK TEMPLATE — 2026-09-01
+Fill in each field with: good / bad / (or a short note).
+Rate every article — both SELECTED picks and the ones that were not chosen.
+Save your filled-in copy to build up editorial training data.
+
+##################################################
+CITY: Toronto
+##################################################
+
+--- Toronto | Article 1 --- [not selected]
+Headline: Former Maple Leafs forward Calle Jarnkrok leaves NHL club, returns to Sweden after four-year Toronto run
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 2 --- [✓ SELECTED]
+Headline: Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
+Summary: Allen Chow, a 73-year-old paroled Toronto sex offender and disgraced pharmacist, faces new charges for allegedly drugging, sexually assaulting, and recording a woman. Peel Regional Police believe there may be additional victims and are actively investigating the case.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 3 --- [not selected]
+Headline: Aemia Announce Vancouver and Toronto Pop-Up Shows
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 4 --- [✓ SELECTED]
+Headline: Parts of Toronto could get over 50 mm of rain Monday: Environment Canada
+Summary: Environment Canada has issued a weather advisory warning that parts of Toronto could receive over 50 mm of rain alongside thunderstorms on Monday. Some areas have already experienced up to 25 mm of rainfall earlier in the day.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 5 --- [not selected]
+Headline: Blue Rodeo Get Fans to Scream "Lake Ontario" at Toronto Show to Protest Trump's Attempt to Rename
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 6 --- [not selected]
+Headline: Toronto Blue Jays Make Alejandro Kirk Announcement Before Guardians Series
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 7 --- [not selected]
+Headline: Zack Snyder’s 'The Last Photograph' to Premiere at Toronto 2026
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 8 --- [✓ SELECTED]
+Headline: Toronto police issue over 300 tickets and warnings in 2-week crackdown on e-bikes and scooters
+Summary: Toronto police issued over 300 tickets and warnings during a two-week enforcement campaign targeting e-bikes and e-scooters. The crackdown focused on addressing safety concerns and compliance issues related to micromobility devices operating across the city.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 9 --- [not selected]
+Headline: 'Vishwaguru, not a Mahashakti': RSS chief Mohan Bhagwat highlights India's legacy of refuge, global service in Toronto
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 10 --- [✓ SELECTED]
+Headline: City of Toronto Launches AI Pre-Check with Clariti to Speed Up Housing Approvals
+Summary: The City of Toronto has launched a pilot program using Clariti's Guided AI plan Review to accelerate housing approval processes. This technology aims to significantly reduce permit decision times, following similar successful implementations in other cities.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 11 --- [not selected]
+Headline: Could George Springer finally give his wife Charlise Springer and Toronto Blue Jays the fairytale ending they were denied in 2025?
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 12 --- [not selected]
+Headline: Cheap flights from Prague to Toronto, Canada for €391
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 13 --- [not selected]
+Headline: India became ‘Vishwaguru’ through service, not pursuit of superpower status: RSS chief Mohan Bhagwat in Toronto
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 14 --- [not selected]
+Headline: India became ‘Vishwaguru’ through service, not pursuit of superpower status: RSS cheif Mohan Bhagwat in Toronto
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 15 --- [not selected]
+Headline: Toronto Blue Jays fans are in shock after seeing what Alejandro Kirk did for just second time in his career
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 16 --- [not selected]
+Headline: Phoenix defeats Toronto: Two former Lady Vols combine for 29 points
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 17 --- [✓ SELECTED]
+Headline: Toronto cinema says it was forced to cancel screenings over decades-old, unofficial 'zone' system
+Summary: A downtown Toronto cinema had to cancel screenings of a new film after the distributor unexpectedly revoked access. The distributor cited a decades-old unofficial "zone" practice in Canada that restricts which theatres can show movies first.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 18 --- [not selected]
+Headline: Phoenix Mercury find plenty of offense in rout of Toronto Tempo
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 19 --- [not selected]
+Headline: The Mariners win half a baseball game in Toronto; lose series
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Article 20 --- [not selected]
+Headline: Fernández scores 14th goal this season for NYCFC in 1-1 tie with Toronto
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+##################################################
+CITY: New York
+##################################################
+
+--- New York | Article 1 --- [✓ SELECTED]
+Headline: Mayor Mamdani’s Friendly Influencers and the Funding of Public Messaging in New York City
+Summary: New York City Mayor Mamdani is increasingly utilizing social media influencers to promote municipal initiatives like pre-K and infrastructure projects. This strategy highlights a shifting media ecosystem where local governments rely on digital creators for direct public messaging.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 2 --- [not selected]
+Headline: On 9/11, Hollywood actor Steve Buscemi returned to his old firefighter job to help search for survivors. In 1980, Fargo actor had worked as a New York City firefighter before pursuing acting
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 3 --- [✓ SELECTED]
+Headline: Mamdani turns on New York City teachers union with lawsuit blocking pay raises for educators
+Summary: New York City Mayor Zohran Mamdani filed a lawsuit to block previously supported pay bonuses for education paraprofessionals. In response, the United Federation of Teachers intervened to contest the mayor's actions and protect the educators' raises.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 4 --- [not selected]
+Headline: Hundreds show up to judge New York City Mayor Zohran Mamdani look-alike contest
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 5 --- [not selected]
+Headline: The eyewatering bill I got for a New York City manicure left me stunned and hundreds of others speechless
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 6 --- [not selected]
+Headline: Harry Styles jokes 'smell those New York City armpits' as he kicks off night two of his 30 night residency at Madison Square Gardens
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 7 --- [not selected]
+Headline: When Robert De Niro Actually Drove a New York City Cab to Prepare for ‘Taxi Driver’
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 8 --- [✓ SELECTED]
+Headline: New York City 911 System Missed 1,700 Calls Due To Software Update
+Summary: A software update caused a partial outage in New York City's 911 emergency system at the Bronx call center. As a result, approximately 1,700 calls were missed during the seven-hour disruption on August 18th.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 9 --- [✓ SELECTED]
+Headline: New York City sends 11,000 more pied-à-terre tax letters as it apologizes to the 1,200 wrongly targeted because it didn’t check 2025 tax returns
+Summary: New York City’s Department of Finance is issuing a second wave of pied-à-terre tax letters to approximately 10,800 property owners. Concurrently, the agency is apologizing and rescinding notices previously sent to about 1,200 owners who were wrongly targeted because their 2025 tax returns were not reviewed.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 10 --- [not selected]
+Headline: New York City sends 11,000 more pied-à-terre tax letters as it apologizes to the 1,200 wrongly targeted because it didn’t check 2025 tax returns
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 11 --- [not selected]
+Headline: New York City sends 11,000 more pied-à-terre tax letters as it apologizes to the 1,200 wrongly targeted because it didn’t check 2025 tax returns
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 12 --- [not selected]
+Headline: Rating How People Walk on New York City Sidewalks
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 13 --- [✓ SELECTED]
+Headline: Hindu nationalist leader spurs protests and calls for sanctions ahead of New York City speech
+Summary: Protesters and local leaders in New York City are condemning an upcoming speech by Mohan Bhagwat, head of the Hindu nationalist group RSS. Critics have called for sanctions against him, citing concerns over the group's ties to India's ruling party and its controversial ideology.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 14 --- [not selected]
+Headline: New York City 911 system missed 1700 calls due to software update
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 15 --- [not selected]
+Headline: Where to Find the Best Hot Dogs in New York City
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 16 --- [not selected]
+Headline: New York City Wine & Food Festival Returns to the Seaport October 15–18
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 17 --- [not selected]
+Headline: 2026 Gerald Loeb Awards Finalists and Career Honorees Announced; Winners to Be Revealed Live October 8 in New York City
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 18 --- [not selected]
+Headline: KPEX: Korean Pop Culture Expo Launches in 2027 in New York City
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 19 --- [not selected]
+Headline: KPEX: Korean Pop Culture Expo to Launch in New York City in 2027
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- New York | Article 20 --- [not selected]
+Headline: Taste of Iceland Festival Arrives in New York City October 1-3
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+##################################################
+CITY: San Francisco
+##################################################
+
+--- San Francisco | Article 1 --- [✓ SELECTED]
+Headline: ‘Time Capsules’: Huge San Francisco Archive of Kids’ Books Traces Long History of LGBTQ Families
+Summary: Randall Tarpey-Schwed and his husband created a massive archive of children's literature featuring LGBTQ families to help their own children see themselves reflected in stories. This growing collection is now housed at San Francisco's Mechanics' Institute, serving as a vital public resource amid rising nationwide book bans.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 2 --- [not selected]
+Headline: Asiana: San Francisco – Ho Chi Minh City, Vietnam. $765. Roundtrip, including all Taxes
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 3 --- [not selected]
+Headline: Korean Air: San Francisco – Bangkok, Thailand. $819. Roundtrip, including all Taxes
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 4 --- [✓ SELECTED]
+Headline: How San Francisco Overtook NYC in Rent Prices
+Summary: San Francisco has surpassed New York City to reclaim its position as the most expensive rental market in the United States. This increase in housing costs is being largely driven by the ongoing artificial intelligence boom in the region.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 5 --- [not selected]
+Headline: I went to a private longevity night hosted by Bryan Johnson in San Francisco. I needed a cookie afterward
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 6 --- [not selected]
+Headline: San Francisco 49ers' 2026 practice squad tracker
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 7 --- [not selected]
+Headline: I went to a private longevity night hosted by Bryan Johnson in San Francisco. I needed a cookie afterward
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 8 --- [not selected]
+Headline: I went to a private longevity night hosted by Bryan Johnson in San Francisco. I needed a cookie afterward.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 9 --- [not selected]
+Headline: San Francisco 49ers Announce Major Christian Kirk News Amid Calf Injury
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 10 --- [not selected]
+Headline: San Francisco 49ers Announce Major Christian Kirk News Amid Calf Injury
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 11 --- [not selected]
+Headline: San Francisco 49ers Announce Isaac Guerendo Decision Before Roster Deadline
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 12 --- [not selected]
+Headline: Cathay Pacific: San Francisco – Kuala Lumpur, Malaysia. $849. Roundtrip, including all Taxes
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 13 --- [not selected]
+Headline: Scandinavian Airlines: San Francisco – Trondheim, Norway. $698 (Basic Economy) / $768 (Regular Economy). Roundtrip, including all Taxes
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 14 --- [not selected]
+Headline: Jed York's prostitute sting shame laid bare: Billionaire family's stunning response as cruel whispers spread among locals about the scandalized San Francisco 49ers' boss
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 15 --- [✓ SELECTED]
+Headline: United Airlines to resume Tel Aviv-San Francisco flights in March
+Summary: United Airlines has announced the resumption of its year-round nonstop service between Tel Aviv and San Francisco, scheduled to begin in March 2027. This move is part of the airline's broader effort to expand its flight schedule between Israel and the United States.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 16 --- [✓ SELECTED]
+Headline: Man posed as San Francisco 49er to defraud women of $1.3 million in multi-state romance scheme, feds say
+Summary: Federal prosecutors charged Daejon Labrayae Love with running a multi-state romance scheme by impersonating a San Francisco 49ers football player. Authorities stated that the defendant fraudulently obtained approximately $1.3 million from multiple women over a period beginning in February 2022.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 17 --- [not selected]
+Headline: Former Nebraska quarterback cut by the San Francisco 49ers
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 18 --- [✓ SELECTED]
+Headline: Diamondbacks 2, San Francisco 7: Out of Gas
+Summary: The Arizona Diamondbacks lost 7-2 to the San Francisco Giants during the second game of a Saturday doubleheader. An overworked bullpen struggled to support starting pitcher Mitch Bratt after facing heavy usage earlier in the series.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 19 --- [not selected]
+Headline: A Man Posing as a San Francisco 49ers Player Allegedly Defrauded More Than 2 Dozen Women Out of $1.3 Million
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Article 20 --- [not selected]
+Headline: Ex-San Francisco Giants Reliever Returns to MLB for Division Rival
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+##################################################
+CITY: Brampton
+##################################################
+
+--- Brampton | Article 1 --- [✓ SELECTED]
+Headline: Disbarred Brampton lawyer charged in alleged $4.3M fraud scheme: Peel police
+Summary: Peel police have arrested and charged a disbarred Brampton lawyer with orchestrating four separate mortgage and cheque fraud schemes. The alleged fraudulent activities total approximately $4.3 million.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 2 --- [not selected]
+Headline: Man in his 60s dead after 2-vehicle collision in Brampton: police
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 3 --- [not selected]
+Headline: Capitals Offseason Updates: Strome Shines On Ice In Brampton, Wilson Trains With Son, Chara Bids Heartfelt Goodbye To Hockey
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 4 --- [✓ SELECTED]
+Headline: Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
+Summary: A single-vehicle collision in Brampton knocked down multiple hydro poles on Tuesday morning, leaving approximately 1,167 homes and businesses without electricity. Local crews are working on the scene to repair the damage and restore power to the affected area.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 5 --- [✓ SELECTED]
+Headline: 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
+Summary: Peel police have charged five individuals, including three youths, in connection with an April double shooting on a Brampton school property that left two people dead. The suspects face multiple charges, including first-degree murder, following an extensive police investigation.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 6 --- [✓ SELECTED]
+Headline: Stellantis weighs closure of Brampton plant in Canada, says Unifor
+Summary: Automotive manufacturer Stellantis is reportedly considering the closure and sale of its Brampton Assembly Plant in Ontario, Canada. According to the workers' union Unifor, the company disclosed its intentions to begin discussions regarding the facility's future.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 7 --- [not selected]
+Headline: Stellantis weighs closure of Brampton plant in Canada, says Unifor
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 8 --- [not selected]
+Headline: Man dead after crash in Brampton: Peel police
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 9 --- [not selected]
+Headline: Winnipeg Sea Bears win 1st CEBL title, defeat Brampton Honey Badgers in 2026 final
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 10 --- [not selected]
+Headline: Stellantis weighs selling idled plant in Brampton, Ont., union says
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 11 --- [not selected]
+Headline: Stellantis is considering closing and selling Brampton Assembly plant, Unifor says
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 12 --- [not selected]
+Headline: Stellantis mulling closure and sale of idled Brampton plant: Unifor
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 13 --- [not selected]
+Headline: Stellantis is considering closing and selling Brampton Assembly plant, Unifor says
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 14 --- [not selected]
+Headline: CEBL final condensed to 1 game after cancellation of Winnipeg-Brampton series opener
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 15 --- [✓ SELECTED]
+Headline: Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
+Summary: An Ontario landlord has been sentenced to jail time after being convicted of seven charges related to a 2023 Brampton fire. The tragic blaze resulted in the deaths of a pregnant woman and her young daughter.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 16 --- [not selected]
+Headline: Brampton honours Kehinde Adeyemi
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 17 --- [not selected]
+Headline: Brampton Honey Badgers to face Winnipeg Sea Bears in CEBL Finals
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Article 18 --- [not selected]
+Headline: Motorcyclist dead following vehicle collision in Brampton: Peel police
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
