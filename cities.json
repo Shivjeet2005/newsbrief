@@ -5,5 +5,5 @@
   { "name": "Toronto", "query": "\"Toronto\" OR \"North York\"" },
   { "name": "London, Ontario", "query": "London, Ontario" },
   { "name": "York", "query": "\"Vaughan\" OR \"Richmond Hill\" OR \"Markham\"" },
-  { "name": "Peel", "query": "Brampton or Mississauga or Caledon" }
+  { "name": "Peel", "query": "\"Brampton\" or \"Mississauga\" or \"Caledon\"" }
 ]
