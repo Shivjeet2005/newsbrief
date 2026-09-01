@@ -6,12 +6,13 @@ const NEWSAPI_KEY = process.env.NEWSAPI_KEY;
 const FIREBASE_URL = process.env.FIREBASE_URL;
 
 const CITIES = JSON.parse(readFileSync('cities.json', 'utf-8'));
+const CONFIG = JSON.parse(readFileSync('config.json', 'utf-8'));
 
 const POOL_SIZE = 15;
 const STORIES_PER_CITY = 5;
 
-// Your public website address — used in social posts.
-const SITE_URL = 'https://Shivjeet2005.github.io/newsbrief/';
+// Your public website address — read from config.json (edit it there).
+const SITE_URL = CONFIG.siteUrl;
 
 const GEMINI_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/` +
@@ -192,34 +193,59 @@ ${citySections}
   console.log('Webpage (index.html) written.');
 }
 
-// Print one copy-paste-ready social post per city (headline teasers + site link).
-function printSocialPosts(digest) {
-  console.log('\n\n==================================================');
-  console.log('   COPY-PASTE-READY SOCIAL POSTS (one per city)');
-  console.log('==================================================\n');
+// Build one social post (text) for a city. Returns null if no usable articles.
+function buildCityPost(cityName, digest) {
+  const articles = (digest[cityName].articles || [])
+    .filter(a => a.summary && a.summary !== 'Summary unavailable.');
+
+  if (articles.length === 0) return null;
+
+  const hashtag = '#' + cityName.replace(/\s+/g, '') + 'News';
+
+  let post = `📍 ${cityName} — Today's top stories\n\n`;
+  for (const a of articles) {
+    post += `• ${a.title}\n`;
+  }
+  post += `\n📰 Full summaries: ${SITE_URL}\n\n${hashtag}`;
+  return post;
+}
+
+// Save social posts to a text file AND to Firebase (city-segregated).
+async function saveSocialPosts(dateKey, digest) {
+  const postsByCity = {};   // for Firebase
+  let fileText =            // for the text file
+    `SOCIAL POSTS — ${dateKey}\n` +
+    `(Copy any city's post below and paste to social media.)\n\n`;
 
   for (const cityName of Object.keys(digest)) {
-    const articles = (digest[cityName].articles || [])
-      .filter(a => a.summary && a.summary !== 'Summary unavailable.');
+    const post = buildCityPost(cityName, digest);
+    if (!post) continue;
 
-    if (articles.length === 0) continue;
+    postsByCity[cityName] = { text: post };
 
-    // Hashtag like #TorontoNews (strip spaces from city name)
-    const hashtag = '#' + cityName.replace(/\s+/g, '') + 'News';
-
-    let post = `📍 ${cityName} — Today's top stories\n\n`;
-    for (const a of articles) {
-      post += `• ${a.title}\n`;
-    }
-    post += `\n📰 Full summaries: ${SITE_URL}\n\n${hashtag}`;
-
-    console.log(post);
-    console.log('\n─────────────────────────\n');
+    fileText +=
+      `==================================================\n` +
+      `${cityName}\n` +
+      `==================================================\n` +
+      post + `\n\n`;
   }
 
-  console.log('==================================================');
-  console.log('   END OF SOCIAL POSTS');
-  console.log('==================================================\n');
+  // 1) Write the text file (committed to repo alongside index.html)
+  writeFileSync('social-posts.txt', fileText);
+  console.log('Social posts written to social-posts.txt');
+
+  // 2) Save to Firebase, segregated by city
+  const url = `${FIREBASE_URL}/social_posts/${dateKey}.json`;
+  const response = await fetch(url, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(postsByCity)
+  });
+  if (response.ok) {
+    console.log('Social posts saved to Firebase (by city).');
+  } else {
+    console.error('Social posts save failed:', await response.text());
+  }
 }
 
 async function main() {
@@ -256,7 +282,7 @@ async function main() {
 
   await saveDigest(today, digest);
   buildWebpage(today, digest);
-  printSocialPosts(digest);
+  await saveSocialPosts(today, digest);
   console.log('Done!');
 }
 
