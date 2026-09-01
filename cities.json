@@ -1,5 +1,5 @@
 [
-  { "name": "Greater Toronto Area", "query": "Greater Toronto Area" },
+  { "name": "Greater Toronto Area", "query": "Toronto or Mississauga or Brampton or Caledon or Vaughan or Markham or Richmond Hill or Newmarket or Aurora or East Gwillimbury or Georgina or King or Whitchurch-Stouffville or Oshawa or Pickering or Ajax or Whitby or Clarington or Uxbridge or Scugog or Brock or Oakville or Burlington or Milton or Halton Hills" },
   { "name": "Oakville", "query": "Oakville" },
   { "name": "London, Ontario", "query": "London, Ontario" },
   { "name": "Brampton", "query": "Brampton" }
