@@ -69,20 +69,73 @@ function cleanPool(articles) {
   });
 }
 
-async function rankArticles(articles, cityName) {
+// Cluster same-story articles. Returns an array of representative articles,
+// each tagged with sourceCount (how many pool articles covered that story).
+async function clusterArticles(articles, cityName) {
   const headlineList = articles
     .map((a, i) => `${i + 1}. ${a.title}`)
     .join('\n');
 
   const promptText =
+    `Below are ${articles.length} news headlines for ${cityName}. Some cover the ` +
+    `SAME underlying story or event (even if worded differently). Group them.\n\n` +
+    `Return ONLY groups of numbers, one group per line, numbers separated by commas. ` +
+    `Each headline number must appear in exactly one group. A headline with no match ` +
+    `is its own group of one.\n` +
+    `Example:\n3, 9, 13\n1\n7, 15\n2\n\n` +
+    headlineList;
+
+  const answer = await callGemini(promptText);
+
+  // Fallback: if clustering fails, treat every article as its own cluster.
+  if (!answer) {
+    console.log('  Clustering unavailable — treating each article separately.');
+    return articles.map(a => ({ ...a, sourceCount: 1 }));
+  }
+
+  // Parse each line into a group of indexes.
+  const seen = new Set();
+  const reps = [];
+  const lines = answer.split('\n');
+
+  for (const line of lines) {
+    const nums = line.match(/\d+/g);
+    if (!nums) continue;
+    const idxs = nums
+      .map(n => parseInt(n, 10) - 1)
+      .filter(i => i >= 0 && i < articles.length && !seen.has(i));
+    if (idxs.length === 0) continue;
+    idxs.forEach(i => seen.add(i));
+    // Representative = first article in the group; sourceCount = group size.
+    reps.push({ ...articles[idxs[0]], sourceCount: idxs.length });
+  }
+
+  // Safety net: include any article the model forgot, as its own cluster.
+  articles.forEach((a, i) => {
+    if (!seen.has(i)) reps.push({ ...a, sourceCount: 1 });
+  });
+
+  console.log(`  Clustered ${articles.length} articles into ${reps.length} stories.`);
+  return reps;
+}
+
+// Rank the de-duplicated stories; source count is available as a signal.
+async function rankArticles(articles, cityName) {
+  const headlineList = articles
+    .map((a, i) => `${i + 1}. [${a.sourceCount} source(s)] ${a.title}`)
+    .join('\n');
+
+  const promptText =
     `You are curating a local news digest for ${cityName}. Below are ${articles.length} ` +
-    `headlines. Choose the ${STORIES_PER_CITY} most valuable for a ${cityName} resident.\n\n` +
+    `distinct stories (duplicates already merged). Choose the ${STORIES_PER_CITY} most ` +
+    `valuable for a ${cityName} resident.\n\n` +
     `Selection criteria:\n` +
     `- Prioritize genuine local impact: civic decisions, local business, community, ` +
     `public safety, local development — over stories that only mention ${cityName} in passing.\n` +
-    `- Choose a varied set: avoid picking multiple headlines about the SAME event or story.\n` +
+    `- The "[N source(s)]" tag shows how many outlets covered a story; more sources is ` +
+    `a signal of importance, but weigh it alongside genuine local relevance.\n` +
     `- Favor substance over clickbait or celebrity/entertainment filler.\n\n` +
-    `Respond with ONLY the numbers of your chosen headlines, separated by commas, ` +
+    `Respond with ONLY the numbers of your chosen stories, separated by commas, ` +
     `in order of importance. Example: 4, 1, 9, 2, 7\n\n` +
     headlineList;
 
@@ -90,7 +143,7 @@ async function rankArticles(articles, cityName) {
 
   let chosenIdx;
   if (!answer) {
-    console.log('  Ranking unavailable — falling back to first articles.');
+    console.log('  Ranking unavailable — falling back to first stories.');
     chosenIdx = articles.map((_, i) => i).slice(0, STORIES_PER_CITY);
   } else {
     const picks = answer
@@ -100,7 +153,7 @@ async function rankArticles(articles, cityName) {
       .map(n => n - 1);
 
     if (!picks || picks.length === 0) {
-      console.log('  Could not read ranking — falling back to first articles.');
+      console.log('  Could not read ranking — falling back to first stories.');
       chosenIdx = articles.map((_, i) => i).slice(0, STORIES_PER_CITY);
     } else {
       chosenIdx = [...new Set(picks)].slice(0, STORIES_PER_CITY);
@@ -155,16 +208,17 @@ async function saveDigest(dateKey, digest) {
   }
 }
 
-// Save the FULL pool (all ~20) per city, marking which were selected.
+// Save the clustered story set per city, marking which were selected.
 async function savePool(dateKey, poolData) {
   const payload = {};
 
   for (const cityName of Object.keys(poolData)) {
-    const { pool, chosenIdx } = poolData[cityName];
-    payload[cityName] = pool.map((a, i) => ({
+    const { stories, chosenIdx } = poolData[cityName];
+    payload[cityName] = stories.map((a, i) => ({
       title: a.title,
       source: a.source?.name || 'Unknown',
       url: a.url,
+      sourceCount: a.sourceCount || 1,
       publishedAt: a.publishedAt,
       selected: chosenIdx.has(i)
     }));
@@ -177,7 +231,7 @@ async function savePool(dateKey, poolData) {
     body: JSON.stringify(payload)
   });
   if (response.ok) {
-    console.log('Full article pool saved to Firebase.');
+    console.log('Story pool saved to Firebase.');
   } else {
     console.error('Pool save failed:', await response.text());
   }
@@ -328,21 +382,23 @@ function buildFeedbackTemplate(dateKey, feedbackData) {
   let out =
     `DAILY FEEDBACK TEMPLATE — ${dateKey}\n` +
     `Fill in each field with: good / bad / (or a short note).\n` +
-    `Rate every article — both SELECTED picks and the ones that were not chosen.\n` +
+    `Rate every story — both SELECTED picks and the ones not chosen.\n` +
     `When done, save this as feedback/${dateKey}.txt and commit it.\n\n`;
 
   for (const cityName of Object.keys(feedbackData)) {
-    const { pool, chosenIdx, summaries } = feedbackData[cityName];
+    const { stories, chosenIdx, summaries } = feedbackData[cityName];
 
     out += `##################################################\n`;
     out += `CITY: ${cityName}\n`;
     out += `##################################################\n\n`;
 
-    pool.forEach((article, i) => {
+    stories.forEach((article, i) => {
       const selected = chosenIdx.has(i);
-      out += `--- ${cityName} | Article ${i + 1} --- ` +
-             (selected ? `[✓ SELECTED]` : `[not selected]`) + `\n`;
+      out += `--- ${cityName} | Story ${i + 1} --- ` +
+             (selected ? `[✓ SELECTED]` : `[not selected]`) +
+             `  (${article.sourceCount} source(s))\n`;
       out += `Headline: ${article.title}\n`;
+      out += `URL: ${article.url}\n`;
       if (selected && summaries[i]) {
         out += `Summary: ${summaries[i]}\n`;
       }
@@ -370,20 +426,22 @@ async function main() {
   for (const city of CITIES) {
     console.log(`\nFetching news for ${city.name}...`);
     const rawPool = await fetchNews(city);
-    const pool = cleanPool(rawPool);
-    console.log(`  Fetched ${rawPool.length}, ${pool.length} after cleaning. Ranking best ${STORIES_PER_CITY}...`);
+    const cleaned = cleanPool(rawPool);
+    console.log(`  Fetched ${rawPool.length}, ${cleaned.length} after cleaning.`);
 
-    if (pool.length === 0) {
+    if (cleaned.length === 0) {
       console.log(`  No usable articles for ${city.name} — skipping.`);
       digest[city.name] = { articles: [] };
-      feedbackData[city.name] = { pool: [], chosenIdx: new Set(), summaries: {} };
-      poolData[city.name] = { pool: [], chosenIdx: new Set() };
+      feedbackData[city.name] = { stories: [], chosenIdx: new Set(), summaries: {} };
+      poolData[city.name] = { stories: [], chosenIdx: new Set() };
       continue;
     }
 
-    const { chosen, chosenIdx } = await rankArticles(pool, city.name);
+    // De-duplicate via clustering, then rank the distinct stories.
+    const stories = await clusterArticles(cleaned, city.name);
+    const { chosen, chosenIdx } = await rankArticles(stories, city.name);
 
-    const summariesByPoolIndex = {};
+    const summariesByStoryIndex = {};
     const summarized = [];
     for (const article of chosen) {
       console.log(`  Summarizing: ${article.title}`);
@@ -395,16 +453,17 @@ async function main() {
         source: article.source?.name || 'Unknown',
         url: article.url,
         summary: summary,
+        sourceCount: article.sourceCount || 1,
         publishedAt: article.publishedAt
       });
-      const poolIndex = pool.indexOf(article);
-      if (poolIndex !== -1) summariesByPoolIndex[poolIndex] = summary;
+      const storyIndex = stories.indexOf(article);
+      if (storyIndex !== -1) summariesByStoryIndex[storyIndex] = summary;
       await new Promise(r => setTimeout(r, 2000));
     }
 
     digest[city.name] = { articles: summarized };
-    feedbackData[city.name] = { pool, chosenIdx, summaries: summariesByPoolIndex };
-    poolData[city.name] = { pool, chosenIdx };
+    feedbackData[city.name] = { stories, chosenIdx, summaries: summariesByStoryIndex };
+    poolData[city.name] = { stories, chosenIdx };
   }
 
   await saveDigest(today, digest);
