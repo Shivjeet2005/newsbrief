@@ -6,25 +6,9 @@ Oakville
 ==================================================
 📍 Oakville — Today's top stories
 
-• [Tech] Oakville enacts one-year pause on data centres as other Ontario municipalities weigh restrictions
 • [Crime] 1 person dead after crash in Oakville: OPP
 
 📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/oakville.html
 
 #OakvilleNews
-
-==================================================
-Brampton
-==================================================
-📍 Brampton — Today's top stories
-
-• [Business] Stellantis weighs closure of Brampton plant in Canada, says Unifor
-• [Crime] 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
-• [Crime] Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
-• [Crime] Man in his 60s dead after 2-vehicle collision in Brampton: police
-• [Other] Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
-
-📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/brampton.html
-
-#BramptonNews
 
