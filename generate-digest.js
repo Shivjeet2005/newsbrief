@@ -1,23 +1,13 @@
 import fetch from 'node-fetch';
 import { readFileSync } from 'fs';
 
-// ============================================================
-// CONFIGURATION
-// ============================================================
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const NEWSAPI_KEY = process.env.NEWSAPI_KEY;
 const FIREBASE_URL = process.env.FIREBASE_URL;
 
-// Cities are read from cities.json — edit that file to add/remove cities.
 const CITIES = JSON.parse(readFileSync('cities.json', 'utf-8'));
-
-// How many stories per city
 const STORIES_PER_CITY = 5;
 
-// ============================================================
-// LLM PROVIDER  <-- everything provider-specific lives here.
-// To switch providers later, rewrite ONLY this function.
-// ============================================================
 async function summarize(title, description, content) {
   const promptText =
     `Summarize this news article in 2-3 clear, neutral sentences ` +
@@ -30,7 +20,6 @@ async function summarize(title, description, content) {
     `https://generativelanguage.googleapis.com/v1beta/models/` +
     `gemini-3.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
-  // Try up to 4 times, waiting longer each time if the model is busy (503)
   for (let attempt = 1; attempt <= 4; attempt++) {
     const response = await fetch(url, {
       method: 'POST',
@@ -46,7 +35,6 @@ async function summarize(title, description, content) {
       return data.candidates[0].content.parts[0].text.trim();
     }
 
-    // If the model is temporarily overloaded, wait and retry
     const code = data.error?.code;
     if (code === 503 || code === 429) {
       const waitSeconds = attempt * 5;
@@ -55,7 +43,6 @@ async function summarize(title, description, content) {
       continue;
     }
 
-    // Any other error: stop and report it
     console.error('Summarization failed:', JSON.stringify(data));
     return 'Summary unavailable.';
   }
@@ -64,9 +51,6 @@ async function summarize(title, description, content) {
   return 'Summary unavailable.';
 }
 
-// ============================================================
-// NEWS FETCHING
-// ============================================================
 async function fetchNews(city) {
   const url =
     `https://newsapi.org/v2/everything?q=${encodeURIComponent(city.query)}` +
@@ -83,9 +67,6 @@ async function fetchNews(city) {
   return data.articles || [];
 }
 
-// ============================================================
-// SAVE TO FIREBASE
-// ============================================================
 async function saveDigest(dateKey, digest) {
   const url = `${FIREBASE_URL}/digests/${dateKey}.json`;
   const response = await fetch(url, {
@@ -100,11 +81,6 @@ async function saveDigest(dateKey, digest) {
   }
 }
 
-// ============================================================
-// PRINT READY-TO-POST SOCIAL TEXT
-// Prints copy-paste-ready posts at the end of the run.
-// Edit the formatting inside this function to change post style.
-// ============================================================
 function printSocialPosts(digest) {
   console.log('\n\n');
   console.log('==================================================');
@@ -115,7 +91,6 @@ function printSocialPosts(digest) {
     const articles = digest[cityName].articles || [];
 
     for (const article of articles) {
-      // Skip anything that failed to summarize
       if (!article.summary || article.summary === 'Summary unavailable.') {
         continue;
       }
@@ -136,9 +111,6 @@ function printSocialPosts(digest) {
   console.log('==================================================\n');
 }
 
-// ============================================================
-// MAIN
-// ============================================================
 async function main() {
   console.log('Starting digest generation...');
   console.log(`Loaded ${CITIES.length} cities from cities.json`);
@@ -162,7 +134,6 @@ async function main() {
         summary: summary,
         publishedAt: article.publishedAt
       });
-      // brief pause to stay under free-tier rate limits
       await new Promise(r => setTimeout(r, 2000));
     }
 
