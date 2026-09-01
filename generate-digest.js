@@ -69,7 +69,6 @@ function cleanPool(articles) {
   });
 }
 
-// Returns the chosen ARTICLE OBJECTS and the indexes chosen (so we can mark the template).
 async function rankArticles(articles, cityName) {
   const headlineList = articles
     .map((a, i) => `${i + 1}. ${a.title}`)
@@ -116,7 +115,7 @@ async function rankArticles(articles, cityName) {
 
 async function summarize(title, description, content) {
   const promptText =
-    `Summarize this news article in 2 concise, clear, neutral sentences ` +
+    `Summarize this news article in 2 concise, neutral sentences ` +
     `(strictly under 100 words). Just the summary, no preamble.\n\n` +
     `Title: ${title}\n` +
     `Description: ${description || 'N/A'}\n` +
@@ -153,6 +152,34 @@ async function saveDigest(dateKey, digest) {
     console.log('Digest saved to Firebase.');
   } else {
     console.error('Firebase save failed:', await response.text());
+  }
+}
+
+// Save the FULL pool (all ~20) per city, marking which were selected.
+async function savePool(dateKey, poolData) {
+  const payload = {};
+
+  for (const cityName of Object.keys(poolData)) {
+    const { pool, chosenIdx } = poolData[cityName];
+    payload[cityName] = pool.map((a, i) => ({
+      title: a.title,
+      source: a.source?.name || 'Unknown',
+      url: a.url,
+      publishedAt: a.publishedAt,
+      selected: chosenIdx.has(i)
+    }));
+  }
+
+  const url = `${FIREBASE_URL}/pool/${dateKey}.json`;
+  const response = await fetch(url, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  });
+  if (response.ok) {
+    console.log('Full article pool saved to Firebase.');
+  } else {
+    console.error('Pool save failed:', await response.text());
   }
 }
 
@@ -297,13 +324,12 @@ async function saveSocialPosts(dateKey, digest) {
   }
 }
 
-// LEVEL 2 HIL: write a feedback template covering the full pool per city.
 function buildFeedbackTemplate(dateKey, feedbackData) {
   let out =
     `DAILY FEEDBACK TEMPLATE — ${dateKey}\n` +
     `Fill in each field with: good / bad / (or a short note).\n` +
     `Rate every article — both SELECTED picks and the ones that were not chosen.\n` +
-    `Save your filled-in copy to build up editorial training data.\n\n`;
+    `When done, save this as feedback/${dateKey}.txt and commit it.\n\n`;
 
   for (const cityName of Object.keys(feedbackData)) {
     const { pool, chosenIdx, summaries } = feedbackData[cityName];
@@ -338,7 +364,8 @@ async function main() {
   console.log(`Loaded ${CITIES.length} cities from cities.json`);
   const today = new Date().toISOString().split('T')[0];
   const digest = {};
-  const feedbackData = {};  // holds full pool + picks + summaries for the template
+  const feedbackData = {};
+  const poolData = {};
 
   for (const city of CITIES) {
     console.log(`\nFetching news for ${city.name}...`);
@@ -350,12 +377,12 @@ async function main() {
       console.log(`  No usable articles for ${city.name} — skipping.`);
       digest[city.name] = { articles: [] };
       feedbackData[city.name] = { pool: [], chosenIdx: new Set(), summaries: {} };
+      poolData[city.name] = { pool: [], chosenIdx: new Set() };
       continue;
     }
 
     const { chosen, chosenIdx } = await rankArticles(pool, city.name);
 
-    // Map each chosen article back to its index in the pool, and store its summary there.
     const summariesByPoolIndex = {};
     const summarized = [];
     for (const article of chosen) {
@@ -377,9 +404,11 @@ async function main() {
 
     digest[city.name] = { articles: summarized };
     feedbackData[city.name] = { pool, chosenIdx, summaries: summariesByPoolIndex };
+    poolData[city.name] = { pool, chosenIdx };
   }
 
   await saveDigest(today, digest);
+  await savePool(today, poolData);
   buildAllPages(today, digest);
   await saveSocialPosts(today, digest);
   buildFeedbackTemplate(today, feedbackData);
