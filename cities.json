@@ -2,4 +2,5 @@
   { "name": "Toronto", "query": "Toronto" },
   { "name": "New York", "query": "New York City" },
   { "name": "San Francisco", "query": "San Francisco" }
+  { "name": "Brampton", "query": "Brampton" }
 ]
