@@ -81,28 +81,62 @@ async function saveDigest(dateKey, digest) {
   }
 }
 
+// Build one ready-to-post text block for a single article.
+// Edit the formatting here to change how posts look.
+function buildPostText(cityName, article) {
+  return `📍 ${cityName}\n` +
+         `${article.title}\n\n` +
+         `${article.summary}\n\n` +
+         `🔗 ${article.source}: ${article.url}`;
+}
+
+// Save all posts to Firebase under social_posts/<date>
+async function saveSocialPosts(dateKey, digest) {
+  const posts = [];
+
+  for (const cityName of Object.keys(digest)) {
+    const articles = digest[cityName].articles || [];
+    for (const article of articles) {
+      if (!article.summary || article.summary === 'Summary unavailable.') {
+        continue;
+      }
+      posts.push({
+        city: cityName,
+        title: article.title,
+        text: buildPostText(cityName, article),
+        url: article.url,
+        source: article.source
+      });
+    }
+  }
+
+  const url = `${FIREBASE_URL}/social_posts/${dateKey}.json`;
+  const response = await fetch(url, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(posts)
+  });
+  if (response.ok) {
+    console.log(`Saved ${posts.length} social posts to Firebase.`);
+  } else {
+    console.error('Social posts save failed:', await response.text());
+  }
+}
+
+// Also print them in the log for quick copy-paste
 function printSocialPosts(digest) {
-  console.log('\n\n');
-  console.log('==================================================');
+  console.log('\n\n==================================================');
   console.log('   COPY-PASTE-READY SOCIAL POSTS BELOW');
   console.log('==================================================\n');
 
   for (const cityName of Object.keys(digest)) {
     const articles = digest[cityName].articles || [];
-
     for (const article of articles) {
       if (!article.summary || article.summary === 'Summary unavailable.') {
         continue;
       }
-
-      console.log(`📍 ${cityName}`);
-      console.log(article.title);
-      console.log('');
-      console.log(article.summary);
-      console.log('');
-      console.log(`🔗 ${article.source}: ${article.url}`);
-      console.log('─────────────────────────');
-      console.log('');
+      console.log(buildPostText(cityName, article));
+      console.log('\n─────────────────────────\n');
     }
   }
 
@@ -141,6 +175,7 @@ async function main() {
   }
 
   await saveDigest(today, digest);
+  await saveSocialPosts(today, digest);
   printSocialPosts(digest);
   console.log('Done!');
 }
