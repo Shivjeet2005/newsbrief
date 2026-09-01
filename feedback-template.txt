@@ -17,9 +17,11 @@ URL: https://timesofindia.indiatimes.com/sports/nhl/news/former-maple-leafs-forw
 --- Toronto | Story 2 --- [✓ SELECTED]  (1 source(s))
 Headline: Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
 URL: https://nationalpost.com/news/canada/paroled-toronto-sex-offender-new-charges-drugging-sexual-assault
-Summary: Allen Chow, a 73-year-old paroled Toronto sex offender and former pharmacist, has been charged with drugging and sexually assaulting a woman while recording the encounter. Peel Regional Police suspect there may be additional victims connected to these new allegations.
+Category: Local
+Summary: A 73-year-old paroled sex offender and disgraced former pharmacist from Toronto has been arrested and faces new charges for allegedly drugging and sexually assaulting a woman. Peel Regional Police believe there may be additional victims and are urging anyone with information to come forward.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -33,9 +35,11 @@ URL: https://exclaim.ca/music/article/aemia-announce-vancouver-and-toronto-shows
 --- Toronto | Story 4 --- [✓ SELECTED]  (1 source(s))
 Headline: Parts of Toronto could get over 50 mm of rain Monday: Environment Canada
 URL: https://www.cbc.ca/news/canada/toronto/toronto-rain-advisory-environment-canada-9.7326529
-Summary: Environment Canada issued an advisory warning that parts of Toronto could receive over 50 mm of rain accompanied by thunderstorms on Monday. Certain areas of the city have already accumulated up to 25 mm of rainfall.
+Category: Local
+Summary: Environment Canada has issued an advisory warning that parts of Toronto may receive over 50 mm of rain alongside potential thunderstorms on Monday. Some areas of the city have already accumulated up to 25 mm of rainfall earlier in the day.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -63,9 +67,11 @@ URL: http://www.hollywoodreporter.com/news/general-news/zack-snyder-the-last-pho
 --- Toronto | Story 8 --- [✓ SELECTED]  (1 source(s))
 Headline: Toronto police issue over 300 tickets and warnings in 2-week crackdown on e-bikes and scooters
 URL: https://www.cbc.ca/news/canada/toronto/toronto-police-300-tickets-warnings-micromobility-devices-9.7326478
-Summary: Toronto police issued over 300 tickets and warnings during a two-week enforcement campaign targeting e-bikes and e-scooters. The initiative aimed to address growing safety concerns regarding the operation of micromobility devices across the city.
+Category: Local
+Summary: Toronto police issued over 300 tickets and warnings during a two-week enforcement campaign targeting e-bikes and e-scooters. The crackdown aimed to address safety concerns regarding micromobility devices operating across the city.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -79,9 +85,11 @@ URL: https://timesofindia.indiatimes.com/india/vishwaguru-not-a-mahashakti-rss-c
 --- Toronto | Story 10 --- [✓ SELECTED]  (1 source(s))
 Headline: City of Toronto Launches AI Pre-Check with Clariti to Speed Up Housing Approvals
 URL: https://www.prnewswire.com/news-releases/city-of-toronto-launches-ai-pre-check-with-clariti-to-speed-up-housing-approvals-302863114.html
-Summary: The City of Toronto has launched a pilot program utilizing Clariti's Guided AI plan Review to accelerate housing approvals. This technology aims to significantly reduce permit decision times, building on similar successful implementations in other cities.
+Category: Tech
+Summary: The City of Toronto has launched a pilot program using Clariti's Guided AI plan Review to accelerate housing permit approvals. This technology aims to significantly reduce decision times for residential permits, following a successful rollout in Honolulu.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -109,9 +117,11 @@ URL: https://volswire.usatoday.com/story/sports/college/volunteers/lady-vols/202
 --- Toronto | Story 14 --- [✓ SELECTED]  (1 source(s))
 Headline: Toronto cinema says it was forced to cancel screenings over decades-old, unofficial 'zone' system
 URL: https://www.cbc.ca/news/canada/toronto/carlton-cinema-zone-system-9.7324184
-Summary: A downtown Toronto cinema had to cancel screenings of a new film after the distributor unexpectedly withdrew access. The cancellation resulted from a decades-old Canadian "zone" practice that restricts which theatres are permitted to show movies first.
+Category: Culture
+Summary: A downtown Toronto cinema was forced to cancel screenings of a new film after the distributor withdrew access. The cancellation highlights a decades-old unofficial zoning system in Canada that restricts which theatres can screen movies first.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -136,9 +146,11 @@ CITY: New York
 --- New York | Story 1 --- [✓ SELECTED]  (1 source(s))
 Headline: Mayor Mamdani’s Friendly Influencers and the Funding of Public Messaging in New York City
 URL: https://www.cjr.org/tow_center/mayor-mamdanis-friendly-influencers-and-the-funding-of-public-messaging-in-new-york-city.php
-Summary: New York City is increasingly utilizing digital influencers and content creators to promote public initiatives and mayoral messaging. This evolving communication strategy highlights changing dynamics in how local government engages with citizens and manages public relations.
+Category: Politics
+Summary: New York City Mayor Mamdani is utilizing social media influencers to promote municipal initiatives like pre-K education and infrastructure projects. This strategy highlights a shifting ecosystem in how public messaging and civic campaigns are funded and distributed.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -152,9 +164,11 @@ URL: https://economictimes.indiatimes.com/magazines/panache/on-9/11-hollywood-ac
 --- New York | Story 3 --- [✓ SELECTED]  (1 source(s))
 Headline: Mamdani turns on New York City teachers union with lawsuit blocking pay raises for educators
 URL: https://www.foxnews.com/media/mamdani-turns-new-york-city-teachers-union-lawsuit-blocking-pay-raises-educators
-Summary: New York City Mayor Zohran Mamdani has filed a lawsuit to block previously backed pay raises and bonuses for education paraprofessionals. In response, the United Federation of Teachers has intervened in the legal action to protect the educators' compensation.
+Category: Politics
+Summary: New York City Mayor Zohran Mamdani filed a lawsuit to block previously supported pay raises and bonuses for education paraprofessionals. In response, the United Federation of Teachers intervened with a motion to fight the mayor's actions.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -189,18 +203,22 @@ URL: https://www.mentalfloss.com/entertainment/movies/robert-de-niro-drove-nyc-c
 --- New York | Story 8 --- [✓ SELECTED]  (2 source(s))
 Headline: New York City 911 System Missed 1,700 Calls Due To Software Update
 URL: https://tech.slashdot.org/story/26/08/28/2140220/new-york-city-911-system-missed-1700-calls-due-to-software-update
-Summary: A software update caused part of New York City's 911 emergency system at the Bronx call center to go offline for nearly seven hours on August 18. During this outage, the system missed approximately 1,700 calls.
+Category: Tech
+Summary: A software update caused a partial outage in New York City's 911 emergency system, affecting the Bronx call center for several hours. During this period of downtime, the affected facility missed approximately 1,700 calls from citizens seeking assistance.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
 --- New York | Story 9 --- [✓ SELECTED]  (3 source(s))
 Headline: New York City sends 11,000 more pied-à-terre tax letters as it apologizes to the 1,200 wrongly targeted because it didn’t check 2025 tax returns
 URL: https://biztoc.com/x/a10d29476aa756d1
-Summary: New York City's Department of Finance is issuing a second wave of pied-à-terre tax letters to approximately 10,800 property owners. Concurrently, the agency is apologizing and rescinding notices previously sent to about 1,200 wrongly targeted owners because it failed to review 2025 tax returns.
+Category: Real Estate
+Summary: New York City's Department of Finance is issuing a second wave of pied-à-terre tax letters to approximately 10,800 property owners. Simultaneously, the city is apologizing and rescinding notices sent to about 1,200 owners who were wrongly targeted because their recent tax returns were not reviewed.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -214,9 +232,11 @@ URL: https://laughingsquid.com/rating-how-people-walk-on-new-york-city-sidewalks
 --- New York | Story 11 --- [✓ SELECTED]  (1 source(s))
 Headline: Hindu nationalist leader spurs protests and calls for sanctions ahead of New York City speech
 URL: https://abcnews.com/US/wireStory/hindu-nationalist-leader-spurs-protests-calls-sanctions-ahead-136026958
-Summary: Protests and calls for international sanctions have emerged ahead of a New York City speech by Mohan Bhagwat, head of the Hindu nationalist group RSS. Critics and local officials have denounced the event, citing the organization's controversial ideological ties to India's ruling party.
+Category: Politics
+Summary: Mohan Bhagwat, the leader of the Hindu nationalist group RSS, is facing protests and calls for sanctions ahead of his scheduled speech in New York City. Critics argue his organization promotes divisive and anti-democratic ideologies, while supporters defend the event as an exercise in free speech.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -259,122 +279,139 @@ URL: https://www.prnewswire.com/news-releases/taste-of-iceland-festival-arrives-
 CITY: San Francisco
 ##################################################
 
---- San Francisco | Story 1 --- [not selected]  (3 source(s))
-Headline: I went to a private longevity night hosted by Bryan Johnson in San Francisco. I needed a cookie afterward
-URL: https://biztoc.com/x/cea8d145ac58e70b
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- San Francisco | Story 2 --- [not selected]  (3 source(s))
-Headline: San Francisco 49ers' 2026 practice squad tracker
-URL: https://ninerswire.usatoday.com/story/sports/nfl/niners/2026/08/31/san-francisco-49ers-2026-practice-squad-tracker/91544034007/
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- San Francisco | Story 3 --- [✓ SELECTED]  (1 source(s))
+--- San Francisco | Story 1 --- [not selected]  (1 source(s))
 Headline: In 2014, East Bay Regional Park District began restoring Dotson Family Marsh, creating channels that reconnected it to the San Francisco Bay. 6 years later, tidal wetlands had returned
 URL: https://economictimes.indiatimes.com/news/international/us/science-news-in-2014-east-bay-regional-park-district-began-restoring-dotson-family-marsh-creating-channels-that-reconnected-it-to-the-san-francisco-bay-6-years-later-tidal-wetlands-had-returned/articleshow/133662944.cms
-Summary: In 2014, the East Bay Regional Park District began restoring the Dotson Family Marsh in Richmond, California, by reconnecting it to the San Francisco Bay. Six years later, the ambitious environmental effort successfully revived the damaged coastal ecosystem and returned functioning tidal wetlands to the area.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Summary   (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 4 --- [not selected]  (1 source(s))
+--- San Francisco | Story 2 --- [not selected]  (1 source(s))
 Headline: How to watch San Francisco Giants vs. Atlanta Braves
 URL: https://www.mccoveychronicles.com/san-francisco-giants-game-information/111086/mlb-2026-san-francisco-giants-atlanta-braves-how-to-watch-anthony-molina-bryce-elder
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 5 --- [✓ SELECTED]  (1 source(s))
+--- San Francisco | Story 3 --- [✓ SELECTED]  (1 source(s))
 Headline: ‘Time Capsules’: Huge San Francisco Archive of Kids’ Books Traces Long History of LGBTQ Families
 URL: https://www.kqed.org/news/12097547/time-capsules-huge-san-francisco-archive-of-kids-books-traces-long-history-of-lgbtq-families
-Summary: Amid rising book bans, collector Randall Tarpey-Schwed has established a public archive at San Francisco's Mechanics' Institute featuring a vast collection of children's literature about LGBTQ families. The archive preserves these works as historical "time capsules," documenting the long and evolving representation of diverse family structures in youth literature.
+Category: Culture
+Summary: Amid rising book bans, a collector's personal quest to find children's books reflecting his LGBTQ family evolved into a massive public archive in San Francisco. This unique collection is now housed at the Mechanics' Institute, preserving the long history of diverse family literature.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 6 --- [not selected]  (1 source(s))
+--- San Francisco | Story 4 --- [not selected]  (1 source(s))
 Headline: Asiana: San Francisco – Ho Chi Minh City, Vietnam. $765. Roundtrip, including all Taxes
 URL: https://www.theflightdeal.com/2026/08/31/asiana-san-francisco-ho-chi-minh-city-vietnam-765-roundtrip-including-all-taxes/
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 7 --- [not selected]  (1 source(s))
+--- San Francisco | Story 5 --- [not selected]  (1 source(s))
 Headline: Korean Air: San Francisco – Bangkok, Thailand. $819. Roundtrip, including all Taxes
 URL: https://www.theflightdeal.com/2026/08/31/korean-air-san-francisco-bangkok-thailand-819-roundtrip-including-all-taxes/
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 8 --- [✓ SELECTED]  (1 source(s))
+--- San Francisco | Story 6 --- [✓ SELECTED]  (1 source(s))
 Headline: How San Francisco Overtook NYC in Rent Prices
 URL: https://biztoc.com/x/d646ec47cec117a1
-Summary: San Francisco has surpassed New York City to become the most expensive rental market in the United States. This resurgence in housing costs is largely being driven by the rapid growth of the artificial intelligence boom in the region.
+Category: Real Estate
+Summary: San Francisco has surpassed New York City to reclaim its position as the most expensive rental market in the United States. This significant increase in local housing costs is being largely driven by the ongoing artificial intelligence boom.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 9 --- [not selected]  (1 source(s))
+--- San Francisco | Story 7 --- [✓ SELECTED]  (3 source(s))
+Headline: I went to a private longevity night hosted by Bryan Johnson in San Francisco. I needed a cookie afterward
+URL: https://biztoc.com/x/cea8d145ac58e70b
+Category: Tech
+Summary: Tech entrepreneur and longevity evangelist Bryan Johnson recently hosted a private longevity event in San Francisco, drawing significant local interest. The gathering highlighted the tech industry's growing obsession with human life extension and anti-aging practices.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Story 8 --- [not selected]  (1 source(s))
+Headline: San Francisco 49ers' 2026 practice squad tracker
+URL: https://ninerswire.usatoday.com/story/sports/nfl/niners/2026/08/31/san-francisco-49ers-2026-practice-squad-tracker/91544034007/
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Story 9 --- [not selected]  (2 source(s))
+Headline: San Francisco 49ers Announce Major Christian Kirk News Amid Calf Injury
+URL: https://heavy.com/sports/nfl/san-francisco-49ers/san-francisco-49ers-christian-kirk-decision-amid-calf-injury/
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- San Francisco | Story 10 --- [not selected]  (1 source(s))
 Headline: San Francisco 49ers Announce Isaac Guerendo Decision Before Roster Deadline
 URL: https://heavy.com/sports/nfl/san-francisco-49ers/san-francisco-49ers-isaac-guerendo-decision-roster-deadline/
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 10 --- [not selected]  (1 source(s))
+--- San Francisco | Story 11 --- [not selected]  (1 source(s))
 Headline: Cathay Pacific: San Francisco – Kuala Lumpur, Malaysia. $849. Roundtrip, including all Taxes
 URL: https://www.theflightdeal.com/2026/08/30/cathay-pacific-san-francisco-kuala-lumpur-malaysia-849-roundtrip-including-all-taxes/
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 11 --- [not selected]  (1 source(s))
+--- San Francisco | Story 12 --- [not selected]  (1 source(s))
 Headline: Scandinavian Airlines: San Francisco – Trondheim, Norway. $698 (Basic Economy) / $768 (Regular Economy). Roundtrip, including all Taxes
 URL: https://www.theflightdeal.com/2026/08/30/scandinavian-airlines-san-francisco-trondheim-norway-698-basic-economy-768-regular-economy-roundtrip-including-all-taxes/
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 12 --- [not selected]  (1 source(s))
+--- San Francisco | Story 13 --- [not selected]  (1 source(s))
 Headline: Jed York's prostitute sting shame laid bare: Billionaire family's stunning response as cruel whispers spread among locals about the scandalized San Francisco 49ers' boss
 URL: https://www.dailymail.com/sport/nfl/article-16087551/Jed-York-prostitute-arrest-ohio-trailer-park-family-speak.html
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 13 --- [✓ SELECTED]  (1 source(s))
+--- San Francisco | Story 14 --- [✓ SELECTED]  (1 source(s))
 Headline: United Airlines to resume Tel Aviv-San Francisco flights in March
 URL: https://www.israelnationalnews.com/news/432442
-Summary: United Airlines will resume its year-round nonstop service between Tel Aviv and San Francisco in March 2027. This route marks the return of direct flights as part of the airline's broader expansion of its Israel-US flight schedule.
+Category: Business
+Summary: United Airlines has announced the resumption of its year-round nonstop flights between Tel Aviv and San Francisco starting in March 2027. This service marks a key expansion of the airline's flight schedule connecting Israel and the United States.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 14 --- [✓ SELECTED]  (1 source(s))
+--- San Francisco | Story 15 --- [✓ SELECTED]  (1 source(s))
 Headline: Man posed as San Francisco 49er to defraud women of $1.3 million in multi-state romance scheme, feds say
 URL: https://www.nbcnews.com/news/us-news/fake-49ers-player-scam-bilked-two-dozen-women-rcna595105
-Summary: Federal prosecutors allege that Daejon Labrayae Love posed as a San Francisco 49ers player to execute a romance scam across multiple states. The scheme defrauded victims of approximately $1.3 million between February 2022 and early 2024.
+Category: Business
+Summary: Federal authorities accuse a 35-year-old man of orchestrating a multi-state romance scam by posing as a San Francisco 49ers football player. The fraudulent scheme allegedly defrauded multiple women out of a total of $1.3 million.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 15 --- [not selected]  (1 source(s))
+--- San Francisco | Story 16 --- [not selected]  (1 source(s))
 Headline: Former Nebraska quarterback cut by the San Francisco 49ers
 URL: https://cornhuskerswire.usatoday.com/story/sports/college/cornhuskers/football/2026/08/30/nebraska-football-quarterback-adrian-martinez-cut-san-francisco-49ers/91532247007/
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- San Francisco | Story 16 --- [not selected]  (1 source(s))
+--- San Francisco | Story 17 --- [not selected]  (1 source(s))
 Headline: Diamondbacks 2, San Francisco 7: Out of Gas
 URL: https://www.azsnakepit.com/arizona-diamondbacks-game-information/96860/diamondbacks-2-san-francisco-7-out-of-gas
   Selection (good / bad / missed): 
@@ -395,9 +432,11 @@ URL: https://www.cbc.ca/news/canada/toronto/brampton-lawyer-charged-alleged-frau
 --- Brampton | Story 2 --- [✓ SELECTED]  (2 source(s))
 Headline: Man in his 60s dead after 2-vehicle collision in Brampton: police
 URL: https://www.cbc.ca/news/canada/toronto/man-dead-collision-brampton-peel-9.7324815
-Summary: A man in his 60s died following a two-vehicle collision in Brampton on Friday afternoon. Police responded to the crash near Queen Street East and Delta Park Boulevard shortly before 1:30 p.m.
+Category: Local
+Summary: A man in his sixties died following a two-vehicle collision in Brampton, Ontario on Friday afternoon. Local police responded to the accident scene at Queen Street East and Delta Park Boulevard shortly before 1:30 p.m.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -411,27 +450,33 @@ URL: https://thehockeynews.com/nhl/washington-capitals/latest-news/capitals-offs
 --- Brampton | Story 4 --- [✓ SELECTED]  (1 source(s))
 Headline: Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
 URL: https://www.cbc.ca/news/canada/toronto/brampton-homes-without-power-hydro-poles-down-9.7310604
-Summary: A single-vehicle collision in Brampton knocked down multiple hydro poles on Tuesday morning, leaving over 1,100 homes and businesses without electricity. Local officials report that crews are working at the scene to restore power to the affected customers.
+Category: Local
+Summary: Over 1,000 homes and businesses in Brampton experienced a power outage on Tuesday morning. The outage was caused by a single-vehicle collision that knocked down several hydro poles.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
 --- Brampton | Story 5 --- [✓ SELECTED]  (1 source(s))
 Headline: 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
 URL: https://www.cbc.ca/news/canada/toronto/5-charged-double-shooting-brampton-school-grounds-9.7309670
-Summary: Peel police have arrested and charged five individuals, including two youths, with first-degree murder following an April double shooting on a Brampton school property. The incident resulted in the deaths of one man and one youth.
+Category: Local
+Summary: Peel police have arrested and charged five individuals, including three youths, in connection with a fatal double shooting on Brampton school grounds in April. The suspects face serious charges, including first-degree murder, following the deaths of one man and one youth.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
 --- Brampton | Story 6 --- [✓ SELECTED]  (6 source(s))
 Headline: Stellantis weighs closure of Brampton plant in Canada, says Unifor
 URL: https://biztoc.com/x/cc7eb611c325513c
-Summary: Automotive manufacturer Stellantis is reportedly considering the closure and sale of its assembly plant in Brampton, Ontario. According to the workers' union Unifor, the company announced its intention to discuss the potential shutdown.
+Category: Business
+Summary: Stellantis is reportedly considering the closure and sale of its Brampton Assembly Plant in Ontario, Canada. The automotive union Unifor stated that the company informed them of its intentions regarding the facility.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
@@ -445,9 +490,11 @@ URL: https://www.cbc.ca/sports/basketball/cebl/sea-bears-honey-badgers-champions
 --- Brampton | Story 8 --- [✓ SELECTED]  (1 source(s))
 Headline: Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
 URL: https://www.cbc.ca/news/canada/toronto/fatal-brampton-fire-court-decision-landlord-sentenced-9.7304105
-Summary: An Ontario landlord has been sentenced to jail after being convicted of seven charges following a 2023 Brampton house fire. The tragic blaze resulted in the deaths of a pregnant woman and her young daughter.
+Category: Local
+Summary: An Ontario landlord has been sentenced to jail time after being convicted of seven charges following a fatal 2023 fire in Brampton. The tragic incident resulted in the deaths of a pregnant woman and her young daughter.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
