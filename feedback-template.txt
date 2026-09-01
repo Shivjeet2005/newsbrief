@@ -1,7 +1,7 @@
 DAILY FEEDBACK TEMPLATE — 2026-09-01
 Fill in each field with: good / bad / (or a short note).
 Rate every article — both SELECTED picks and the ones that were not chosen.
-Save your filled-in copy to build up editorial training data.
+When done, save this as feedback/2026-09-01.txt and commit it.
 
 ##################################################
 CITY: Toronto
@@ -15,7 +15,7 @@ Headline: Former Maple Leafs forward Calle Jarnkrok leaves NHL club, returns to 
 
 --- Toronto | Article 2 --- [✓ SELECTED]
 Headline: Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
-Summary: Allen Chow, a 73-year-old paroled Toronto sex offender and disgraced pharmacist, faces new charges for allegedly drugging, sexually assaulting, and recording a woman. Peel Regional Police believe there may be additional victims and are actively investigating the case.
+Summary: Allen Chow, a 73-year-old paroled sex offender and former Toronto pharmacist, faces new charges for allegedly drugging, sexually assaulting, and recording a woman. Police suspect there may be additional victims following an investigation reminiscent of his past crimes involving 18 women over 15 years ago.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -29,7 +29,7 @@ Headline: Aemia Announce Vancouver and Toronto Pop-Up Shows
 
 --- Toronto | Article 4 --- [✓ SELECTED]
 Headline: Parts of Toronto could get over 50 mm of rain Monday: Environment Canada
-Summary: Environment Canada has issued a weather advisory warning that parts of Toronto could receive over 50 mm of rain alongside thunderstorms on Monday. Some areas have already experienced up to 25 mm of rainfall earlier in the day.
+Summary: Environment Canada has issued an advisory warning that parts of Toronto could receive over 50 mm of rain along with thunderstorms on Monday. Some areas of the city have already recorded up to 25 mm of rainfall earlier in the day.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -55,7 +55,7 @@ Headline: Zack Snyder’s 'The Last Photograph' to Premiere at Toronto 2026
 
 --- Toronto | Article 8 --- [✓ SELECTED]
 Headline: Toronto police issue over 300 tickets and warnings in 2-week crackdown on e-bikes and scooters
-Summary: Toronto police issued over 300 tickets and warnings during a two-week enforcement campaign targeting e-bikes and e-scooters. The crackdown focused on addressing safety concerns and compliance issues related to micromobility devices operating across the city.
+Summary: Toronto police issued over 300 tickets and warnings during a two-week enforcement campaign targeting e-bikes and e-scooters. The crackdown aimed to address safety concerns regarding the increasing use of micromobility devices on city streets and sidewalks.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -69,7 +69,7 @@ Headline: 'Vishwaguru, not a Mahashakti': RSS chief Mohan Bhagwat highlights Ind
 
 --- Toronto | Article 10 --- [✓ SELECTED]
 Headline: City of Toronto Launches AI Pre-Check with Clariti to Speed Up Housing Approvals
-Summary: The City of Toronto has launched a pilot program using Clariti's Guided AI plan Review to accelerate housing approval processes. This technology aims to significantly reduce permit decision times, following similar successful implementations in other cities.
+Summary: The City of Toronto has launched a pilot program using Clariti's Guided AI plan Review to accelerate housing approvals. This technology aims to significantly reduce permit decision times, building on similar successful implementations in other municipalities.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -113,7 +113,7 @@ Headline: Phoenix defeats Toronto: Two former Lady Vols combine for 29 points
 
 --- Toronto | Article 17 --- [✓ SELECTED]
 Headline: Toronto cinema says it was forced to cancel screenings over decades-old, unofficial 'zone' system
-Summary: A downtown Toronto cinema had to cancel screenings of a new film after the distributor unexpectedly revoked access. The distributor cited a decades-old unofficial "zone" practice in Canada that restricts which theatres can show movies first.
+Summary: A downtown Toronto cinema had to cancel screenings of a new film after the distributor unexpectedly withdrew access. The cancellation resulted from a decades-old Canadian practice that restricts which theatres can show movies first.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -143,7 +143,7 @@ CITY: New York
 
 --- New York | Article 1 --- [✓ SELECTED]
 Headline: Mayor Mamdani’s Friendly Influencers and the Funding of Public Messaging in New York City
-Summary: New York City Mayor Mamdani is increasingly utilizing social media influencers to promote municipal initiatives like pre-K and infrastructure projects. This strategy highlights a shifting media ecosystem where local governments rely on digital creators for direct public messaging.
+Summary: New York City is increasingly utilizing digital influencers and content creators to promote public initiatives and government projects to younger audiences. This evolving communications strategy raises questions about transparency and the funding mechanisms behind public messaging campaigns.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -157,7 +157,7 @@ Headline: On 9/11, Hollywood actor Steve Buscemi returned to his old firefighter
 
 --- New York | Article 3 --- [✓ SELECTED]
 Headline: Mamdani turns on New York City teachers union with lawsuit blocking pay raises for educators
-Summary: New York City Mayor Zohran Mamdani filed a lawsuit to block previously supported pay bonuses for education paraprofessionals. In response, the United Federation of Teachers intervened to contest the mayor's actions and protect the educators' raises.
+Summary: New York City Mayor Zohran Mamdani has filed a lawsuit to block previously backed pay raises and bonuses for education paraprofessionals. In response, the United Federation of Teachers has filed a motion to intervene against the mayor's actions.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -189,7 +189,7 @@ Headline: When Robert De Niro Actually Drove a New York City Cab to Prepare for 
 
 --- New York | Article 8 --- [✓ SELECTED]
 Headline: New York City 911 System Missed 1,700 Calls Due To Software Update
-Summary: A software update caused a partial outage in New York City's 911 emergency system at the Bronx call center. As a result, approximately 1,700 calls were missed during the seven-hour disruption on August 18th.
+Summary: A software update caused a partial outage in New York City's 911 emergency system, taking the Bronx call center offline for nearly seven hours on August 18. During this disruption, the system missed approximately 1,700 calls.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -197,7 +197,7 @@ Summary: A software update caused a partial outage in New York City's 911 emerge
 
 --- New York | Article 9 --- [✓ SELECTED]
 Headline: New York City sends 11,000 more pied-à-terre tax letters as it apologizes to the 1,200 wrongly targeted because it didn’t check 2025 tax returns
-Summary: New York City’s Department of Finance is issuing a second wave of pied-à-terre tax letters to approximately 10,800 property owners. Concurrently, the agency is apologizing and rescinding notices previously sent to about 1,200 owners who were wrongly targeted because their 2025 tax returns were not reviewed.
+Summary: New York City’s Department of Finance is issuing a second wave of pied-à-terre tax letters to approximately 10,800 property owners. Concurrently, the agency is apologizing and rescinding notices previously sent to 1,200 taxpayers who were incorrectly targeted because their 2025 tax returns were not reviewed.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -223,7 +223,7 @@ Headline: Rating How People Walk on New York City Sidewalks
 
 --- New York | Article 13 --- [✓ SELECTED]
 Headline: Hindu nationalist leader spurs protests and calls for sanctions ahead of New York City speech
-Summary: Protesters and local leaders in New York City are condemning an upcoming speech by Mohan Bhagwat, head of the Hindu nationalist group RSS. Critics have called for sanctions against him, citing concerns over the group's ties to India's ruling party and its controversial ideology.
+Summary: Mohan Bhagwat, leader of the Hindu nationalist group RSS, is facing protests and calls for sanctions ahead of his scheduled speech in New York City. Critics and local officials have denounced the event, raising concerns over the group's political influence and ideology in India.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -277,7 +277,7 @@ CITY: San Francisco
 
 --- San Francisco | Article 1 --- [✓ SELECTED]
 Headline: ‘Time Capsules’: Huge San Francisco Archive of Kids’ Books Traces Long History of LGBTQ Families
-Summary: Randall Tarpey-Schwed and his husband created a massive archive of children's literature featuring LGBTQ families to help their own children see themselves reflected in stories. This growing collection is now housed at San Francisco's Mechanics' Institute, serving as a vital public resource amid rising nationwide book bans.
+Summary: Amid rising book bans, collector Randall Tarpey-Schwed has established a public archive at the San Francisco Mechanics’ Institute featuring children's literature with LGBTQ themes. The extensive collection traces the long history of LGBTQ families through books originally sought to reflect the collector's own children.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -297,7 +297,7 @@ Headline: Korean Air: San Francisco – Bangkok, Thailand. $819. Roundtrip, incl
 
 --- San Francisco | Article 4 --- [✓ SELECTED]
 Headline: How San Francisco Overtook NYC in Rent Prices
-Summary: San Francisco has surpassed New York City to reclaim its position as the most expensive rental market in the United States. This increase in housing costs is being largely driven by the ongoing artificial intelligence boom in the region.
+Summary: San Francisco has surpassed New York City to reclaim its position as the most expensive rental market in the United States. This increase in housing costs is being driven largely by the region's ongoing artificial intelligence boom.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -373,7 +373,7 @@ Summary: United Airlines has announced the resumption of its year-round nonstop 
 
 --- San Francisco | Article 16 --- [✓ SELECTED]
 Headline: Man posed as San Francisco 49er to defraud women of $1.3 million in multi-state romance scheme, feds say
-Summary: Federal prosecutors charged Daejon Labrayae Love with running a multi-state romance scheme by impersonating a San Francisco 49ers football player. Authorities stated that the defendant fraudulently obtained approximately $1.3 million from multiple women over a period beginning in February 2022.
+Summary: Federal prosecutors indicted 35-year-old Daejon Labrayae Love for allegedly posing as a San Francisco 49ers player to execute a multi-state romance scam. Authorities state the defendant defrauded multiple women of approximately $1.3 million over a period beginning in February 2022.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -387,7 +387,7 @@ Headline: Former Nebraska quarterback cut by the San Francisco 49ers
 
 --- San Francisco | Article 18 --- [✓ SELECTED]
 Headline: Diamondbacks 2, San Francisco 7: Out of Gas
-Summary: The Arizona Diamondbacks lost 7-2 to the San Francisco Giants during the second game of a Saturday doubleheader. An overworked bullpen struggled to support starting pitcher Mitch Bratt after facing heavy usage earlier in the series.
+Summary: The Arizona Diamondbacks lost 7-2 to the San Francisco Giants during the second game of a Saturday doubleheader. The defeat was primarily driven by an exhausted bullpen that struggled to support starting pitcher Mitch Bratt after heavy usage earlier in the series.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -431,7 +431,7 @@ Headline: Capitals Offseason Updates: Strome Shines On Ice In Brampton, Wilson T
 
 --- Brampton | Article 4 --- [✓ SELECTED]
 Headline: Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
-Summary: A single-vehicle collision in Brampton knocked down multiple hydro poles on Tuesday morning, leaving approximately 1,167 homes and businesses without electricity. Local crews are working on the scene to repair the damage and restore power to the affected area.
+Summary: A single-vehicle collision in Brampton knocked down several hydro poles on Tuesday morning. As a result, approximately 1,167 homes and businesses were left without electricity.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -439,7 +439,7 @@ Summary: A single-vehicle collision in Brampton knocked down multiple hydro pole
 
 --- Brampton | Article 5 --- [✓ SELECTED]
 Headline: 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
-Summary: Peel police have charged five individuals, including three youths, in connection with an April double shooting on a Brampton school property that left two people dead. The suspects face multiple charges, including first-degree murder, following an extensive police investigation.
+Summary: Peel police have arrested and charged five individuals, including two youths, with first-degree murder following an April double shooting on a Brampton school property. The incident resulted in the deaths of one man and one youth.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -447,7 +447,7 @@ Summary: Peel police have charged five individuals, including three youths, in c
 
 --- Brampton | Article 6 --- [✓ SELECTED]
 Headline: Stellantis weighs closure of Brampton plant in Canada, says Unifor
-Summary: Automotive manufacturer Stellantis is reportedly considering the closure and sale of its Brampton Assembly Plant in Ontario, Canada. According to the workers' union Unifor, the company disclosed its intentions to begin discussions regarding the facility's future.
+Summary: Automotive manufacturer Stellantis is reportedly considering the closure and sale of its assembly plant in Brampton, Ontario. According to the workers union Unifor, the company informed them of its intentions to begin discussions regarding the facility's future.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
@@ -503,7 +503,7 @@ Headline: CEBL final condensed to 1 game after cancellation of Winnipeg-Brampton
 
 --- Brampton | Article 15 --- [✓ SELECTED]
 Headline: Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
-Summary: An Ontario landlord has been sentenced to jail time after being convicted of seven charges related to a 2023 Brampton fire. The tragic blaze resulted in the deaths of a pregnant woman and her young daughter.
+Summary: An Ontario landlord has been sentenced to jail time after being convicted of seven charges following a 2023 Brampton fire that killed a pregnant woman and her daughter. The tragic incident prompted legal accountability for safety violations related to the property.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Summary   (good / bad / note):   
