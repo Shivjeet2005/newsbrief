@@ -6,27 +6,12 @@ Oakville
 ==================================================
 📍 Oakville — Today's top stories
 
-• [Tech] Oakville enacts one-year pause on data centres as other Ontario municipalities weigh restrictions
 • [Crime] 1 person dead after crash in Oakville: OPP
+• [Tech] Oakville enacts one-year pause on data centres as other Ontario municipalities weigh restrictions
 
 📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/oakville.html
 
 #OakvilleNews
-
-==================================================
-London, ON
-==================================================
-📍 London, ON — Today's top stories
-
-• [Culture] Ariana Grande reveals she is suffering with a foot injury as she gives update on her final two London shows after concerned fans noticed her limping on stage
-• [Politics] Cleverly accuses Burnham of 'war on London'
-• [Other] Double-decker bus crashes into building beside London station - bringing knock-on traffic and public transport disruption
-• [Politics] Ulez concerns on London border three years on
-• [Politics] Chancellor urged to impose 'wealth tax' and massive levies on homes in London and South East as think-tank says pensioners must bail out Government
-
-📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/london-on.html
-
-#London,ONNews
 
 ==================================================
 Brampton

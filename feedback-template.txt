@@ -26,7 +26,7 @@ Summary: One person died following a two-vehicle collision in Oakville on Thursd
 Headline: Oakville enacts one-year pause on data centres as other Ontario municipalities weigh restrictions
 URL: https://biztoc.com/x/6bf6af264958d3f2
 Category: Tech
-Summary: Oakville has implemented a one-year moratorium on new data centres to address concerns related to the rapid growth of facilities powering artificial intelligence. This makes Oakville the first Ontario municipality to impose such restrictions as local lawmakers evaluate the impact of these developments.
+Summary: Oakville has enacted a one-year moratorium on new data centres, becoming the first Ontario municipality to take this step. Local lawmakers implemented the pause to address growing concerns regarding the facilities powering artificial intelligence.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
@@ -34,208 +34,83 @@ Summary: Oakville has implemented a one-year moratorium on new data centres to a
   Notes:                            
 
 ##################################################
-CITY: London, ON
+CITY: London, Ontario
 ##################################################
-
---- London, ON | Story 1 --- [✓ SELECTED]  (2 source(s))
-Headline: Ariana Grande reveals she is suffering with a foot injury as she gives update on her final two London shows after concerned fans noticed her limping on stage
-URL: https://www.dailymail.com/tvshowbiz/article-16093793/Ariana-Grande-foot-injury-London-limping.html
-Category: Culture
-Summary: Singer Ariana Grande has disclosed that she is dealing with a foot injury while providing an update on her upcoming London performances. The pop star is also preparing for a planned career break following a period of intense public scrutiny.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 2 --- [not selected]  (1 source(s))
-Headline: Police release CCTV of man after woman sexually assaulted on London Underground during rush hour
-URL: https://www.dailymail.com/news/article-16093005/Police-release-CCTV-man-woman-sexually-assaulted-Underground.html
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 3 --- [✓ SELECTED]  (2 source(s))
-Headline: Cleverly accuses Burnham of 'war on London'
-URL: https://www.bbc.co.uk/news/articles/c93vgvyn1deo
-Category: Politics
-Summary: Sir James Cleverly has resigned from the shadow cabinet to launch his campaign for Mayor of London. During his announcement, he criticized the current administration for pursuing an anti-London agenda.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 4 --- [not selected]  (1 source(s))
-Headline: System From South Korea Sets Sights on London With Harrods
-URL: http://wwd.com/menswear-news/mens-retail-business/system-south-korea-london-harrods-mens-pop-up-1239147556/
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 5 --- [not selected]  (1 source(s))
-Headline: Pictured: London-based mother, 51, who died alongside her husband in a hot tub while on holiday in Spain - before being found dead by their children
-URL: https://www.dailymail.com/news/article-16091587/Pictured-London-mother-51-died-husband-hot-tub-Spain-children.html
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 6 --- [not selected]  (3 source(s))
-Headline: Four men plead guilty to arson attack on Jewish ambulances in London
-URL: https://www.haaretz.com/world-news/europe/2026-08-30/ty-article/four-men-plead-guilty-to-arson-attack-on-jewish-ambulances-in-london/000001a0-536b-d3eb-abf5-577f58540000
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 7 --- [not selected]  (1 source(s))
-Headline: How to watch AEW All In London on DAZN: Live stream, start time, match card
-URL: https://www.thebiglead.com/how-to-watch-aew-all-in-london-on-dazn-live-stream-start-time-match-card/
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 8 --- [not selected]  (1 source(s))
-Headline: Google says the Pixel Watch 5 can beat Apple and Garmin for GPS accuracy — so I decided to test all three watches myself on the London Marathon course
-URL: https://www.techradar.com/health-fitness/smartwatches/google-says-the-pixel-watch-5-can-beat-apple-and-garmin-for-gps-accuracy-so-i-decided-to-test-all-three-watches-myself-on-the-london-marathon-course
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 9 --- [not selected]  (1 source(s))
-Headline: Gal Gadot Plays a London Lawyer Forced to Run Across the City When a Stranger Abducts Her Son in ‘the Runner,’ Out September 2 on Prime Video
-URL: https://thoughtcatalog.com/nadia-santiago/2026/08/gal-gadot-plays-a-london-lawyer-forced-to-run-across-the-city-when-a-stranger-abducts-her-son-in-the-runner-out-september-2-on-prime-video/
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 10 --- [✓ SELECTED]  (1 source(s))
-Headline: Double-decker bus crashes into building beside London station - bringing knock-on traffic and public transport disruption
-URL: https://www.dailymail.com/news/article-16088377/Double-decker-bus-crashes-building-London-station-bringing-knock-traffic-public-transport-disruption.html
-Category: Other
-Summary: A double-decker bus collided with a building on Station Road in west London on Friday evening. The accident resulted in significant traffic delays and public transport disruptions in the area.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 11 --- [not selected]  (1 source(s))
-Headline: Dishoom is set to open another London restaurant on the South Bank
-URL: https://www.timeout.com/london/news/dishoom-is-set-to-open-another-london-restaurant-on-the-south-bank-082826
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 12 --- [not selected]  (1 source(s))
-Headline: A London apartment burned down in 2024 and left more than 80 people homeless; two years later, one owner says she is still paying the mortgage on a home that no longer exists
-URL: https://timesofindia.indiatimes.com/world/uk/a-london-apartment-burned-down-in-2024-and-left-more-than-80-people-homeless-two-years-later-one-owner-says-she-is-still-paying-the-mortgage-on-a-home-that-no-longer-exists/articleshow/133575130.cms
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 13 --- [not selected]  (1 source(s))
-Headline: Nicole Kidman and Sandra Bullock enjoy a magical night out as they party with co-stars at a luxury London hotel after Practical Magic 2 premiere - 28 years on from the original cult classic
-URL: https://www.dailymail.com/tvshowbiz/article-16083537/Nicole-Kidman-Sandra-Bullock-enjoy-magical-night-party-stars-luxury-London-hotel-Practical-Magic-2-premiere-28-years-original-cult-classic.html
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 14 --- [✓ SELECTED]  (1 source(s))
-Headline: Ulez concerns on London border three years on
-URL: https://www.bbc.co.uk/news/articles/cp8dewxjw69o
-Category: Politics
-Summary: Three years after the expansion of London's Ulez scheme, local businesses near the border report ongoing customer complaints and limited public transport alternatives. Meanwhile, campaigners continue to emphasize the significant health benefits of the low-emission zone.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
-  Notes:                            
-
---- London, ON | Story 15 --- [✓ SELECTED]  (1 source(s))
-Headline: Chancellor urged to impose 'wealth tax' and massive levies on homes in London and South East as think-tank says pensioners must bail out Government
-URL: https://www.dailymail.com/news/article-16080743/Chancellor-wealth-tax-homes-London-South-East-pensioners.html
-Category: Politics
-Summary: A prominent think-tank is urging the Chancellor to implement a wealth tax and heavy property levies on homes in London and the South East. The proposed measures aim to help balance government finances by targeting pensioners and property owners.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
-  Notes:                            
 
 ##################################################
 CITY: Brampton
 ##################################################
 
---- Brampton | Story 1 --- [not selected]  (1 source(s))
-Headline: Disbarred Brampton lawyer charged in alleged $4.3M fraud scheme: Peel police
-URL: https://www.cbc.ca/news/canada/toronto/brampton-lawyer-charged-alleged-fraud-9.7326543
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 2 --- [✓ SELECTED]  (2 source(s))
+--- Brampton | Story 1 --- [✓ SELECTED]  (2 source(s))
 Headline: Man in his 60s dead after 2-vehicle collision in Brampton: police
 URL: https://www.cbc.ca/news/canada/toronto/man-dead-collision-brampton-peel-9.7324815
 Category: Crime
-Summary: A man in his sixties died following a two-vehicle collision in Brampton, Ontario on Friday afternoon. Local police responded to the crash scene near Queen Street East and Delta Park Boulevard to investigate the incident.
+Summary: A man in his sixties died following a two-vehicle collision in Brampton on Friday afternoon. Local police responded to the crash scene near Queen Street East and Delta Park Boulevard to investigate the incident.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 3 --- [not selected]  (1 source(s))
-Headline: Capitals Offseason Updates: Strome Shines On Ice In Brampton, Wilson Trains With Son, Chara Bids Heartfelt Goodbye To Hockey
-URL: https://thehockeynews.com/nhl/washington-capitals/latest-news/capitals-offseason-updates-strome-shines-on-ice-in-brampton-wilson-trains-with-son-chara-bids-heartfelt-goodbye-to-hockey
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 4 --- [✓ SELECTED]  (1 source(s))
-Headline: Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
-URL: https://www.cbc.ca/news/canada/toronto/brampton-homes-without-power-hydro-poles-down-9.7310604
-Category: Other
-Summary: A single-vehicle collision in Brampton knocked down several hydro poles on Tuesday morning. Consequently, approximately 1,167 local homes and businesses experienced power outages.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 5 --- [✓ SELECTED]  (1 source(s))
-Headline: 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
-URL: https://www.cbc.ca/news/canada/toronto/5-charged-double-shooting-brampton-school-grounds-9.7309670
-Category: Crime
-Summary: Peel police have arrested and charged five individuals, including two youths, in connection with a fatal double shooting on a Brampton school grounds in April. The suspects face multiple charges, including first-degree murder for the deaths of one man and one youth.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 6 --- [✓ SELECTED]  (6 source(s))
+--- Brampton | Story 2 --- [✓ SELECTED]  (6 source(s))
 Headline: Stellantis weighs closure of Brampton plant in Canada, says Unifor
 URL: https://biztoc.com/x/cc7eb611c325513c
 Category: Business
-Summary: Stellantis is reportedly considering the closure and sale of its Brampton Assembly Plant in Ontario, Canada. The potential shutdown was disclosed to the workers union, Unifor, during recent corporate discussions.
+Summary: Stellantis is reportedly considering the closure and potential sale of its Brampton Assembly Plant in Ontario, Canada. The labor union Unifor stated that the company informed them of its intentions to discuss the plant's future.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 7 --- [not selected]  (3 source(s))
+--- Brampton | Story 3 --- [not selected]  (3 source(s))
 Headline: Winnipeg Sea Bears win 1st CEBL title, defeat Brampton Honey Badgers in 2026 final
 URL: https://www.cbc.ca/sports/basketball/cebl/sea-bears-honey-badgers-championship-cebl-aug-15-9.7308622
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
+--- Brampton | Story 4 --- [not selected]  (1 source(s))
+Headline: Disbarred Brampton lawyer charged in alleged $4.3M fraud scheme: Peel police
+URL: https://www.cbc.ca/news/canada/toronto/brampton-lawyer-charged-alleged-fraud-9.7326543
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Story 5 --- [not selected]  (1 source(s))
+Headline: Capitals Offseason Updates: Strome Shines On Ice In Brampton, Wilson Trains With Son, Chara Bids Heartfelt Goodbye To Hockey
+URL: https://thehockeynews.com/nhl/washington-capitals/latest-news/capitals-offseason-updates-strome-shines-on-ice-in-brampton-wilson-trains-with-son-chara-bids-heartfelt-goodbye-to-hockey
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Story 6 --- [✓ SELECTED]  (1 source(s))
+Headline: Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
+URL: https://www.cbc.ca/news/canada/toronto/brampton-homes-without-power-hydro-poles-down-9.7310604
+Category: Other
+Summary: A single-vehicle collision in Brampton knocked down several hydro poles on Tuesday morning. Consequently, approximately 1,167 local homes and businesses experienced unexpected power outages.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Story 7 --- [✓ SELECTED]  (1 source(s))
+Headline: 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
+URL: https://www.cbc.ca/news/canada/toronto/5-charged-double-shooting-brampton-school-grounds-9.7309670
+Category: Crime
+Summary: Five individuals, including three adults and two youths, have been arrested and charged with first-degree murder following a fatal double shooting on a Brampton school grounds in April. Peel police announced the arrests as the investigation into the deaths of one man and one youth continues.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
 --- Brampton | Story 8 --- [✓ SELECTED]  (1 source(s))
 Headline: Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
 URL: https://www.cbc.ca/news/canada/toronto/fatal-brampton-fire-court-decision-landlord-sentenced-9.7304105
 Category: Crime
-Summary: An Ontario landlord has been sentenced to jail following his conviction on seven charges related to a fatal Brampton fire. The tragic 2023 incident resulted in the deaths of a pregnant woman and her young daughter.
+Summary: An Ontario landlord was sentenced to jail time after being convicted of seven charges related to a fatal 2023 Brampton fire. The tragic incident resulted in the deaths of a pregnant woman and her young daughter.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
