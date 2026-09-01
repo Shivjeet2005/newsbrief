@@ -15,7 +15,7 @@ CITY: Oakville
 Headline: 1 person dead after crash in Oakville: OPP
 URL: https://www.cbc.ca/news/canada/toronto/oakville-fatal-crash-opp-9.7315196
 Category: Crime
-Summary: One person died following a two-vehicle collision in Oakville on Thursday evening. Emergency responders arrived at the scene near Highway 403 and Dundas Street East shortly after 10 p.m.
+Summary: A fatal two-vehicle collision occurred in Oakville on Thursday evening near Highway 403 and Dundas Street East. Emergency services responded to the scene shortly after 10 p.m., resulting in provincial police confirming one fatality.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
@@ -26,7 +26,7 @@ Summary: One person died following a two-vehicle collision in Oakville on Thursd
 Headline: Oakville enacts one-year pause on data centres as other Ontario municipalities weigh restrictions
 URL: https://biztoc.com/x/6bf6af264958d3f2
 Category: Tech
-Summary: Oakville has enacted a one-year moratorium on new data centres, becoming the first Ontario municipality to take this step. Local lawmakers implemented the pause to address growing concerns regarding the facilities powering artificial intelligence.
+Summary: Oakville has implemented a one-year moratorium on new data centres to address growing local concerns regarding facilities that power artificial intelligence. The town is the first municipality in Ontario to enact such restrictions as regional leaders evaluate the impact of these developments.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
@@ -56,7 +56,7 @@ Summary: A man in his sixties died following a two-vehicle collision in Brampton
 Headline: Stellantis weighs closure of Brampton plant in Canada, says Unifor
 URL: https://biztoc.com/x/cc7eb611c325513c
 Category: Business
-Summary: Stellantis is reportedly considering the closure and potential sale of its Brampton Assembly Plant in Ontario, Canada. The labor union Unifor stated that the company informed them of its intentions to discuss the plant's future.
+Summary: Stellantis is reportedly considering the closure and sale of its Brampton Assembly Plant in Ontario, Canada. The potential shutdown was disclosed to the workers union, Unifor, during recent corporate discussions.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
@@ -99,7 +99,7 @@ Summary: A single-vehicle collision in Brampton knocked down several hydro poles
 Headline: 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
 URL: https://www.cbc.ca/news/canada/toronto/5-charged-double-shooting-brampton-school-grounds-9.7309670
 Category: Crime
-Summary: Five individuals, including three adults and two youths, have been arrested and charged with first-degree murder following a fatal double shooting on a Brampton school grounds in April. Peel police announced the arrests as the investigation into the deaths of one man and one youth continues.
+Summary: Peel police have arrested and charged five individuals, including two youths, in connection with a fatal double shooting on a Brampton school grounds in April. The suspects face multiple charges, including first-degree murder for the deaths of one man and one youth.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
@@ -110,7 +110,7 @@ Summary: Five individuals, including three adults and two youths, have been arre
 Headline: Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
 URL: https://www.cbc.ca/news/canada/toronto/fatal-brampton-fire-court-decision-landlord-sentenced-9.7304105
 Category: Crime
-Summary: An Ontario landlord was sentenced to jail time after being convicted of seven charges related to a fatal 2023 Brampton fire. The tragic incident resulted in the deaths of a pregnant woman and her young daughter.
+Summary: An Ontario landlord has been sentenced to jail time after being convicted of seven charges. The sentencing follows a fatal 2023 Brampton fire that resulted in the deaths of a pregnant woman and her daughter.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
