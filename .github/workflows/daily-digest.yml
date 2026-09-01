@@ -1,9 +1,12 @@
 name: Daily News Digest
 
 on:
-  workflow_dispatch:        # lets you run it manually with a button
+  workflow_dispatch:
   schedule:
-    - cron: '0 11 * * *'    # runs daily at 11:00 UTC (~6-7am ET)
+    - cron: '0 11 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -24,3 +27,11 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           FIREBASE_URL: ${{ secrets.FIREBASE_URL }}
         run: node generate-digest.js
+
+      - name: Publish webpage
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add index.html
+          git commit -m "Update digest webpage" || echo "No changes to publish"
+          git push
