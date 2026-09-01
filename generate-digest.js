@@ -9,7 +9,6 @@ const NEWSAPI_KEY = process.env.NEWSAPI_KEY;
 const FIREBASE_URL = process.env.FIREBASE_URL;
 
 // Cities are read from cities.json — edit that file to add/remove cities.
-// No need to touch this code when your city list changes.
 const CITIES = JSON.parse(readFileSync('cities.json', 'utf-8'));
 
 // How many stories per city
@@ -102,43 +101,10 @@ async function saveDigest(dateKey, digest) {
 }
 
 // ============================================================
-// MAIN
+// PRINT READY-TO-POST SOCIAL TEXT
+// Prints copy-paste-ready posts at the end of the run.
+// Edit the formatting inside this function to change post style.
 // ============================================================
-async function main() {
-  console.log('Starting digest generation...');
-  console.log(`Loaded ${CITIES.length} cities from cities.json`);
-  const today = new Date().toISOString().split('T')[0];
-  const digest = {};
-
-  for (const city of CITIES) {
-    console.log(`\nFetching news for ${city.name}...`);
-    const articles = await fetchNews(city);
-    const summarized = [];
-
-    for (const article of articles) {
-      console.log(`  Summarizing: ${article.title}`);
-      const summary = await summarize(
-        article.title, article.description, article.content
-      );
-      summarized.push({
-        title: article.title,
-        source: article.source?.name || 'Unknown',
-        url: article.url,
-        summary: summary,
-        publishedAt: article.publishedAt
-      });
-      // brief pause to stay under free-tier rate limits
-      await new Promise(r => setTimeout(r, 2000));
-    }
-
-    digest[city.name] = { articles: summarized };
-  }
-
-  await saveDigest(today, digest);
-  console.log('\nDone!');
-}
-
-main().catch(err => {
-  console.error('Fatal error:', err);
-  process.exit(1);
-});
+function printSocialPosts(digest) {
+  console.log('\n\n');
+  console.log('==================================================');
