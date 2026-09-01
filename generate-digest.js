@@ -29,7 +29,7 @@ async function summarize(title, description, content) {
 
   const url =
     `https://generativelanguage.googleapis.com/v1beta/models/` +
-    `gemini-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
+    `gemini-2.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
   // Try up to 4 times, waiting longer each time if the model is busy (503)
   for (let attempt = 1; attempt <= 4; attempt++) {
