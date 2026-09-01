@@ -8,9 +8,9 @@ Greater Toronto Area
 
 • [Tech] City of Toronto Launches AI Pre-Check with Clariti to Speed Up Housing Approvals
 • [Crime] Toronto police issue over 300 tickets and warnings in 2-week crackdown on e-bikes and scooters
-• [Crime] Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
 • [Other] Parts of Toronto could get over 50 mm of rain Monday: Environment Canada
-• [Business] Toronto cinema says it was forced to cancel screenings over decades-old, unofficial 'zone' system
+• [Crime] Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
+• [Culture] Toronto cinema says it was forced to cancel screenings over decades-old, unofficial 'zone' system
 
 📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/greater-toronto-area.html
 
@@ -35,13 +35,28 @@ Toronto
 
 • [Real Estate] City of Toronto Launches AI Pre-Check with Clariti to Speed Up Housing Approvals
 • [Crime] Toronto police issue over 300 tickets and warnings in 2-week crackdown on e-bikes and scooters
-• [Other] Parts of Toronto could get over 50 mm of rain Monday: Environment Canada
+• [Culture] Parts of Toronto could get over 50 mm of rain Monday: Environment Canada
 • [Crime] Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
-• [Culture] Toronto cinema says it was forced to cancel screenings over decades-old, unofficial 'zone' system
+• [Business] Toronto cinema says it was forced to cancel screenings over decades-old, unofficial 'zone' system
 
 📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/toronto.html
 
 #TorontoNews
+
+==================================================
+Brampton
+==================================================
+📍 Brampton — Today's top stories
+
+• [Business] Stellantis weighs closure of Brampton plant in Canada, says Unifor
+• [Crime] 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
+• [Crime] Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
+• [Other] Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
+• [Crime] Man in his 60s dead after 2-vehicle collision in Brampton: police
+
+📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/brampton.html
+
+#BramptonNews
 
 ==================================================
 York
