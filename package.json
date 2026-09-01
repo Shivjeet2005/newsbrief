@@ -1,0 +1,9 @@
+{
+  "name": "newsbrief",
+  "version": "1.0.0",
+  "description": "AI-powered regional news digest",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
