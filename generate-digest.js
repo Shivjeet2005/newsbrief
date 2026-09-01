@@ -10,6 +10,9 @@ const CITIES = JSON.parse(readFileSync('cities.json', 'utf-8'));
 const POOL_SIZE = 15;
 const STORIES_PER_CITY = 5;
 
+// Your public website address — used in social posts.
+const SITE_URL = 'https://Shivjeet2005.github.io/newsbrief/';
+
 const GEMINI_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/` +
   `gemini-3.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
@@ -121,7 +124,6 @@ async function saveDigest(dateKey, digest) {
   }
 }
 
-// Escape text so it displays safely inside HTML.
 function esc(text) {
   return String(text || '')
     .replace(/&/g, '&amp;')
@@ -130,7 +132,6 @@ function esc(text) {
     .replace(/"/g, '&quot;');
 }
 
-// Build the reader-facing webpage (index.html).
 function buildWebpage(dateKey, digest) {
   let citySections = '';
 
@@ -191,6 +192,36 @@ ${citySections}
   console.log('Webpage (index.html) written.');
 }
 
+// Print one copy-paste-ready social post per city (headline teasers + site link).
+function printSocialPosts(digest) {
+  console.log('\n\n==================================================');
+  console.log('   COPY-PASTE-READY SOCIAL POSTS (one per city)');
+  console.log('==================================================\n');
+
+  for (const cityName of Object.keys(digest)) {
+    const articles = (digest[cityName].articles || [])
+      .filter(a => a.summary && a.summary !== 'Summary unavailable.');
+
+    if (articles.length === 0) continue;
+
+    // Hashtag like #TorontoNews (strip spaces from city name)
+    const hashtag = '#' + cityName.replace(/\s+/g, '') + 'News';
+
+    let post = `📍 ${cityName} — Today's top stories\n\n`;
+    for (const a of articles) {
+      post += `• ${a.title}\n`;
+    }
+    post += `\n📰 Full summaries: ${SITE_URL}\n\n${hashtag}`;
+
+    console.log(post);
+    console.log('\n─────────────────────────\n');
+  }
+
+  console.log('==================================================');
+  console.log('   END OF SOCIAL POSTS');
+  console.log('==================================================\n');
+}
+
 async function main() {
   console.log('Starting digest generation...');
   console.log(`Loaded ${CITIES.length} cities from cities.json`);
@@ -225,6 +256,7 @@ async function main() {
 
   await saveDigest(today, digest);
   buildWebpage(today, digest);
+  printSocialPosts(digest);
   console.log('Done!');
 }
 
