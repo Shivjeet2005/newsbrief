@@ -1,4 +1,5 @@
 import fetch from 'node-fetch';
+import { readFileSync } from 'fs';
 
 // ============================================================
 // CONFIGURATION
@@ -7,12 +8,9 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const NEWSAPI_KEY = process.env.NEWSAPI_KEY;
 const FIREBASE_URL = process.env.FIREBASE_URL;
 
-// Which cities to fetch news for (start small for testing)
-const CITIES = [
-  { name: 'Toronto', query: 'Toronto' },
-  { name: 'New York', query: 'New York City' },
-  { name: 'San Francisco', query: 'San Francisco' }
-];
+// Cities are read from cities.json — edit that file to add/remove cities.
+// No need to touch this code when your city list changes.
+const CITIES = JSON.parse(readFileSync('cities.json', 'utf-8'));
 
 // How many stories per city
 const STORIES_PER_CITY = 5;
@@ -33,20 +31,37 @@ async function summarize(title, description, content) {
     `https://generativelanguage.googleapis.com/v1beta/models/` +
     `gemini-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
 
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      contents: [{ parts: [{ text: promptText }] }]
-    })
-  });
+  // Try up to 4 times, waiting longer each time if the model is busy (503)
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: promptText }] }]
+      })
+    });
 
-  const data = await response.json();
+    const data = await response.json();
 
-  if (data.candidates && data.candidates[0]) {
-    return data.candidates[0].content.parts[0].text.trim();
+    if (data.candidates && data.candidates[0]) {
+      return data.candidates[0].content.parts[0].text.trim();
+    }
+
+    // If the model is temporarily overloaded, wait and retry
+    const code = data.error?.code;
+    if (code === 503 || code === 429) {
+      const waitSeconds = attempt * 5;
+      console.log(`  Model busy (attempt ${attempt}), waiting ${waitSeconds}s...`);
+      await new Promise(r => setTimeout(r, waitSeconds * 1000));
+      continue;
+    }
+
+    // Any other error: stop and report it
+    console.error('Summarization failed:', JSON.stringify(data));
+    return 'Summary unavailable.';
   }
-  console.error('Summarization failed:', JSON.stringify(data));
+
+  console.error('Summarization failed after retries (model stayed busy).');
   return 'Summary unavailable.';
 }
 
@@ -91,6 +106,7 @@ async function saveDigest(dateKey, digest) {
 // ============================================================
 async function main() {
   console.log('Starting digest generation...');
+  console.log(`Loaded ${CITIES.length} cities from cities.json`);
   const today = new Date().toISOString().split('T')[0];
   const digest = {};
 
