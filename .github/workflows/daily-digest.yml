@@ -1,0 +1,26 @@
+name: Daily News Digest
+
+on:
+  workflow_dispatch:        # lets you run it manually with a button
+  schedule:
+    - cron: '0 11 * * *'    # runs daily at 11:00 UTC (~6-7am ET)
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate digest
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          FIREBASE_URL: ${{ secrets.FIREBASE_URL }}
+        run: node generate-digest.js
