@@ -108,3 +108,73 @@ async function saveDigest(dateKey, digest) {
 function printSocialPosts(digest) {
   console.log('\n\n');
   console.log('==================================================');
+  console.log('   COPY-PASTE-READY SOCIAL POSTS BELOW');
+  console.log('==================================================\n');
+
+  for (const cityName of Object.keys(digest)) {
+    const articles = digest[cityName].articles || [];
+
+    for (const article of articles) {
+      // Skip anything that failed to summarize
+      if (!article.summary || article.summary === 'Summary unavailable.') {
+        continue;
+      }
+
+      console.log(`📍 ${cityName}`);
+      console.log(article.title);
+      console.log('');
+      console.log(article.summary);
+      console.log('');
+      console.log(`🔗 ${article.source}: ${article.url}`);
+      console.log('─────────────────────────');
+      console.log('');
+    }
+  }
+
+  console.log('==================================================');
+  console.log('   END OF SOCIAL POSTS');
+  console.log('==================================================\n');
+}
+
+// ============================================================
+// MAIN
+// ============================================================
+async function main() {
+  console.log('Starting digest generation...');
+  console.log(`Loaded ${CITIES.length} cities from cities.json`);
+  const today = new Date().toISOString().split('T')[0];
+  const digest = {};
+
+  for (const city of CITIES) {
+    console.log(`\nFetching news for ${city.name}...`);
+    const articles = await fetchNews(city);
+    const summarized = [];
+
+    for (const article of articles) {
+      console.log(`  Summarizing: ${article.title}`);
+      const summary = await summarize(
+        article.title, article.description, article.content
+      );
+      summarized.push({
+        title: article.title,
+        source: article.source?.name || 'Unknown',
+        url: article.url,
+        summary: summary,
+        publishedAt: article.publishedAt
+      });
+      // brief pause to stay under free-tier rate limits
+      await new Promise(r => setTimeout(r, 2000));
+    }
+
+    digest[city.name] = { articles: summarized };
+  }
+
+  await saveDigest(today, digest);
+  printSocialPosts(digest);
+  console.log('Done!');
+}
+
+main().catch(err => {
+  console.error('Fatal error:', err);
+  process.exit(1);
+});
