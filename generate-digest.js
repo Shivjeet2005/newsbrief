@@ -13,6 +13,7 @@ const STORIES_PER_CITY = 5;
 
 const SITE_URL = CONFIG.siteUrl.endsWith('/') ? CONFIG.siteUrl : CONFIG.siteUrl + '/';
 const CATEGORIES = CONFIG.categories || ['Other'];
+const SIGNUP_URL = CONFIG.signupUrl || '';
 
 const GEMINI_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/` +
@@ -290,6 +291,8 @@ function pageShell(title, dateKey, bodyContent, backLink) {
   .summary { margin: 0 0 4px; }
   .source { margin: 0; color: #888; font-size: 0.85rem; }
   footer { border-top: 1px solid #ddd; margin-top: 32px; padding-top: 16px; color: #888; font-size: 0.85rem; text-align: center; }
+  .signup { text-align: center; margin: 24px 0; padding: 18px; background: #f0f6ff; border-radius: 12px; }
+  .signup a { display: inline-block; background: #0b57d0; color: #fff; text-decoration: none; padding: 12px 22px; border-radius: 8px; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -298,6 +301,7 @@ function pageShell(title, dateKey, bodyContent, backLink) {
   <div class="date">${esc(dateKey)}</div>
 </header>
 ${backLink ? `<a class="backlink" href="${esc(SITE_URL)}">← All cities</a>` : ''}
+${SIGNUP_URL ? `<div class="signup">📬 Free daily local news in your inbox — <a href="${esc(SIGNUP_URL)}" target="_blank" rel="noopener">Subscribe</a></div>` : ''}
 ${bodyContent}
 <footer>Summaries are AI-generated. Click any headline to read the full story at the source.</footer>
 </body>
