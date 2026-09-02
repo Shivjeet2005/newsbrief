@@ -231,6 +231,31 @@ async function saveDigest(dateKey, digest) {
   }
 }
 
+// Save one city's fresh digest to latest/<city> — the source of truth for fallback.
+async function saveLatest(cityName, cityData) {
+  const url = `${FIREBASE_URL}/latest/${encodeURIComponent(slug(cityName))}.json`;
+  const response = await fetch(url, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(cityData)
+  });
+  if (!response.ok) {
+    console.error(`saveLatest failed for ${cityName}:`, await response.text());
+  }
+}
+
+// Read one city's last-good digest from latest/<city>.
+async function readLatest(cityName) {
+  const url = `${FIREBASE_URL}/latest/${encodeURIComponent(slug(cityName))}.json`;
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    return data || null;   // { date, articles } or null
+  } catch {
+    return null;
+  }
+}
+
 async function savePool(dateKey, poolData) {
   const payload = {};
 
@@ -267,7 +292,7 @@ function esc(text) {
     .replace(/"/g, '&quot;');
 }
 
-function pageShell(title, dateKey, bodyContent, backLink) {
+function pageShell(title, dateKey, bodyContent, backLink, staleNote) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -281,6 +306,7 @@ function pageShell(title, dateKey, bodyContent, backLink) {
   header .date { color: #666; font-size: 0.9rem; }
   .backlink { display: inline-block; margin-bottom: 16px; color: #0b57d0; text-decoration: none; font-size: 0.9rem; }
   .backlink:hover { text-decoration: underline; }
+  .stale { background: #fff4e5; border: 1px solid #ffcc80; color: #8a5a00; padding: 8px 12px; border-radius: 8px; font-size: 0.85rem; margin-bottom: 16px; }
   .city-list { list-style: none; padding: 0; }
   .city-list li { margin-bottom: 12px; font-size: 1.15rem; }
   .city-list a { color: #0b57d0; text-decoration: none; }
@@ -303,6 +329,7 @@ function pageShell(title, dateKey, bodyContent, backLink) {
   <div class="date">${esc(dateKey)}</div>
 </header>
 ${backLink ? `<a class="backlink" href="${esc(SITE_URL)}">← All cities</a>` : ''}
+${staleNote ? `<div class="stale">📅 ${esc(staleNote)}</div>` : ''}
 ${SIGNUP_URL ? `<div class="signup">📬 Free daily local news in your inbox — <a href="${esc(SIGNUP_URL)}" target="_blank" rel="noopener">Subscribe</a></div>` : ''}
 ${bodyContent}
 <footer>Summaries are AI-generated. Click any headline to read the full story at the source.</footer>
@@ -310,8 +337,8 @@ ${bodyContent}
 </html>`;
 }
 
-function buildCityPage(cityName, dateKey, digest) {
-  const articles = (digest[cityName].articles || [])
+function buildCityPage(cityName, todayKey, cityData) {
+  const articles = (cityData.articles || [])
     .filter(a => a.summary && a.summary !== 'Summary unavailable.');
 
   let items = '';
@@ -325,31 +352,35 @@ function buildCityPage(cityName, dateKey, digest) {
       `</article>`;
   }
 
-  const html = pageShell(`${cityName} News`, dateKey, items, true);
+  const stale = (cityData.date && cityData.date !== todayKey)
+    ? `As of ${cityData.date} — couldn't refresh today, showing the latest available.`
+    : '';
+
+  const html = pageShell(`${cityName} News`, cityData.date || todayKey, items, true, stale);
   writeFileSync(slug(cityName) + '.html', html);
 }
 
-function buildHomePage(dateKey, digest) {
+function buildHomePage(todayKey, displayData) {
   let list = '<ul class="city-list">';
-  for (const cityName of Object.keys(digest)) {
-    const hasArticles = (digest[cityName].articles || [])
+  for (const cityName of Object.keys(displayData)) {
+    const hasArticles = (displayData[cityName].articles || [])
       .some(a => a.summary && a.summary !== 'Summary unavailable.');
     if (!hasArticles) continue;
     list += `<li><a href="${esc(cityUrl(cityName))}">${esc(cityName)} →</a></li>`;
   }
   list += '</ul>';
 
-  const html = pageShell('Daily News Digest', dateKey, list, false);
+  const html = pageShell('Daily News Digest', todayKey, list, false, '');
   writeFileSync('index.html', html);
 }
 
-function buildAllPages(dateKey, digest) {
-  buildHomePage(dateKey, digest);
-  for (const cityName of Object.keys(digest)) {
-    const hasArticles = (digest[cityName].articles || [])
+function buildAllPages(todayKey, displayData) {
+  buildHomePage(todayKey, displayData);
+  for (const cityName of Object.keys(displayData)) {
+    const hasArticles = (displayData[cityName].articles || [])
       .some(a => a.summary && a.summary !== 'Summary unavailable.');
     if (!hasArticles) continue;
-    buildCityPage(cityName, dateKey, digest);
+    buildCityPage(cityName, todayKey, displayData[cityName]);
   }
   console.log('Webpages written (home + one per city).');
 }
@@ -571,9 +602,12 @@ async function main() {
   console.log('Starting digest generation...');
   console.log(`Loaded ${CITIES.length} cities from cities.json`);
   const today = new Date().toISOString().split('T')[0];
-  const digest = {};
+  const digest = {};          // fresh cities only (drives social/telegram/platform/pool/feedback)
+  const displayData = {};     // what the pages show: fresh OR last-good fallback
   const feedbackData = {};
   const poolData = {};
+  const freshCities = [];
+  const staleCities = [];
 
   for (const city of CITIES) {
     console.log(`\nFetching news for ${city.name}...`);
@@ -582,10 +616,15 @@ async function main() {
     console.log(`  Fetched ${rawPool.length}, ${cleaned.length} after cleaning.`);
 
     if (cleaned.length === 0) {
-      console.log(`  No usable articles for ${city.name} — skipping.`);
-      digest[city.name] = { articles: [] };
-      feedbackData[city.name] = { stories: [], chosenIdx: new Set(), summaries: {}, categories: {} };
-      poolData[city.name] = { stories: [], chosenIdx: new Set() };
+      // No fresh news — fall back to last-good data so the page never goes blank.
+      const last = await readLatest(city.name);
+      if (last && last.articles && last.articles.length > 0) {
+        displayData[city.name] = last;
+        staleCities.push(`${city.name} (showing ${last.date || 'previous'})`);
+        console.log(`  No fresh news — using last-good data from ${last.date || 'previous run'}.`);
+      } else {
+        console.log(`  No fresh news and no cached data — ${city.name} omitted.`);
+      }
       continue;
     }
 
@@ -617,7 +656,12 @@ async function main() {
       await new Promise(r => setTimeout(r, 2000));
     }
 
-    digest[city.name] = { articles: summarized };
+    const cityData = { date: today, articles: summarized };
+    digest[city.name] = cityData;
+    displayData[city.name] = cityData;
+    freshCities.push(city.name);
+    await saveLatest(city.name, cityData);   // update source-of-truth for fallback
+
     feedbackData[city.name] = {
       stories, chosenIdx,
       summaries: summariesByStoryIndex,
@@ -626,13 +670,33 @@ async function main() {
     poolData[city.name] = { stories, chosenIdx };
   }
 
-  await saveDigest(today, digest);
-  await savePool(today, poolData);
-  buildAllPages(today, digest);
-  await saveSocialPosts(today, digest);
-  await postToTelegram(digest);
-  await savePlatformPosts(today, digest);
-  buildFeedbackTemplate(today, feedbackData);
+  // Firebase digest + pool + social/telegram/platform/feedback use FRESH cities only.
+  if (Object.keys(digest).length > 0) {
+    await saveDigest(today, digest);
+    await savePool(today, poolData);
+    await saveSocialPosts(today, digest);
+    await postToTelegram(digest);
+    await savePlatformPosts(today, digest);
+    buildFeedbackTemplate(today, feedbackData);
+  } else {
+    console.log('No cities updated today — skipping digest/pool/social/telegram/platform/feedback writes.');
+  }
+
+  // Pages are built from displayData (fresh + last-good), so nothing goes blank.
+  if (Object.keys(displayData).length > 0) {
+    buildAllPages(today, displayData);
+  } else {
+    console.log('No data at all (fresh or cached) — leaving existing pages untouched.');
+  }
+
+  // --- Run summary in the log ---
+  console.log('\n==================================================');
+  console.log('   RUN SUMMARY');
+  console.log('==================================================');
+  console.log(`Updated today (${freshCities.length}): ${freshCities.join(', ') || 'none'}`);
+  console.log(`Showing older data (${staleCities.length}): ${staleCities.join(', ') || 'none'}`);
+  console.log('==================================================\n');
+
   console.log('Done!');
 }
 
