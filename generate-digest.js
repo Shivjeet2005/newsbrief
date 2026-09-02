@@ -14,6 +14,8 @@ const STORIES_PER_CITY = 5;
 const SITE_URL = CONFIG.siteUrl.endsWith('/') ? CONFIG.siteUrl : CONFIG.siteUrl + '/';
 const CATEGORIES = CONFIG.categories || ['Other'];
 const SIGNUP_URL = CONFIG.signupUrl || '';
+const TELEGRAM_CHANNEL = CONFIG.telegramChannel || '';
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 
 const GEMINI_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/` +
@@ -443,6 +445,57 @@ function buildFeedbackTemplate(dateKey, feedbackData) {
   writeFileSync('feedback-template.txt', out);
   console.log('Feedback template written to feedback-template.txt');
 }
+// Post the digest to the Telegram channel via the bot.
+async function postToTelegram(digest) {
+  if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHANNEL) {
+    console.log('Telegram not configured — skipping.');
+    return;
+  }
+
+  // Build the message (Telegram supports basic HTML formatting).
+  let msg = `<b>📰 The Daily Local</b>\n<i>Your City. Your News. Every Day.</i>\n\n`;
+
+  for (const cityName of Object.keys(digest)) {
+    const articles = (digest[cityName].articles || [])
+      .filter(a => a.summary && a.summary !== 'Summary unavailable.');
+    if (articles.length === 0) continue;
+
+    msg += `<b>📍 ${cityName}</b>\n`;
+    for (const a of articles) {
+      // Headline links to the source; keep each line compact.
+      msg += `• <a href="${a.url}">${a.title}</a>\n`;
+    }
+    msg += `\n`;
+  }
+
+  // Footer: website + email signup links.
+  msg += `———\n`;
+  if (SITE_URL) msg += `🌐 Full summaries: ${SITE_URL}\n`;
+  if (SIGNUP_URL) msg += `📬 Get it by email: ${SIGNUP_URL}\n`;
+
+  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: TELEGRAM_CHANNEL,
+        text: msg,
+        parse_mode: 'HTML',
+        disable_web_page_preview: true
+      })
+    });
+    const data = await response.json();
+    if (data.ok) {
+      console.log('Posted to Telegram.');
+    } else {
+      console.error('Telegram post failed:', JSON.stringify(data));
+    }
+  } catch (err) {
+    console.error('Telegram post error:', err);
+  }
+}
 
 async function main() {
   console.log('Starting digest generation...');
@@ -507,6 +560,7 @@ async function main() {
   await savePool(today, poolData);
   buildAllPages(today, digest);
   await saveSocialPosts(today, digest);
+  await postToTelegram(digest);
   buildFeedbackTemplate(today, feedbackData);
   console.log('Done!');
 }
