@@ -496,6 +496,76 @@ async function postToTelegram(digest) {
     console.error('Telegram post error:', err);
   }
 }
+// Build tailored, ready-to-post text for each platform, per city.
+// Saves to platform-posts.txt AND Firebase (platform_posts/<date>/<city>/<platform>).
+async function savePlatformPosts(dateKey, digest) {
+  const byCity = {};   // for Firebase
+  let fileText =
+    `PLATFORM-READY POSTS — ${dateKey}\n` +
+    `Copy the version for each platform. Reddit needs a human touch before posting.\n\n`;
+
+  for (const cityName of Object.keys(digest)) {
+    const articles = (digest[cityName].articles || [])
+      .filter(a => a.summary && a.summary !== 'Summary unavailable.');
+    if (articles.length === 0) continue;
+
+    const cityLink = cityUrl(cityName);
+    const tag = cityName.replace(/\s+/g, '');
+    const headlines = articles.map(a => a.title);
+
+    // --- Twitter/X: short, top 3 headlines ---
+    let twitter = `📍 ${cityName} — today's top local news:\n\n`;
+    headlines.slice(0, 3).forEach(h => { twitter += `• ${h}\n`; });
+    twitter += `\nFull summaries 👇\n${cityLink}\n#${tag}`;
+
+    // --- LinkedIn: professional framing ---
+    let linkedin = `Today's ${cityName} news, summarized in two minutes:\n\n`;
+    headlines.forEach(h => { linkedin += `• ${h}\n`; });
+    linkedin += `\nRead the full local roundup here: ${cityLink}\n\n` +
+                `Prefer it by email? ${SIGNUP_URL}\n\n#${tag} #LocalNews`;
+
+    // --- Facebook: conversational ---
+    let facebook = `📰 Your ${cityName} daily roundup — here's what's happening today:\n\n`;
+    headlines.forEach(h => { facebook += `• ${h}\n`; });
+    facebook += `\nFull two-minute summaries: ${cityLink}\n` +
+                `Get it free by email: ${SIGNUP_URL}`;
+
+    // --- Reddit: plain, minimal promo, with a caution note ---
+    let reddit =
+      `[NOTE TO YOU: Reddit dislikes self-promo. Add genuine context, ` +
+      `pick the RIGHT subreddit, and consider posting headlines as discussion ` +
+      `rather than just a link. Use sparingly.]\n\n` +
+      `Today's ${cityName} local news roundup:\n\n`;
+    headlines.forEach(h => { reddit += `- ${h}\n`; });
+    reddit += `\n(Summaries + sources: ${cityLink})`;
+
+    byCity[cityName] = { twitter, linkedin, facebook, reddit };
+
+    fileText +=
+      `==================================================\n` +
+      `CITY: ${cityName}\n` +
+      `==================================================\n\n` +
+      `----- TWITTER / X -----\n${twitter}\n\n` +
+      `----- LINKEDIN -----\n${linkedin}\n\n` +
+      `----- FACEBOOK -----\n${facebook}\n\n` +
+      `----- REDDIT -----\n${reddit}\n\n\n`;
+  }
+
+  writeFileSync('platform-posts.txt', fileText);
+  console.log('Platform posts written to platform-posts.txt');
+
+  const url = `${FIREBASE_URL}/platform_posts/${dateKey}.json`;
+  const response = await fetch(url, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(byCity)
+  });
+  if (response.ok) {
+    console.log('Platform posts saved to Firebase (by city + platform).');
+  } else {
+    console.error('Platform posts save failed:', await response.text());
+  }
+}
 
 async function main() {
   console.log('Starting digest generation...');
@@ -561,6 +631,7 @@ async function main() {
   buildAllPages(today, digest);
   await saveSocialPosts(today, digest);
   await postToTelegram(digest);
+  await savePlatformPosts(today, digest);
   buildFeedbackTemplate(today, feedbackData);
   console.log('Done!');
 }
