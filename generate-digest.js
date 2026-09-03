@@ -203,8 +203,8 @@ async function summarizeAndCategorize(title, description, content) {
 
 async function fetchNews(city) {
   const url =
-    `https://newsapi.org/v2/everything?qInTitle=${encodeURIComponent(city.query)}` +
-    `&language=en&sortBy=publishedAt&pageSize=${POOL_SIZE}` +
+    `https://newsapi.org/v2/everything?q=${encodeURIComponent(city.query)}` +
+    `&language=en&sortBy=relevancy&pageSize=${POOL_SIZE}` +
     `&apiKey=${NEWSAPI_KEY}`;
 
   const response = await fetch(url);
@@ -216,6 +216,7 @@ async function fetchNews(city) {
   }
   return data.articles || [];
 }
+
 
 async function saveDigest(dateKey, digest) {
   const url = `${FIREBASE_URL}/digests/${dateKey}.json`;
