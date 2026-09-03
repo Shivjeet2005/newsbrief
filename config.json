@@ -2,7 +2,7 @@
   "siteUrl": "https://citiorbit.com/",
   "signupUrl": "https://forms.gle/A2mbo7uEzwad3gWD7",
   "telegramChannel": "@TheDailyLocal",
-  "poolSizePerSource": 20,
-  "storiesPerCity": 7,
+  "poolSizePerSource": 15,
+  "storiesPerCity": 5,
   "categories": ["Politics", "Business", "Tech", "Local", "Sports", "Health", "Culture", "Other"]
 }
