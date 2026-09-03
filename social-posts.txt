@@ -1,4 +1,4 @@
-SOCIAL POSTS — 2026-09-02
+SOCIAL POSTS — 2026-09-03
 (Copy any city's post below and paste to social media.)
 
 ==================================================
@@ -9,7 +9,7 @@ Oakville
 • [Local] 1 person dead after crash in Oakville: OPP
 • [Local] Oakville enacts one-year pause on data centres as other Ontario municipalities weigh restrictions
 
-📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/oakville.html
+📰 Full summaries: https://citiorbit.com/oakville.html
 
 #OakvilleNews
 
@@ -18,10 +18,13 @@ Greater Toronto Area
 ==================================================
 📍 Greater Toronto Area — Today's top stories
 
-• [Local] Ford government starts process of removing Toronto bike lanes
+• [Local] Ford's bike lane removal likely to make Toronto traffic worse, more dangerous: analysis
+• [Local] Guilty plea for Toronto cop charged in Project South delayed due to new information: lawyer
+• [Local] 4 men wanted for roofing fraud, mischief in Rosedale area: Toronto police
 • [Business] Bombardier to Acquire MHICA Assets in Mississauga, Ontario, Strengthening Bombardier’s Manufacturing Capabilities and Supply Chain
+• [Local] Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
 
-📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/greater-toronto-area.html
+📰 Full summaries: https://citiorbit.com/greater-toronto-area.html
 
 #GreaterTorontoAreaNews
 
@@ -30,13 +33,13 @@ Toronto
 ==================================================
 📍 Toronto — Today's top stories
 
-• [Local] Ford government starts process of removing Toronto bike lanes
-• [Local] City of Toronto Launches AI Pre-Check with Clariti to Speed Up Housing Approvals
-• [Local] Toronto police issue over 300 tickets and warnings in 2-week crackdown on e-bikes and scooters
-• [Local] Parts of Toronto could get over 50 mm of rain Monday: Environment Canada
+• [Local] Ford's bike lane removal likely to make Toronto traffic worse, more dangerous: analysis
+• [Local] Toronto cop charged in Project South has wanted to plead guilty since arrest: lawyer
 • [Local] Paroled Toronto sex offender faces new charges of drugging, sexually assaulting woman
+• [Local] 4 men wanted for roofing fraud, mischief in Rosedale area: Toronto police
+• [Local] Neskantaga First Nation's lack of health-care infrastructure forces evacuation of dozens to Toronto
 
-📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/toronto.html
+📰 Full summaries: https://citiorbit.com/toronto.html
 
 #TorontoNews
 
@@ -51,7 +54,7 @@ Brampton
 • [Local] Man in his 60s dead after 2-vehicle collision in Brampton: police
 • [Local] Over 1,000 Brampton homes and businesses without power after collision knocks down hydro poles
 
-📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/brampton.html
+📰 Full summaries: https://citiorbit.com/brampton.html
 
 #BramptonNews
 
@@ -63,7 +66,7 @@ York
 • [Health] York public health agency warns of possible measles exposure at Vaughan, Ont., hospital
 • [Local] York police set up command post for missing vulnerable person in Markham, Ont.
 
-📰 Full summaries: https://Shivjeet2005.github.io/newsbrief/york.html
+📰 Full summaries: https://citiorbit.com/york.html
 
 #YorkNews
 
