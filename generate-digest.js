@@ -381,8 +381,8 @@ function pageShell(title, dateKey, bodyContent, backLink, staleNote) {
 </header>
 ${backLink ? `<a class="backlink" href="${esc(SITE_URL)}">← All cities</a>` : ''}
 ${staleNote ? `<div class="stale">📅 ${esc(staleNote)}</div>` : ''}
-${SIGNUP_URL ? `<div class="signup">📬 Free daily local news in your inbox — <a href="${esc(SIGNUP_URL)}" target="_blank" rel="noopener">Subscribe</a></div>` : ''}
 ${bodyContent}
+${SIGNUP_URL ? `<div class="signup">📬 Free daily local news in your inbox — <a href="${esc(SIGNUP_URL)}" target="_blank" rel="noopener">Subscribe</a></div>` : ''}
 <footer>Summaries are AI-generated. Click any headline to read the full story at the source.</footer>
 </body>
 </html>`;
