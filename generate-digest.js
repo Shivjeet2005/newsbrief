@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 import { readFileSync, writeFileSync } from 'fs';
+import { XMLParser } from 'fast-xml-parser';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const NEWSAPI_KEY = process.env.NEWSAPI_KEY;
@@ -8,8 +9,8 @@ const FIREBASE_URL = process.env.FIREBASE_URL;
 const CITIES = JSON.parse(readFileSync('cities.json', 'utf-8'));
 const CONFIG = JSON.parse(readFileSync('config.json', 'utf-8'));
 
-const POOL_SIZE = 20;
-const STORIES_PER_CITY = 5;
+const POOL_SIZE = CONFIG.poolSizePerSource || 20;   // per source; edit in config.json
+const STORIES_PER_CITY = CONFIG.storiesPerCity || 7; // final count; edit in config.json
 
 const SITE_URL = CONFIG.siteUrl.endsWith('/') ? CONFIG.siteUrl : CONFIG.siteUrl + '/';
 const CATEGORIES = CONFIG.categories || ['Other'];
@@ -201,22 +202,71 @@ async function summarizeAndCategorize(title, description, content) {
   return { summary, category };
 }
 
-async function fetchNews(city) {
+// Fetch from NewsAPI (widened query: full-text + relevancy). Tagged feed: NewsAPI.
+async function fetchFromNewsAPI(city) {
   const url =
     `https://newsapi.org/v2/everything?q=${encodeURIComponent(city.query)}` +
     `&language=en&sortBy=relevancy&pageSize=${POOL_SIZE}` +
     `&apiKey=${NEWSAPI_KEY}`;
-
-  const response = await fetch(url);
-  const data = await response.json();
-
-  if (data.status !== 'ok') {
-    console.error(`News fetch failed for ${city.name}:`, data.message);
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    if (data.status !== 'ok') {
+      console.error(`  NewsAPI failed for ${city.name}:`, data.message);
+      return [];
+    }
+    return (data.articles || []).map(a => ({
+      title: a.title,
+      description: a.description,
+      content: a.content,
+      url: a.url,
+      source: { name: a.source?.name || 'Unknown' },
+      publishedAt: a.publishedAt,
+      feed: 'NewsAPI'
+    }));
+  } catch (err) {
+    console.error(`  NewsAPI error for ${city.name}:`, err.message);
     return [];
   }
-  return data.articles || [];
 }
 
+// Fetch from Google News RSS (last 24h, Canadian bias). Tagged feed: GoogleNews.
+async function fetchFromGoogleNews(city) {
+  // when:1d = last 24 hours; gl/hl/ceid bias to Canadian English sources.
+  const q = encodeURIComponent(`${city.query} when:1d`);
+  const url = `https://news.google.com/rss/search?q=${q}&hl=en-CA&gl=CA&ceid=CA:en`;
+  try {
+    const response = await fetch(url);
+    const xml = await response.text();
+    const parser = new XMLParser({ ignoreAttributes: false });
+    const parsed = parser.parse(xml);
+    const items = parsed?.rss?.channel?.item || [];
+    const list = Array.isArray(items) ? items : [items];
+    return list.slice(0, POOL_SIZE).map(it => ({
+      title: it.title || '',
+      // RSS description is HTML; strip tags for a plain snippet.
+      description: String(it.description || '').replace(/<[^>]*>/g, '').trim(),
+      content: '',
+      url: it.link || '',
+      source: { name: it.source?.['#text'] || it.source || 'Google News' },
+      publishedAt: it.pubDate || '',
+      feed: 'GoogleNews'
+    }));
+  } catch (err) {
+    console.error(`  Google News error for ${city.name}:`, err.message);
+    return [];
+  }
+}
+
+// Blend both sources into one pool.
+async function fetchNews(city) {
+  const [newsapi, google] = await Promise.all([
+    fetchFromNewsAPI(city),
+    fetchFromGoogleNews(city)
+  ]);
+  console.log(`  NewsAPI: ${newsapi.length}, Google News: ${google.length}`);
+  return [...google, ...newsapi];   // RSS first (fresher)
+}
 
 async function saveDigest(dateKey, digest) {
   const url = `${FIREBASE_URL}/digests/${dateKey}.json`;
@@ -458,6 +508,8 @@ function buildFeedbackTemplate(dateKey, feedbackData) {
              `  (${article.sourceCount} source(s))\n`;
       out += `Headline: ${article.title}\n`;
       out += `URL: ${article.url}\n`;
+      out += `Feed: ${article.feed || 'Unknown'}\n`;
+      
       if (selected && categories[i]) {
         out += `Category: ${categories[i]}\n`;
       }
@@ -640,15 +692,18 @@ async function main() {
       const { summary, category } = await summarizeAndCategorize(
         article.title, article.description, article.content
       );
-      summarized.push({
+            summarized.push({
         title: article.title,
         source: article.source?.name || 'Unknown',
         url: article.url,
         summary: summary,
         category: category,
         sourceCount: article.sourceCount || 1,
+        feed: article.feed || 'Unknown',
         publishedAt: article.publishedAt
       });
+
+      
       const storyIndex = stories.indexOf(article);
       if (storyIndex !== -1) {
         summariesByStoryIndex[storyIndex] = summary;
