@@ -6,12 +6,11 @@ Oakville
 ==================================================
 📍 Oakville — Today's top stories
 
-• [Tech] Computer science prof pours water on data centre concerns - Oakville News
+• [Tech] Oakville becomes first Ontario municipality to enact 1-year moratorium on data centres
 • [Local] 1 person dead after crash in Oakville: OPP
-• [Business] Oakville named among Canada’s best locations for corporate investment for eighth straight year - Oakville News
-• [Local] Conservation Halton warns this week's rainfall could cause water levels to rise - Oakville News
-• [Local] Metrolinx highlights GO Transit routes and PRESTO discounts for Sheridan College students - Oakville News
-• [Local] Cash register stolen in overnight restaurant break-in, police say - Oakville News
+• [Tech] Building AI Fluency and Career Readiness: Geotab Interns Complete High-Impact Placements
+• [Business] Algonquin Power (AQN) Bets Big on a US Move While Earnings Slip
+• [Business] Trump's Canada tariffs take aim at America's favorite cars
 
 📰 Full summaries: https://citiorbit.com/oakville.html
 
@@ -22,8 +21,11 @@ Greater Toronto Area
 ==================================================
 📍 Greater Toronto Area — Today's top stories
 
-• [Politics] Trump's latest Canada trade war threat: renaming Lake Ontario to Lake America
 • [Business] I launched a Buy Canadian marketplace in response to US trade tensions. Now traffic is surging.
+• [Tech] How a giant battery is transforming a town centre in Cannington, Ontario
+• [Politics] Trump's latest Canada trade war threat: renaming Lake Ontario to Lake America
+• [Politics] Carney’s Liberals sweep 3 special elections in Canada as voters back his stand against Trump
+• [Culture] I'm a New Yorker who went to Canada for the first time. I found 9 things so impressive that I can't wait to go back.
 
 📰 Full summaries: https://citiorbit.com/greater-toronto-area.html
 
@@ -34,13 +36,7 @@ Toronto
 ==================================================
 📍 Toronto — Today's top stories
 
-• [Local] In photos: How Toronto dealt with its wild storm - Toronto Star
-• [Business] Greater Toronto Area home sales down 2% in August, prices dip below $1 million: board - CityNews Toronto
-• [Local] Stay out of the water at three Toronto public beaches - Toronto Star
-• [Local] Family of toddler who died in fall from Toronto highrise sues building owners, management
-• [Culture] Mexican festival in Toronto that’s in its 32nd year is the largest celebration of its kind in Canada - Toronto.com
 • [Business] I launched a Buy Canadian marketplace in response to US trade tensions. Now traffic is surging.
-• [Politics] Trump's latest Canada trade war threat: renaming Lake Ontario to Lake America
 
 📰 Full summaries: https://citiorbit.com/toronto.html
 
@@ -56,8 +52,6 @@ London, Ontario
 • [Health] Was unvaccinated Canadian man Garnet Harper denied kidney transplant before his death? What we know
 • [Health] Father pushes daughter's wheelchair 200 km to Toronto to advocate for access to health care
 • [Sports] Four Canadian hockey stars remain suspended after sexual assault acquittal
-• [Politics] Nobody wants this trade war with Canada
-• [Politics] Ottawa couple's 'Lake Ontario' hats selling like hotcakes after Trump's executive order
 
 📰 Full summaries: https://citiorbit.com/london-ontario.html
 
@@ -68,13 +62,11 @@ Brampton
 ==================================================
 📍 Brampton — Today's top stories
 
-• [Local] Despite interest from other companies, Brampton mayor wants Stellantis to return - INsauga
 • [Local] 5 charged, including 2 youths, in fatal double shooting on Brampton school grounds
 • [Local] Brampton landlord to face jail time after fire that killed pregnant woman, child in 2023
+• [Local] Man dead after crash in Brampton: Peel police
 • [Local] Ontario to restore Brampton's Heart Lake Conservation Park at price tag of $1.2M
-• [Local] 2 arrested nearly year after Brampton shooting that left man injured, police say - CityNews Toronto
-• [Local] Arrest Made in Brampton Sexual Assaults - Peel Regional Police
-• [Local] Flood outlook statement in effect for Mississauga, Brampton, Caledon: CVC - INsauga
+• [Business] Canada autoworker union: Stellantis considering sale of Canada plant
 
 📰 Full summaries: https://citiorbit.com/brampton.html
 
@@ -86,27 +78,8 @@ York
 📍 York — Today's top stories
 
 • [Sports] Warrington crush York to boost top-three hopes
-• [Sports] Wakefield secure play-off place with win over York
-• [Culture] A Color Extravaganza, Emotional Palettes, and Moments Through a Dirty Windshield – The Weekly Community Roundup
-• [Culture] July 2026 Photo Contest Winners: Urban Geometry
-• [Sports] Vaughan criticises England's 'excuses' after Carse incident
-• [Politics] Trump's IndyCar race: Doing 200 in a 25 mph zone with manhole cover-displacing torque
-• [Local] Rare Tropical Storm Lala on course for Hawaii, with hurricane conditions possible
 
 📰 Full summaries: https://citiorbit.com/york.html
 
 #YorkNews
-
-==================================================
-Peel
-==================================================
-📍 Peel — Today's top stories
-
-• [Local] Flood outlook statement in effect for Mississauga, Brampton, Caledon: CVC - INsauga
-• [Local] Yellow warning issued again for parts of GTA as another thunderstorm arrives. Live updates here. - CTV News
-• [Health] Peel, York regions confirm first human cases of West Nile virus this year - CP24
-
-📰 Full summaries: https://citiorbit.com/peel.html
-
-#PeelNews
 
