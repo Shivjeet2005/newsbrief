@@ -1,129 +1,145 @@
-DAILY FEEDBACK TEMPLATE — 2026-11-05
+DAILY FEEDBACK TEMPLATE — 2026-11-06
 Fill in each field with: good / bad / (or a short note).
 Rate every story — both SELECTED picks and the ones not chosen.
-When done, save this as feedback/2026-11-05.txt and commit it.
+When done, save this as feedback/2026-11-06.txt and commit it.
 
 ##################################################
 CITY: Greater Toronto Area
 ##################################################
 
---- Greater Toronto Area | Story 1 --- [✓ SELECTED]  (5 source(s))
-Headline: Two Arrested, Third Suspect Sought in Connection with Mississauga Apartment Building Arsons - Peel Regional Police
-URL: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWVI1RlA3R2lsMVNvaWlQNUdCODloWnN3Y0szWFRHSm9weHpTUmlIWFFvZm5zV24xVlBxcUtuQ1NLVnR5NjA4UUtLbWVKYXlOTzRSTDZaN3RPQmFEb2N3eDdPSW8wNkVCSlNnMWVwdU1GbWhVUnBnbEtIdU1qTlp0OFRKSFFZR3ZfRGJXZnZGUzhoU2xRRmxUVXI2Qld0UkI4UzBwQVNjRDY0cThsdGJIUW9HUkN5M3dtUnF4OXlnMjZYS2xiaEw0dGR1VUh5MFVrN3FqdXBFR2JtVmJLNlE?oc=5
+--- Greater Toronto Area | Story 1 --- [not selected]  (2 source(s))
+Headline: Eastbound express lanes of Hwy. 401 blocked in Mississauga after collision - CTV News
+URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSFNEY1lqR1UycjhwVzFiRmZCek1NTEtjY2p1TzhBUmJ0QWRYbkM3cTBuQ0lzeVQzYmdIS1ZuM1lMRUFoaXBKNnd2bUlQVmR4aUJOeGN3TGpYcXJ6b2xVc005QzdsNkZtSGlTNEZXQzZVaHNQMnQybnhaLVo2V2xLY2hMZGxNenJZVVZ0U0pHLUF6MkNuTEhPSkZsRzh2cTVyQUxKMW9BLVFJTU9vanZuWnNzdzJHWUNRZzNybTJNZHBUdw?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Greater Toronto Area | Story 2 --- [✓ SELECTED]  (2 source(s))
+Headline: Pedestrian, dog seriously injured in Toronto hit-and-run; image released of suspect pickup truck - CityNews Toronto
+URL: https://news.google.com/rss/articles/CBMizwFBVV95cUxOdjFmZk9TbDNEek1kczY0RDZPdzdCMTlQeFB5RzE4NzVnbkFybEZhdnFqR2ZaRm1vZjR1c1FEXzZ5YnhkVElOM1EtYjN4R2dPNUh1QV9PWkNZN3FCNXhaUnNfVG9KcF83NUY5RkoteU9QWHdPRDh6YjVnaFdWT0UySllDc2R5cWZFQzViOVZOR2NnRXR1UWdHcW83dzFVMzVrOGVhZmhnR2Rwd2VZaFU4SHhwTkxUR1pWTHdIbnJMeGtCc1F1U2hFTU9YUHpzc2M?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: Peel Regional
+Summary: A pedestrian and their dog sustained serious injuries in a hit-and-run incident in Toronto. Authorities have released an image of the suspect pickup truck as the investigation continues.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 2 --- [not selected]  (1 source(s))
-Headline: Mississauga announces recipient of the 2026 Gordon S. Shipp Memorial Award for Citizen of the Year - City of Mississauga
-URL: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbkp0anYyamkyYUJCSDQxaTdUWXB1anBVcVZJVFNNSE9yZWl1V0RKMTJoWjQ2cS01TmlnTENydnJ4TDUyYUtMN085MXJyQlYtMURYdXVkcDVrSmpZcWx3TnZjYW8tVmpmOXF2RVhmaF93MkJNSTRJdzkzNl85STdsZ1ZzNmcwT0FSelNxVlFMQmNFaUd5UDgydS0zcVpGc3dJb09mR3MwWUpCd3RwajFsTDYyQW5fRVNtZFdlSlloN3lLQWk2anBsZndrX2J0X3dXdTY4bHl5d3MxXy1CTU1CWFR3UFhnVXVSR2hR?oc=5
-Feed: GoogleNews
+--- Greater Toronto Area | Story 3 --- [not selected]  (2 source(s))
+Headline: Waymo Puts Toronto on the Map for Its Robotaxis
+URL: https://www.cnet.com/home/electric-vehicles/waymo-puts-toronto-on-the-map-for-its-robotaxis/
+Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 3 --- [not selected]  (1 source(s))
-Headline: Toronto man charged with impaired driving after allegedly fleeing Etobicoke crash - CityNews Toronto
-URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPc2pLWWM3b1JyN2xMQmhjTVBqcGFLMVFReHp0OVJFRHpqelZQODhlWTZpSDhGM0NwU0h3Zko2MDFnTmRQaU16MnVLTkZCUm5TTVB2WDJWTlhzQ1pwbmNFN1hwRnAwWjN6T1hYSGlHWDBoekdkTXB1ZXpxbFJpT1EtbmtmOVBTQ18tT0tmS19PODNYelZCSG5tYg?oc=5
+--- Greater Toronto Area | Story 4 --- [✓ SELECTED]  (1 source(s))
+Headline: City of Toronto pauses hiring, citing 'financial pressures' ahead of budget season - CBC
+URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxOdkFaTm9JbmJMOWJtSXRqdWxTTVhCSU5Wb3NHa3RHNjllZ3RTR29BRW9YaDFOTVZOZTlSLTJialYzekVIYzUxZk0wRVZ2eFh6VjY0ZDIxQU9RcGpQU0o1M3RUZnUyNnlFSEk1TGxDSXZ4T1FtalF4NXY4WnFZME8tRw?oc=5
 Feed: GoogleNews
+Category: Local
+Summary: The City of Toronto has implemented an immediate hiring freeze in anticipation of upcoming budget deliberations. Officials cited mounting financial pressures as the primary reason for this precautionary fiscal measure.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Notes:                            
-
---- Greater Toronto Area | Story 4 --- [not selected]  (1 source(s))
-Headline: Canadian Club Toronto Hosts Talk on U.S. Midterm Results - Headline Politics - CPAC
-URL: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQV1VKaUhjLS03OTNqMzc4OV9uWUNRZWQ3cDRjd2pwendwaVY4VU8xWGJEenBhWEUzQkFELVA4dlZVU1NVUGd1akdCRkE5MHk4QXlBRzRRb3lZRDdDM2FqQzhRdG1XUzd2Z25PZ0I3VExnQ1FjSjFKajJZNW5EZVhoN0w2bUNEZWNiS28zMTZHN09GTTE0Y19nQXh1bmd0NlgxbzhVMGUtU2J0MmJadkxSV1lRdkJEdFlHS1VhUTdydDJvRm5QZzZkTjUtRGlUY3NzMDFIeDBzNA?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
   Notes:                            
 
 --- Greater Toronto Area | Story 5 --- [not selected]  (1 source(s))
-Headline: U.S.-made pipes are being installed next to Ontario's legislature as Canadian steel jobs vanish - CBC
-URL: https://news.google.com/rss/articles/CBMipgFBVV95cUxOc1dpbFFWS2U4Wjd3TGhHSmpKb1YxdS1WZlVkWnd2RU10R1NIYjIwNlc1ejhCMi1NNmJtREJKU3pJN3JQZEhycU9OSmpRTjIzNFRBSFp3NmlCeHBZZ2N2YzVjTjJJZ1ROTGpnMWFUbXZ1TVlob0x5ekFJNUgxcFR3TUNrS3ZsLTl0YmNiWkdUYVBTaXFnQTlla2llUTBRTmxwQTNiUjVR?oc=5
+Headline: Patron death leaves Toronto bar facing liquor licence suspension - Global News
+URL: https://news.google.com/rss/articles/CBMiowFBVV95cUxNbGdmdExWZWlRSEtzdTgyd2x3bmh1OGtfamh6aEM2LUMyQVRIWWlVeGJ3OGFBcXExSDdadjhoWFVhbm9QcWtyVlRlUk9jX0VuVmxUN3dhOTBuWC1pd21iZzU1YkRMcDZyVmI5Yk1qT0N6Tzk2R0NnbEpHakJKaVNibEIxZm1HZGZKeXdLY185dmNLQWVyZHBOZGw5cnNKR2JCT0dv?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Greater Toronto Area | Story 6 --- [not selected]  (1 source(s))
-Headline: Royal Agricultural Winter Fair returns to Toronto on Friday - TorontoToday.ca
-URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUjBMUVNJTHZLa2FlUnM1T2xwWEdIcWFZWGhIX0c1XzlSbTl6TmQxQWZYdldETGtyTXJ5Q0YzZTJ0ckJmRXhzSWxjNlVVeVYtNG81REVZVjVZZlppVTBsUFBPSG40aWwwZlhteWlRaFludmtIUGk5NWxWdlhreFNBQnhmOVNXOUN5b0NEbk90cjVka3VzTjVfRmpIb1IyQ0xBM1JhenNRQWY5Zw?oc=5
+Headline: Montréal Canadiens - Toronto Maple Leafs - Nov 7, 2026 - NHL.com
+URL: https://news.google.com/rss/articles/CBMicEFVX3lxTE9mZnRacnh1eWRaTHBXbHRQVHE3SXhOcUVjeXU2a3REbWFrSElOVU92MGE3NzlPVTNGUThDNm83Q2U1TnBlYnF5UHJHR0NCOXNDWnlsWFU1MF9xNjBNM0dDcTIzMTFLSnFqQkowNVR0a3A?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 7 --- [✓ SELECTED]  (1 source(s))
-Headline: Food World Plus opens in Mississauga as Ontario’s largest grocery store - NOW Toronto
-URL: https://news.google.com/rss/articles/CBMikAFBVV95cUxQZGVZX3gxcHp1Q19mdlF4cTA5VnZzOWtkNTIwNTBjN1YyZlduUVJwRGJGQTgtZ3pTcGFFdm5YbHRhRWdvUHc4QURUQlZ5Nk5LN29mYjhmdV9YZHdjdkt3WVJlVk5lOUxfTXRRNnJHY25ZSWh2ajVPQjNYMmpZN0lqTjBybXVWNkxNXzhzbmJCczk?oc=5
+--- Greater Toronto Area | Story 7 --- [not selected]  (1 source(s))
+Headline: A 3-kilometre beach on a Spanish island is among new Toronto flight routes this winter - Toronto.com
+URL: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUmdxT19xY2NjeVdOcWwwZkdSaVp4U0dBQmI0YXdnWWkweURYOXBTVmIyRm9YaTdRbDNMRWk1S0pwWk9nbjluSm1jRXg0dlc4bjB1TTgyNWhRMTJnN3dHZFlSOGRLZldBYmZfX0o5amRES3FLZkkxWlRHQk5Fa01wV0FMRG1wX29uYVRpUWFFdVY2dVJxM2hDQ3JFVFdlaGZCOTE1NlhFZEFYSWhiRWg5VzJDcmMwbW96dGZXeTJuZ1EzTmJBQzYzcjR4Y2RORGNJcGNFQVBmMlA?oc=5
 Feed: GoogleNews
-Category: Business
-Summary: Food World Plus has officially opened in Mississauga, establishing itself as the largest grocery store in Ontario. The massive new retail location aims to serve the local community with an extensive selection of food products.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Greater Toronto Area | Story 8 --- [✓ SELECTED]  (1 source(s))
+Headline: New Ontario law a ‘stealth privatization’ of Toronto Hydro, other local power utilities, critics warn - Toronto Star
+URL: https://news.google.com/rss/articles/CBMijAJBVV95cUxNNHdxYUxicWNQVU1wQWpLV0JITnI0djlaRGE4SHhOenF5UTZzMXdOOWtCTDREdWxzc28wRUE3UXFGT1gzeENxMEhLaUhwemhMOERlcFJVR2NFSjlNc1BzWDRiWVl5bUFIVGpjdm1UU1hDSWhPOHhmdE1hWENxNFprRnRrQjFYUUluY09OOUxiekp6RE9MaHBHekVfS1gzTnJKZkNIOG1lN242VHNveGluQnhjQWJUWWJVMjRPRFBGN3hFT3RMc0dfMFhMUmpTcWVpV3hfVEcyQXhlX1Bqd0JMRmdQMkoyRlR4ajYza2FtRDFUTUNOZEwzQWhjZV9hR1JTS1dMaDE0cC1meWFa?oc=5
+Feed: GoogleNews
+Category: Local
+Summary: Critics are warning that a new Ontario law amounts to a stealth privatization of Toronto Hydro and other local power utilities. Opponents argue the legislation could negatively impact public ownership and local control of the province's energy infrastructure.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 8 --- [not selected]  (1 source(s))
-Headline: Celebrating the Beatification of the Georgia Martyrs - Archdiocese of Toronto
-URL: https://news.google.com/rss/articles/CBMisAFBVV95cUxNMG1TQWNXM0VqM0V1YTVlcHQwelBWMjlaRXZ6QnhJOHNrTTBWUzgwenRINFZ1ak5UN002cFd2V3Zud1hubVdqeWZ3anI3VDAyZW1tcTB2ajh6SUJidmxzQ3Z6LVRUdUpybTBoWEZ5MjMyS2tCczdsNkV6dFZsY2lHZXA2VkVMS1lCSmJfUGxMRm9nWVFzQXQwOE9hbE5iUXQ3dnAtSXRBSW4tek85cjZuSg?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
 --- Greater Toronto Area | Story 9 --- [not selected]  (1 source(s))
-Headline: RAPTORS SIGN McCULLAR JR. TO TWO-WAY CONTRACT - NBA.com
-URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxPYzVwR044QXdPN1VOcndjS0pQUEFLLWJ3Z2EyTWwtNDJIdEc1a2pqbEZ0b2JZSVlDWm5pR1ZBanZuVmp5SmRfN1dLamx2UXVGaGJMQ0lXcTRQaXFXN21pc3NxZHFSREFwV0VFdEdQdmMwQzN4ZmRoZXhLUUhEWlZwOWd5SQ?oc=5
+Headline: Ex-Toronto Blue Jays pitcher just won a U.S. election - blogTO
+URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPYUR0ekVFem91S0tzeTZHeW1zdExPTWlhZDhGOVBlb0VXVkJod0lfVlBqYzlNZnBLaThZeVBQWVJGNkdCaUk5eTdlb2FGbWhZZ3RPcGl3NXRjSmY2Tlp3cmo2RjBoa0ZjUFFRZlJNbDVfWGZfeVlCdmhNQXZUQlNzUkxWdUFxMEFMMFNMS04xUFNsc1ZOWVRDZg?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Greater Toronto Area | Story 10 --- [✓ SELECTED]  (1 source(s))
-Headline: Be aware of fraudulent QR codes on parking machines in Mississauga - City of Mississauga
-URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGZSWkhjM1RVV0l5TGticTB3UGVoaFlwLTFNXzQ0TXFJQkNRLUhjRWRyaXFsREctVEs2c2t4YzFPLXJCZ09iZU1XSXBwYTdlSHY1NWtPWUdLdFhMYVdaYW5iTEFXYjZBZjdEekNzQWlVUjNhZXlTaUhYV1RTa1VoYkJ2cXpLSkhYbVo5MmhYMUpEcXBzSkFRRXdQWFd5VUdhS0NudC1TMDNLdTNEVGNETzdqTERYaVNnVVhISkdkZmtzdw?oc=5
+Headline: East Toronto residents should be prepared for weekend transit challenges as GO line and subway closures planned - Beach Metro Community News
+URL: https://news.google.com/rss/articles/CBMi3wFBVV95cUxOM0hVNjdpWFh5M09UcE9zNWRJaGF0RXpqVDd6VkctQkl0TENUa2ZoZko1SjZOajhjZ2FBVXExWURSaVQ3QjMzUG52OFQ4amNGSHV6UG1LQ1lhaGVjNVE0V0ZMalluaE9UQjlnUDFMd05HNFlOWkI5dWs2N1psVUJvaVpicUR4dzU4UEJBRGN4ckxGdFBpT2tHcGRSakRuTWdZOXRtYUw4a0Z0c2hHUGxZUHdGd0xlOUVodGpsN2dTMmY4ZkZqV2lHU25MM3hXQWNXRk1PWlpmX3cyNlRaZVVR?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: The City of Mississauga has issued a warning regarding fraudulent QR codes placed on local parking machines. Residents and visitors are advised to exercise caution and avoid scanning these unofficial codes to prevent potential scams.
+Summary: East Toronto residents must prepare for significant transit disruptions this weekend due to scheduled closures on both the local subway and regional GO lines. These temporary service suspensions will likely cause travel delays for commuters throughout the affected areas.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 11 --- [✓ SELECTED]  (1 source(s))
-Headline: Man in 70s suffers life-threatening injuries after being struck by vehicle in East York - CityNews Toronto
-URL: https://news.google.com/rss/articles/CBMikgFBVV95cUxQSG92bUNRQXJ5MjhtWTlxbng3dV9JUlpqdTJzQ1UwLVpTMXpKMkJ6UmJONkJZaVJ5VUVqeWtNdzJXTEhaRVBrVkFpMmNBeTkzREpNa3BxamtZeGdZdFBvYTlBR1lwekFYaE5HeXRISlp2Ri1BdUdTTkdJVXhjTmJBOElaS2t3S0otOUNtR01LUlE2QQ?oc=5
+--- Greater Toronto Area | Story 11 --- [not selected]  (1 source(s))
+Headline: Toronto FC vs. Philadelphia Union: What you need to know - TFC Republic
+URL: https://news.google.com/rss/articles/CBMid0FVX3lxTE51YXdFLVk0ZmMzOFZVNXNGSmw5aWVlYmNhQ0dtTTJfREo1N3ZmZUFXSHJibTgtdWk2eWhKcmtPWTBzRWxadVBYYkNybHE3V0JXUndtQjZYMTRWQWxiWElCdW5PaWZvOFhjbkE3WHVmVF84X2gydG9B?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Greater Toronto Area | Story 12 --- [not selected]  (1 source(s))
+Headline: What the Maple Leafs would have to give up for Simon Edvinsson - Editor In Leaf
+URL: https://news.google.com/rss/articles/CBMikAFBVV95cUxQVEo2TjgwVzZEdzVmTWswTXgxTFdHZFlEVjdWa3YxSTh5N1QtcEN3WWxhNEd6V3I4UUFaTnVKQjB1R2lKUmo4b1JYaWtiRmdraF84RzRKdmJnalJ1LXducFNZTHV3WXhhbEN1Q196Zzc0WmJ0amtsVVhDVkJYT0JHQk12NXpWcWs5WDYwUnM0UXo?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Greater Toronto Area | Story 13 --- [✓ SELECTED]  (1 source(s))
+Headline: U of T dean of dentistry steps down after investigation into antisemitic images in course material - CBC
+URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxPdFdDTzUxUGtENTlDdnRfbGxsU1RBZjdUd3FPS2tBRl95RjY0c0s1azhmQmljRU9OdjdOLW1fSWRSXzRTTnBzcm9LR1F3MnQ5VVpSVmVKbXhsN3pMUlhQZFhBV1Q4M0dLbDBHMGVNN1pmUHBTUDJZV0Z2NUpKeTJweWZNUWdEOEp2RnR1THFHR1lwRW10WUQ5NzkwWlhNNHRrZDhLX3lveGI4Y2hUOE1yd1cwMA?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: An elderly man in his 70s sustained life-threatening injuries after being struck by a vehicle in East York. Emergency services responded to the incident, and police are currently investigating the collision.
+Summary: The dean of the University of Toronto's faculty of dentistry has stepped down following an investigation into antisemitic images found within course materials. The university addressed the issue internally, leading to the leadership change as a result of the findings.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 12 --- [✓ SELECTED]  (2 source(s))
-Headline: Waymo Puts Toronto on the Map for Its Robotaxis
-URL: https://www.cnet.com/home/electric-vehicles/waymo-puts-toronto-on-the-map-for-its-robotaxis/
-Feed: NewsAPI
-Category: Tech
-Summary: Waymo is expanding its autonomous vehicle testing to Canada for the first time, bringing its robotaxi training to Toronto. While local testing begins immediately, residents will not be able to officially book rides until 2028.
+--- Greater Toronto Area | Story 14 --- [not selected]  (1 source(s))
+Headline: Toronto woman’s ex-boyfriend charged with assaulting her before she was killed - Global News
+URL: https://news.google.com/rss/articles/CBMid0FVX3lxTE9ueUN2M1hTY0tNYTZ0c09NNHVBSFVoanVVTy1MVU1uVi1PRHNnSEhOZlFUU3BRQXpIaDJfbWRKQWNEd1ZxN2J0aVFETzNHTzl1SlFJMS1aX0tYcXREOExnQlFsRDVKdVE2VmJQNFBWVnZiR21IRV9R?oc=5
+Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 13 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 15 --- [not selected]  (1 source(s))
 Headline: Canadian airlines are cutting flight routes amid weakening demand for U.S. travel
 URL: https://www.newsweek.com/canadian-airlines-are-cutting-us-flight-routes-12603358
 Feed: NewsAPI
@@ -131,7 +147,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 14 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 16 --- [not selected]  (1 source(s))
 Headline: One prompt let researchers take over every AWS AgentCore agent in a region
 URL: https://thenextweb.com/news/aws-agentcore-zenity-agentcorruption-one-prompt-agents
 Feed: NewsAPI
@@ -139,7 +155,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 15 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 17 --- [not selected]  (1 source(s))
 Headline: Toronto-Based VPN Provider Plans to Quit Canada over Lawful-Access Bill
 URL: https://citizenlab.ca/toronto-based-vpn-provider-plans-to-quit-canada-over-lawful-access-bill/
 Feed: NewsAPI
@@ -147,15 +163,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 16 --- [not selected]  (1 source(s))
-Headline: PwC and Cohere form an enterprise AI alliance, launching first in Canada
-URL: https://thenextweb.com/news/cohere-pwc-sovereign-ai-ownership
-Feed: NewsAPI
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Greater Toronto Area | Story 17 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 18 --- [not selected]  (1 source(s))
 Headline: Detecting an Eight Magnetic Pole State using Chiral Phonons
 URL: https://hackaday.com/2026/11/03/detecting-an-eight-magnetic-pole-state-using-chiral-phonons/
 Feed: NewsAPI
@@ -163,7 +171,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 18 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 19 --- [not selected]  (1 source(s))
 Headline: Remi Wolf Announces 2027 North America Tour
 URL: https://pitchfork.com/story/remi-wolf-announces-north-america-tour/
 Feed: NewsAPI
@@ -171,7 +179,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 19 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 20 --- [not selected]  (1 source(s))
 Headline: Architecture & Design Film Festival (ADFF): Toronto
 URL: https://www.archdaily.com/1186781/architecture-and-design-film-festival-adff-toronto
 Feed: NewsAPI
@@ -179,7 +187,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 20 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 21 --- [not selected]  (1 source(s))
 Headline: Upcoming Speaking Engagements
 URL: https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html
 Feed: NewsAPI
@@ -187,7 +195,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 21 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 22 --- [not selected]  (1 source(s))
 Headline: Cyber Extortion Expert Charged With Cyber Extortion Amid FBI Website Hack Manhunt
 URL: https://gizmodo.com/cyber-extortion-expert-charged-with-cyber-extortion-amid-fbi-website-hack-manhunt-2000824622
 Feed: NewsAPI
@@ -195,7 +203,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 22 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 23 --- [not selected]  (1 source(s))
 Headline: Author Correction: A chemical defence against phage infection
 URL: https://www.nature.com/articles/s41586-026-11302-z
 Feed: NewsAPI
@@ -203,7 +211,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 23 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 24 --- [not selected]  (1 source(s))
 Headline: What are self-replicating 'AI worms', and why is Anthropic worried about them?
 URL: https://tech.yahoo.com/cybersecurity/articles/self-replicating-ai-worms-why-133000706.html
 Feed: NewsAPI
@@ -211,7 +219,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 24 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 25 --- [not selected]  (1 source(s))
 Headline: Melania Trump secures ceasefire in Russian-held Ukrainian city, White House says
 URL: https://www.yahoo.com/news/articles/melania-trump-secures-oleshky-ceasefire-132259233.html
 Feed: NewsAPI
@@ -219,9 +227,17 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Greater Toronto Area | Story 25 --- [not selected]  (1 source(s))
+--- Greater Toronto Area | Story 26 --- [not selected]  (1 source(s))
 Headline: This Jenga tower is also a lamp, and it lights up as you stack it
 URL: https://www.yankodesign.com/2026/10/25/this-jenga-tower-is-also-a-lamp-and-it-lights-up-as-you-stack-it/
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Greater Toronto Area | Story 27 --- [not selected]  (1 source(s))
+Headline: This Ontario Cottage Puts a Covered Outdoor Room Between Its Two Halves
+URL: https://www.yankodesign.com/2026/10/30/this-ontario-cottage-puts-a-covered-outdoor-room-between-its-two-halves/
 Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
@@ -231,46 +247,222 @@ Feed: NewsAPI
 CITY: Oakville
 ##################################################
 
---- Oakville | Story 1 --- [✓ SELECTED]  (2 source(s))
-Headline: International hockey takes over Oakville arenas, as local standout scores twice in Canada White victory - BurlingtonToday.com
-URL: https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTmlXb0U1LWFMM1R0emRUSTFpUmdia1NOb3pwRUZ6TGVfWFZiRUZzaXluSENrY25PXzRjQklNdXl6bklHX1UxVVFRVTYtdGlHel9yQ1dMaVVDQTFYWHJKbVI0T3RFakh2cFNOdi1iMjRpVFQ2d1k5eHMwMUlZSGl0bzV0LVV2cmNrdkVEVXk1cmN6RW56SWs0bXk0alFUUktEalNSY0sydzRmYVRxeXZhbnh2V2dUTzFuUHhVTUlIY1p5Y1ZpaWNzMzRjeGRadmEyN3BUenFSWXN6Q0k3U0xsekx3TFJnVHNOZEE?oc=5
+--- Oakville | Story 1 --- [✓ SELECTED]  (4 source(s))
+Headline: Halton Police Seek Public’s Help to Identify Suspect in Oakville Bicycle Robbery - RED FM Canada
+URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSDNFUXRtck9HdGdOdFZGWnZKN2x0eUVjc0FMTWpmRG5YOEY0Nmp2TEl3VDAwdjVyUEYyNUZwZ3JlZGVmcGgzcGpzRVNxQ2pqdmJwUWUxX29TRHpvVk1KcUp6MFlRNENGS09INzdMWW5UUXdDemlHcERPcWlaelF0T19Weldub08wNmFTaFQzd2k5M0ZfNndVdEJtT3JLZnJHMTlTaVBTYnJORHVUWTQ1dTlYQnBXV3dLd2pBWWRzd0VYQQ?oc=5
 Feed: GoogleNews
-Category: Sports
-Summary: International hockey tournaments are currently taking place in Oakville arenas. A local standout player scored twice to help lead Canada White to victory.
+Category: Local
+Summary: Halton Regional Police are asking for the public's assistance in identifying a suspect involved in a recent bicycle robbery in Oakville. Authorities have released information and are
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Oakville | Story 2 --- [✓ SELECTED]  (2 source(s))
+--- Oakville | Story 2 --- [not selected]  (2 source(s))
+Headline: Oakville's Roulston scores in Canada Red's 6-1 U17 win over Sweden - Oakville News
+URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxPWXZCQU5fd3FnVnJZdThtdjB2aUN2c1JROEJWZTZlQ2M2U2E4Vms4RlduaWRobkpHeGo1RjB2VmQ5TldXZDB1SXV5cG9mUFltV2RuV05la3NPN3hMbGM2UW5wUnlheEFuQ2RWbmh6cjh1N0E3TzUxUXNzaEkxLVNNYkE5bFF0Z1ExeURSZl9yMUVLMzBWTGpqdzVEUnBqaEhLNXdNTjY4YUpBSDRfNENycWZEaHVZZw?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 3 --- [not selected]  (2 source(s))
 Headline: Crown says DNA evidence helped ID man now on trial for decades-old sex assaults against children
 URL: https://www.cbc.ca/news/canada/toronto/richard-neil-trial-sex-assaults-children-ontario-9.7369806
 Feed: NewsAPI
-Category: Local
-Summary: Prosecutors in Brampton, Ontario, stated that DNA evidence linked Richard Neil to three brutal cold-case child sexual assaults from the 1990s. The 67-year-old is now on trial facing charges including kidnapping and sexual assault causing bodily harm.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
-  Notes:                            
-
---- Oakville | Story 3 --- [✓ SELECTED]  (25 source(s))
-Headline: Events in Oakville this weekend: November 6-8, 2026 - Oakville News
-URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxQTzRnamtDWVRVNmFUU2JjMGlpaUtZRFJpQldZellJRFp5eHlJcVBkb1otSDVLZTJ4TllBdXZYc2JENHdWNmxGRDNjdmVQaTlRdGNnb2R0T3ZVWjQ3MnpqVzJWQk1HeFdXY3RLRWVURnNialRnb3Q3S1pEMnFuVE4xVHBUVEczVm92N09vcmVEMk5fQkxmVi0wTzlWRlpGTWc?oc=5
-Feed: GoogleNews
-Category: Local
-Summary: This article provides a schedule of upcoming community events happening in Oakville from November 6 to November 8, 2026. Residents can review the local listings to find activities and gatherings scheduled throughout the weekend.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
   Notes:                            
 
 --- Oakville | Story 4 --- [not selected]  (1 source(s))
-Headline: Robert Mondavi Winery revives concert tradition with Ziggy Marley show - The Mercury News
-URL: https://news.google.com/rss/articles/CBMic0FVX3lxTE1pd3pGYXgxZU9SdjFqUTBqX3V3V2pzYzhvalpPbHZPbGN0QVctY0hVOWs2UGZCZ29GemNJdThjSXR6RklxZndWM1F4ZklNWFFJeTF0OWR2Wk52LVJuWlBHTHE3czdWSmprSW1zSjkzUUQ4eEE?oc=5
+Headline: Spotlight: Oakville's Santa Claus Parade returns November 14, 2026 with a sprinkle of holiday magic - Oakville News
+URL: https://news.google.com/rss/articles/CBMizwFBVV95cUxPRERZcVZoOGdNUmI2djhkNkx1VWctdHlTTWNndDUwaTE5WG9JcTZaQlFVS0N3SVBGMFpXV0Njbl9vdnJEcUZNdE5aRWl4cE9uQ3pLam1UUTl6elFoSi00aGtVdnN3dWtVY2NaYTVNVmowMS1yYmlpVjlmOUt2Uk9NbmlOYTlORlgzY1NCcHNwMzF6TkFnSUJfQ3RFTmktMEh2OUV0S3JLYTFYLVREbGVIWnV5NlRzOUZKVlN5ZXQ2TGlzSEpWcDdrZXEtYVdiR2c?oc=5
 Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 5 --- [✓ SELECTED]  (1 source(s))
+Headline: Bronte reports Halloween crime surge: Oct. 28-Nov. 3 Oakville crime report - Oakville News
+URL: https://news.google.com/rss/articles/CBMivgFBVV95cUxQR0Nfb2N6MmlwN3F5RFVzNDQzTVNmcXdPcGp4cHhKMjNHMVV4eEd4bmVWeHRpOUNmTWMzU19GenVqdkRaTmcyTFo3QlBLNWxSamdFMVUxdnY3V1Yyb0x2SGs2YVRkT2ZaVE5mQzVnMThMQjVEYjBWa0lOZWptRU1fYVVwM3ZPTmFLdDVIX25BZWdVWGNUa1FBZE9BWS0wUENuTGhpNERWSFZWd1lDb0V3WXNlbkRTcXlMNEl3TzZR?oc=5
+Feed: GoogleNews
+Category: Local
+Summary: The Oakville News reports a surge in criminal activity in the Bronte neighborhood during Halloween week, spanning from October 28 to November 3. The weekly report details local law enforcement data regarding the incidents recorded in the area.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 6 --- [not selected]  (1 source(s))
+Headline: Oakville Development Site Changes Hands for $14.5 Million - Australian Property Markets News
+URL: https://news.google.com/rss/articles/CBMijwFBVV95cUxPcG9YXzZnMDM2V2tnWjBfWEhkN1BIQ2s3eURleGdMTGM3WDhsU3lXSTlJaE5HMkRYbTNRdnZGeTF1TEVHTUwyNEZpSDhtN1M3V2ZVYi1uelpFMGR1TUFFZU0zd1Q0a1JKcGw3Nm9MOXh2VjNmSVBaWlcxOW40ekVfRXVCdUMwb2tYaWhvS19CUQ?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 7 --- [✓ SELECTED]  (1 source(s))
+Headline: Local volunteer driver going the distance to help cancer patients - Oakville News
+URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxObnJLc1NVMl9DZXNGXzJ0YnY1NFJ1S3YwVkNXV2dLeXMtWXdkN2Q4bDhPVmZhOFhtNnEyNkk5UkF2bXRtdXdfVWM4elZiQ3NfSWpxaTVhcl9qWlUzWWdyNXk5bjNId3l6VUpzVm1CckpuZUFiVUN2V2xDYUlKQ3F2alc1ZWdER3pUcTViQTRCX3pCUEdkeGxvMUVjdHZneGRSV2NsWmNfQnRKTVdhQ1IwZ0t4dXY?oc=5
+Feed: GoogleNews
+Category: Local
+Summary: A dedicated volunteer in Oakville is providing essential transportation services to help cancer patients reach their medical appointments. This community-focused initiative highlights the ongoing efforts of local individuals supporting those facing serious health challenges.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 8 --- [not selected]  (1 source(s))
+Headline: Good morning, Oakville! Here's today's weather! - Oakville News
+URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWJ6UGRfejRqTUJqS1R0Rnp2QWt2ZEs1QjZqWHlpT0dwNEpGNzJVOUplbUxiOFFBS0tiZldRRlA1WFhOUmdUNTh0dXZOS295ZURiUENISU5aeUVSNlU1Wm1nNi1ScGx1djQyNFBudEJWdEpMbXdlbVlpTzU5M00yMHFmRVhXTllCRjhsVlZkM3ZUMm1XM2xiQg?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 9 --- [not selected]  (1 source(s))
+Headline: Oakville Players face big truths with A Few Good Men - Oakville News
+URL: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMGQ5X2lOQVhPam9ydHpiSWhtYTViOE5peFpVWTVoMjdxRmlsRnphNmpSdjg3WEk0Vkw4LThpRXVONDBBenJJSktva1Rkc0Z5eHZ3M3RBdXFfYzUzUExlT1BoeHVheGdkTFlmZFBPYk5pbms0VGdnc1k3alNnaGEyLVNTaGlQVnR0LThGOVdpdERKYkNpRWdwQVpCU0QwN0ZWTGNkcDNLTURTZDA?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 10 --- [not selected]  (1 source(s))
+Headline: Diwali fireworks rules: What residents need to know to celebrate in different cities across the GTA - CBC
+URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxNcUhSUk4wcUpXUVNURVVVZllDa2VicDY5N0dFT0RzVEx0YnNIenNHSHhNUWExeGZQbzVONnNndEFqY2pDczlZWm1rTlFtZWg2QzhQaUo1VHZTb0V4cXpsOG80QjdWOVJVSVA1S3NQdmVnRkFhLUdXYTFxMlFBQ1Rzeg?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 11 --- [not selected]  (1 source(s))
+Headline: LaSalle police lay stunt driving charge following traffic stop - CTV News
+URL: https://news.google.com/rss/articles/CBMipAFBVV95cUxQckJPc3RxRjRjdS15RWgxSEN5Sk9GOGlJQTIzT29vYk5jN2k1V0poWEpKbkxFQUwtMmY0UnhReW80M1U4NWYySmVTdFpucHBWUHd1MElHQkl3WTU1ZWh6UlVfTGdJX0JpekZVMWxyVFdpdmRBbzA0TXg3TmdNMS1ST0gyZ0xtMWtWVjFHU0JjYVdhTV9oQjNCalhUaUx5ek9zdHhwXw?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 12 --- [not selected]  (1 source(s))
+Headline: Cartoon of the Day: 2026 Budget - Oakville News
+URL: https://news.google.com/rss/articles/CBMimwFBVV95cUxPSUgzSjUwNEFKQl81WDhGUjFwb25NNnU3RGdUcEt6bG9EV1o4TTNVUDZHS2JPeXFKbW5oS29ROHk0T241U1ZOWll0d01VZzdYSnpEbGlvNjBDeVFUYzBRejk5aFpFampnZU9pNTJVbmVzSnM5R2d0enZ1ZkhDNF93d2tnenpuRTFnQjFEdkxoSHNTSk5fX1dVNlBJMA?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 13 --- [not selected]  (1 source(s))
+Headline: GTA VI is starting to take over the GTA
+URL: https://mobilesyrup.com/2026/11/03/gta-vi-toronto-takeover/
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 14 --- [not selected]  (1 source(s))
+Headline: Missouri High School Football Team Robbed Of Game-Winning Field Goal On Egregious Roughing The Kicker Penalty
+URL: https://brobible.com/sports/article/missouri-high-school-football-northwest-oakville-roughing-the-kicker-penalty/
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 15 --- [not selected]  (1 source(s))
+Headline: 210+ MPH, Supercharged 302 Chevy-Powered ’32 Ford Roadster Bonneville Land Speed Record Car
+URL: https://bringatrailer.com/listing/1932-ford-custom-roadster/
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 16 --- [not selected]  (1 source(s))
+Headline: Memorial services for crew members of lost Hamilton-based air ambulance to begin this week
+URL: https://www.cbc.ca/news/canada/hamilton/memorial-services-air-ambulance-crew-9.7380585
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 17 --- [✓ SELECTED]  (1 source(s))
+Headline: Halton police sergeant charged after chase of stolen Hummer ends in crash: SIU
+URL: https://www.cbc.ca/news/canada/toronto/siu-charges-halton-regional-police-sergeant-chase-hummer-9.7400158
+Feed: NewsAPI
+Category: Local
+Summary: Ontario's Special Investigations Unit has charged a Halton police sergeant following a police chase that ended in a crash between a stolen Hummer and a tractor-trailer in Mississauga last year. The incident is currently under review by provincial authorities.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 18 --- [not selected]  (1 source(s))
+Headline: Transgender Man Sues to Regain Job as 'Lolita' School Bus Driver
+URL: https://www.breitbart.com/law-and-order/2026/10/29/ontario-bus-driver-files-human-rights-complaint-lolita-line-firing/
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 19 --- [✓ SELECTED]  (1 source(s))
+Headline: Tactical officer fired 18 shots to kill gunman in Oakville standoff
+URL: https://www.stltoday.com/news/local/crime-courts/article_1d379c05-a0de-431f-a142-6e8972979b5a.html
+Feed: NewsAPI
+Category: Local
+Summary: St. Louis County police released body camera footage detailing a fatal September 15 standoff in Oakville. The critical-incident briefing revealed that a tactical officer fired 18 shots to neutralize an armed gunman.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 20 --- [not selected]  (1 source(s))
+Headline: Hospital trip can't slow Hartselle's Goldman at Gatorade XC Classic
+URL: https://www.decaturdaily.com/sports/high_school/hospital-trip-can-t-slow-hartselle-s-goldman-at-gatorade-xc-classic/article_3b3664d0-66b4-4b73-bcc6-8fd29b2b75d8.html
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 21 --- [not selected]  (1 source(s))
+Headline: Morton nearly hits triple-digits in hectic shootout win over North Beach
+URL: https://www.chronline.com/stories/morton-nearly-hits-triple-digits-in-hectic-shootout-win-over-north-beach,409799?
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 22 --- [not selected]  (1 source(s))
+Headline: 29-year-old man arrested after Thanksgiving theft at Second Harvest charity: Toronto police
+URL: https://www.cbc.ca/news/canada/toronto/man-arrested-second-harvest-theft-police-9.7382044
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 23 --- [not selected]  (1 source(s))
+Headline: Japan's Mao Shimada wins women's singles gold at Skate Canada International
+URL: https://www.cbc.ca/sports/olympics/winter/figure-skating/skate-canada-international-recap-nov1-9.7405128
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 24 --- [not selected]  (1 source(s))
+Headline: Jean Lumb Foundation Announces the 29th Anniversary of the Jean Lumb Awards with 19 Winners from Across Canada
+URL: https://financialpost.com/globe-newswire/jean-lumb-foundation-announces-the-29th-anniversary-of-the-jean-lumb-awards-with-19-winners-from-across-canada
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Oakville | Story 25 --- [not selected]  (1 source(s))
+Headline: Harvest ETFs Announces October 2026 Distributions
+URL: https://financialpost.com/pmn/business-wire-news-releases-pmn/harvest-etfs-announces-october-2026-distributions
+Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
@@ -279,51 +471,47 @@ Feed: GoogleNews
 CITY: Toronto
 ##################################################
 
---- Toronto | Story 1 --- [not selected]  (1 source(s))
-Headline: U.S.-made pipes are being installed next to Ontario's legislature as Canadian steel jobs vanish - CBC
-URL: https://news.google.com/rss/articles/CBMipgFBVV95cUxOc1dpbFFWS2U4Wjd3TGhHSmpKb1YxdS1WZlVkWnd2RU10R1NIYjIwNlc1ejhCMi1NNmJtREJKU3pJN3JQZEhycU9OSmpRTjIzNFRBSFp3NmlCeHBZZ2N2YzVjTjJJZ1ROTGpnMWFUbXZ1TVlob0x5ekFJNUgxcFR3TUNrS3ZsLTl0YmNiWkdUYVBTaXFnQTlla2llUTBRTmxwQTNiUjVR?oc=5
+--- Toronto | Story 1 --- [✓ SELECTED]  (2 source(s))
+Headline: 2-alarm house fire in North York damages neighbouring homes, forces evacuations - CityNews Toronto
+URL: https://news.google.com/rss/articles/CBMihgFBVV95cUxQOVo3M0pCVDhMWnhIem1qVGpUaXZfWnpnT1hnY09TRDJxS2hfQmx0cGhBRGNVUnNpaG5TVTJvUmE2TEtzb2dPYzNfY0VpVTlub2dLMGlxNERTSEVNLUtPMmRHX3gyLWxlR0FIaGh1OHo0MzFKRHMtb05SQkxGSkZpUEdmWlRjdw?oc=5
 Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Toronto | Story 2 --- [not selected]  (1 source(s))
-Headline: Canadian Club Toronto Hosts Talk on U.S. Midterm Results - Headline Politics - CPAC
-URL: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQV1VKaUhjLS03OTNqMzc4OV9uWUNRZWQ3cDRjd2pwendwaVY4VU8xWGJEenBhWEUzQkFELVA4dlZVU1NVUGd1akdCRkE5MHk4QXlBRzRRb3lZRDdDM2FqQzhRdG1XUzd2Z25PZ0I3VExnQ1FjSjFKajJZNW5EZVhoN0w2bUNEZWNiS28zMTZHN09GTTE0Y19nQXh1bmd0NlgxbzhVMGUtU2J0MmJadkxSV1lRdkJEdFlHS1VhUTdydDJvRm5QZzZkTjUtRGlUY3NzMDFIeDBzNA?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Toronto | Story 3 --- [not selected]  (1 source(s))
-Headline: Toronto man charged with impaired driving after allegedly fleeing Etobicoke crash - CityNews Toronto
-URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPc2pLWWM3b1JyN2xMQmhjTVBqcGFLMVFReHp0OVJFRHpqelZQODhlWTZpSDhGM0NwU0h3Zko2MDFnTmRQaU16MnVLTkZCUm5TTVB2WDJWTlhzQ1pwbmNFN1hwRnAwWjN6T1hYSGlHWDBoekdkTXB1ZXpxbFJpT1EtbmtmOVBTQ18tT0tmS19PODNYelZCSG5tYg?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Toronto | Story 4 --- [✓ SELECTED]  (1 source(s))
-Headline: Toronto and Vancouver saw first rent increase in nearly 3 years, report says - Global News
-URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE1Ya29kZnprUG9aWVdFbWE4YXI3NG5Xb0ZQUkQ2MjdneXZpSUZjZWg4a051QUR0a1JzcTBHN2NQaXRhcmRVaTFfbjRSczNjcFhqOUFqTXpuQ1g4YWd1OE5FTU9GanFLaDBGaTdrX0dQd0k3OERyU3poVUNFTkdOUQ?oc=5
-Feed: GoogleNews
-Category: Business
-Summary: A recent report indicates that Toronto and Vancouver experienced their first rent increases in nearly three years. This shift suggests a potential turnaround in the rental markets of Canada's two largest cities.
+Category: Local
+Summary: A two-alarm house fire broke out in North York, causing significant damage to the initial structure as well as neighboring homes. The emergency incident forced immediate local evacuations while firefighters worked to contain the blaze.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 5 --- [not selected]  (1 source(s))
-Headline: Royal Agricultural Winter Fair returns to Toronto on Friday - TorontoToday.ca
-URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUjBMUVNJTHZLa2FlUnM1T2xwWEdIcWFZWGhIX0c1XzlSbTl6TmQxQWZYdldETGtyTXJ5Q0YzZTJ0ckJmRXhzSWxjNlVVeVYtNG81REVZVjVZZlppVTBsUFBPSG40aWwwZlhteWlRaFludmtIUGk5NWxWdlhreFNBQnhmOVNXOUN5b0NEbk90cjVka3VzTjVfRmpIb1IyQ0xBM1JhenNRQWY5Zw?oc=5
+--- Toronto | Story 2 --- [not selected]  (2 source(s))
+Headline: Waymo Puts Toronto on the Map for Its Robotaxis
+URL: https://www.cnet.com/home/electric-vehicles/waymo-puts-toronto-on-the-map-for-its-robotaxis/
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Story 3 --- [✓ SELECTED]  (1 source(s))
+Headline: City of Toronto pauses hiring, citing 'financial pressures' ahead of budget season - CBC
+URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxOdkFaTm9JbmJMOWJtSXRqdWxTTVhCSU5Wb3NHa3RHNjllZ3RTR29BRW9YaDFOTVZOZTlSLTJialYzekVIYzUxZk0wRVZ2eFh6VjY0ZDIxQU9RcGpQU0o1M3RUZnUyNnlFSEk1TGxDSXZ4T1FtalF4NXY4WnFZME8tRw?oc=5
+Feed: GoogleNews
+Category: Local
+Summary: The City of Toronto has implemented a hiring freeze in anticipation of upcoming budget deliberations. Officials cited mounting financial pressures as the primary reason for this temporary restriction on new staff.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Story 4 --- [not selected]  (1 source(s))
+Headline: Patron death leaves Toronto bar facing liquor licence suspension - Global News
+URL: https://news.google.com/rss/articles/CBMiowFBVV95cUxNbGdmdExWZWlRSEtzdTgyd2x3bmh1OGtfamh6aEM2LUMyQVRIWWlVeGJ3OGFBcXExSDdadjhoWFVhbm9QcWtyVlRlUk9jX0VuVmxUN3dhOTBuWC1pd21iZzU1YkRMcDZyVmI5Yk1qT0N6Tzk2R0NnbEpHakJKaVNibEIxZm1HZGZKeXdLY185dmNLQWVyZHBOZGw5cnNKR2JCT0dv?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 6 --- [not selected]  (1 source(s))
+--- Toronto | Story 5 --- [not selected]  (1 source(s))
 Headline: Montréal Canadiens - Toronto Maple Leafs - Nov 7, 2026 - NHL.com
 URL: https://news.google.com/rss/articles/CBMicEFVX3lxTE9mZnRacnh1eWRaTHBXbHRQVHE3SXhOcUVjeXU2a3REbWFrSElOVU92MGE3NzlPVTNGUThDNm83Q2U1TnBlYnF5UHJHR0NCOXNDWnlsWFU1MF9xNjBNM0dDcTIzMTFLSnFqQkowNVR0a3A?oc=5
 Feed: GoogleNews
@@ -331,88 +519,92 @@ Feed: GoogleNews
   Headline  (good / bad / note):   
   Notes:                            
 
+--- Toronto | Story 6 --- [✓ SELECTED]  (1 source(s))
+Headline: New Ontario law a ‘stealth privatization’ of Toronto Hydro, other local power utilities, critics warn - Toronto Star
+URL: https://news.google.com/rss/articles/CBMijAJBVV95cUxNNHdxYUxicWNQVU1wQWpLV0JITnI0djlaRGE4SHhOenF5UTZzMXdOOWtCTDREdWxzc28wRUE3UXFGT1gzeENxMEhLaUhwemhMOERlcFJVR2NFSjlNc1BzWDRiWVl5bUFIVGpjdm1UU1hDSWhPOHhmdE1hWENxNFprRnRrQjFYUUluY09OOUxiekp6RE9MaHBHekVfS1gzTnJKZkNIOG1lN242VHNveGluQnhjQWJUWWJVMjRPRFBGN3hFT3RMc0dfMFhMUmpTcWVpV3hfVEcyQXhlX1Bqd0JMRmdQMkoyRlR4ajYza2FtRDFUTUNOZEwzQWhjZV9hR1JTS1dMaDE0cC1meWFa?oc=5
+Feed: GoogleNews
+Category: Politics
+Summary: Critics are warning that a new Ontario law amounts to a "stealth privatization" of Toronto Hydro and other local power utilities. The legislation has raised concerns among opponents regarding the future public ownership of these municipal energy providers.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
 --- Toronto | Story 7 --- [not selected]  (1 source(s))
-Headline: RAPTORS SIGN McCULLAR JR. TO TWO-WAY CONTRACT - NBA.com
-URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxPYzVwR044QXdPN1VOcndjS0pQUEFLLWJ3Z2EyTWwtNDJIdEc1a2pqbEZ0b2JZSVlDWm5pR1ZBanZuVmp5SmRfN1dLamx2UXVGaGJMQ0lXcTRQaXFXN21pc3NxZHFSREFwV0VFdEdQdmMwQzN4ZmRoZXhLUUhEWlZwOWd5SQ?oc=5
+Headline: Ex-Toronto Blue Jays pitcher just won a U.S. election - blogTO
+URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPYUR0ekVFem91S0tzeTZHeW1zdExPTWlhZDhGOVBlb0VXVkJod0lfVlBqYzlNZnBLaThZeVBQWVJGNkdCaUk5eTdlb2FGbWhZZ3RPcGl3NXRjSmY2Tlp3cmo2RjBoa0ZjUFFRZlJNbDVfWGZfeVlCdmhNQXZUQlNzUkxWdUFxMEFMMFNMS04xUFNsc1ZOWVRDZg?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Toronto | Story 8 --- [not selected]  (1 source(s))
-Headline: Celebrating the Beatification of the Georgia Martyrs - Archdiocese of Toronto
-URL: https://news.google.com/rss/articles/CBMisAFBVV95cUxNMG1TQWNXM0VqM0V1YTVlcHQwelBWMjlaRXZ6QnhJOHNrTTBWUzgwenRINFZ1ak5UN002cFd2V3Zud1hubVdqeWZ3anI3VDAyZW1tcTB2ajh6SUJidmxzQ3Z6LVRUdUpybTBoWEZ5MjMyS2tCczdsNkV6dFZsY2lHZXA2VkVMS1lCSmJfUGxMRm9nWVFzQXQwOE9hbE5iUXQ3dnAtSXRBSW4tek85cjZuSg?oc=5
+Headline: Driver flees after striking man and dog in Toronto hit-and-run - CP24
+URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxQUko5WGFOVFFCV0JUQmRWNmRGVzNpbGdBWUhSR2U3clQ5SXFLMUM4UFFSSHFKeTVObUc0NFBJWEFPVkRQaXZnaS01TVVyUDQyVlRDOW9fOERadGkyT2VrUjJuV0tMeDZPRlEybmpfMFFzTUJ6ZHhHSTRUcFVUYlA3QnIxQkVpempJS0VUZW11RTgxYjdWd3praWlIYjd6RDhLVVU0TzhsOUt5cVlJM0E?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Toronto | Story 9 --- [not selected]  (1 source(s))
-Headline: SPORTS SCOPE: Toronto Blue Jays need aggressive MLB offseason - SportsCage.com
-URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxNYWlDWmpXR2MzTlZIVDl3TXBURVd0Y0d1X2lRenpaTjNVLW1CaXBoUHFRU0VRaXFlbDg5eTliWHBLQl8tWlZxWHBWV2Y4Rl9MYjg4Y1I2VUhSQnFxMXhuSmF0X1dfaEdYdWFtb2Q0TUpmeGEwY1I2dkpISDAzdWhPSVNNaEZBS3VrR0owcG90WjNreHJYV3ViWFhPeENNNFNiZDh1MWdzcDhQa2pZaWc?oc=5
+Headline: Toronto FC vs. Philadelphia Union: What you need to know - TFC Republic
+URL: https://news.google.com/rss/articles/CBMid0FVX3lxTE51YXdFLVk0ZmMzOFZVNXNGSmw5aWVlYmNhQ0dtTTJfREo1N3ZmZUFXSHJibTgtdWk2eWhKcmtPWTBzRWxadVBYYkNybHE3V0JXUndtQjZYMTRWQWxiWElCdW5PaWZvOFhjbkE3WHVmVF84X2gydG9B?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 10 --- [✓ SELECTED]  (1 source(s))
-Headline: When will Canada Post stop delivering mail to Toronto doorsteps? - Toronto Life
-URL: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMmNCVndCYS1Gc09rbjlaQ2FSNWx1RFpEU1huWDdPdktvdndodFdpanBwbDlrN2xNZDh0ZjJoTXZvaUhFd29rc1JyTFlmYlZlRExvME9FeVNDZnhTMWV4YjlnQzZvdzdwN1Q0OE1CYTNEQkdJSWNrcEExd3A2VmxDQmlPTnpqX1JZbVJB?oc=5
+--- Toronto | Story 10 --- [not selected]  (1 source(s))
+Headline: Where No Vacancy chef Brian Kang eats Korean food in North York - Toronto Life
+URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxQN2NNLW5naVVGamhrOTloWGlxWXl0cVktbjg5bFhlVUQ1ZFl5T1prRkVLQkVDdTdWczBXQkpObDNQVnB6ZGx1MTRGR2VKMkFQTGt2NVF2dFpyemRta2toNWdMVS1yTkZ2Y0dJRTRSSERCTjNEVF8zN0FmNGRGWVJjYzJzWTIyem04Q1FyQmxLY0pIWTZzTW9wdQ?oc=5
 Feed: GoogleNews
-Category: Local
-Summary: Toronto Life investigates the timeline for Canada Post ending traditional doorstep mail delivery in Toronto. The article examines the transition to community mailboxes and the potential impacts on local residents.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
   Notes:                            
 
 --- Toronto | Story 11 --- [not selected]  (1 source(s))
-Headline: A Toronto home of both function and whimsy - The Globe and Mail
-URL: https://news.google.com/rss/articles/CBMimwFBVV95cUxPb0RCdGNIaGgxaFFiQlVPMUZNR1RlMEhsNS1xd0RyRlR4a0syencteUlBUTRuV3pLcEU3QTZPZHNPUFUzMGs4ak5wTW5yLXM0dXM4VkRsb1dFS2E1UFpZOExkZjhMNzQzSlUyaFdpRW1PcGhxQzB0TmZ3REMyZ1RSM040OVdmdVQyazk4X1BySFNUcTVvdHc3S0ZGbw?oc=5
+Headline: What the Maple Leafs would have to give up for Simon Edvinsson - Editor In Leaf
+URL: https://news.google.com/rss/articles/CBMikAFBVV95cUxQVEo2TjgwVzZEdzVmTWswTXgxTFdHZFlEVjdWa3YxSTh5N1QtcEN3WWxhNEd6V3I4UUFaTnVKQjB1R2lKUmo4b1JYaWtiRmdraF84RzRKdmJnalJ1LXducFNZTHV3WXhhbEN1Q196Zzc0WmJ0amtsVVhDVkJYT0JHQk12NXpWcWs5WDYwUnM0UXo?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Toronto | Story 12 --- [not selected]  (1 source(s))
-Headline: Calling reality TV fans: Hayu FanFest is coming to Toronto for the first time in 2027 - NOW Toronto
-URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxOMThJWFVwTkF0Wkx0RkV5MmZ4cE5PYlZZd3ZhUm1HdjlOTnh3MlVNMmc5LWplV2k4dHZuSkJsYzRaSFRZTm90MWN6LUNqbHV6c3JHUlRnWFU3RUhCYi1KSERNNW1oWDBCNElmNnB4aHh2SUJnZUltQmJnTWhfS0F0a2FJY2ZHSXRzcGZWTWZhSENscVBEaHc?oc=5
+Headline: U of T dean of dentistry steps down after investigation into antisemitic images in course material - CBC
+URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxPdFdDTzUxUGtENTlDdnRfbGxsU1RBZjdUd3FPS2tBRl95RjY0c0s1azhmQmljRU9OdjdOLW1fSWRSXzRTTnBzcm9LR1F3MnQ5VVpSVmVKbXhsN3pMUlhQZFhBV1Q4M0dLbDBHMGVNN1pmUHBTUDJZV0Z2NUpKeTJweWZNUWdEOEp2RnR1THFHR1lwRW10WUQ5NzkwWlhNNHRrZDhLX3lveGI4Y2hUOE1yd1cwMA?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Toronto | Story 13 --- [not selected]  (1 source(s))
-Headline: Toronto Blue Jays slugger shares Islamophobic social media posts - blogTO
-URL: https://news.google.com/rss/articles/CBMiowFBVV95cUxQNExiQ3BOMFlXUzk4dW9rMXd1MTJRZTlwemFtMnUtbmNQXzhlczQ3YUh3M0R2SkpPOHgwNE05NHhaWGdERkVNS1dqUk5rbzlESWNtdGxLbk1PeVpDX1dxWGQ0NXhPVHZoVGdFamVXRGlWem1jZy1VX2xfTXVXd05kVENkbEtuODE1bW8yLWV2V1lEc3FCdlhOQlUzc2MteDI0Y0tV?oc=5
+Headline: Toronto woman’s ex-boyfriend charged with assaulting her before she was killed - Global News
+URL: https://news.google.com/rss/articles/CBMid0FVX3lxTE9ueUN2M1hTY0tNYTZ0c09NNHVBSFVoanVVTy1MVU1uVi1PRHNnSEhOZlFUU3BRQXpIaDJfbWRKQWNEd1ZxN2J0aVFETzNHTzl1SlFJMS1aX0tYcXREOExnQlFsRDVKdVE2VmJQNFBWVnZiR21IRV9R?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 14 --- [✓ SELECTED]  (2 source(s))
-Headline: Man in 70s suffers life-threatening injuries after being struck by vehicle in East York - CityNews Toronto
-URL: https://news.google.com/rss/articles/CBMikgFBVV95cUxQSG92bUNRQXJ5MjhtWTlxbng3dV9JUlpqdTJzQ1UwLVpTMXpKMkJ6UmJONkJZaVJ5VUVqeWtNdzJXTEhaRVBrVkFpMmNBeTkzREpNa3BxamtZeGdZdFBvYTlBR1lwekFYaE5HeXRISlp2Ri1BdUdTTkdJVXhjTmJBOElaS2t3S0otOUNtR01LUlE2QQ?oc=5
+--- Toronto | Story 14 --- [✓ SELECTED]  (1 source(s))
+Headline: Majority of Toronto, GTA residents don't believe their municipality is prepared for climate-change emergencies: poll - CityNews Toronto
+URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxON0UtaEYwMWFlSjVxVkluRlgwaFNCQnZnMy10ZlM4bVZLX2llRjBJSW8yZWFiUS1acVBfMmUyb3FHMkF5RXhxNk1mRGhyLV9MZURnV0hCRjlEb1hHa2dkd21pTUU0eU5pVlRnQ1dJaHhIZGd1WnlkNURvaTJFcXFPVUtZWU1oQXRWbE9YNk5rdXBRcjJFOHY2UWpHZFNDY3c3?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: An elderly man in his 70s sustained life-threatening injuries after being struck by a vehicle in East York. Emergency services responded to the scene, and police are currently investigating the circumstances surrounding the collision.
+Summary: A recent poll reveals that the majority of residents in Toronto and the Greater Toronto Area lack confidence in their municipality's readiness for climate-change emergencies. The findings highlight significant public concern regarding local disaster preparedness and infrastructure resilience.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 15 --- [✓ SELECTED]  (2 source(s))
-Headline: Waymo Puts Toronto on the Map for Its Robotaxis
-URL: https://www.cnet.com/home/electric-vehicles/waymo-puts-toronto-on-the-map-for-its-robotaxis/
-Feed: NewsAPI
-Category: Tech
-Summary: Waymo is expanding its autonomous vehicle testing to Toronto, marking the company's first robotaxi operations outside of the United States. While initial training is set to begin imminently, the public will not be able to book rides until 2028.
+--- Toronto | Story 15 --- [not selected]  (1 source(s))
+Headline: Naming your attacker would be ‘unfair,’ Toronto judge tells sex assault victim before handing down ‘very low’ sentence - Toronto Star
+URL: https://news.google.com/rss/articles/CBMiogJBVV95cUxPeEtSWnFkLWJCU1RtOVJLZjJJYm5MSUhBbFZQb1d6eDM0OFhEZHdYYTFhZWdNR1A5MlhvUkpzN3ZnWGxiRFBaeEpEd0FyUjJyS2J6aXVHRVhFYWNlbHhualBnQm1sMjJ5SjYwOGVOOFRnLXdubzNuU2tZYVJXdlhiVnRQZ0xZVUpNR2J3X3YtUHoxVkNTMlc5NkdKNUNOS0s4Q3RudkdvSDNZMVZHZHJzSmw5NTVIeTBKQndyUXV6Z1p3R2pad1RCXzlfaExMN3d2b3RKYkJydTE5X1pOMjczVjRDdVB6aTktZkNpYWFRWi1paWxhNUIwNVFjbkxIZHpMQ2VPUzYtVUZUaFlPdFhlaVYxV241ZW5OTmhYN2FLdkQ2Zw?oc=5
+Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
   Notes:                            
 
 --- Toronto | Story 16 --- [not selected]  (1 source(s))
@@ -444,14 +636,6 @@ Summary: Toronto-based anti-censorship software company Psiphon plans to relocat
   Notes:                            
 
 --- Toronto | Story 19 --- [not selected]  (1 source(s))
-Headline: PwC and Cohere form an enterprise AI alliance, launching first in Canada
-URL: https://thenextweb.com/news/cohere-pwc-sovereign-ai-ownership
-Feed: NewsAPI
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Toronto | Story 20 --- [not selected]  (1 source(s))
 Headline: Detecting an Eight Magnetic Pole State using Chiral Phonons
 URL: https://hackaday.com/2026/11/03/detecting-an-eight-magnetic-pole-state-using-chiral-phonons/
 Feed: NewsAPI
@@ -459,7 +643,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 21 --- [not selected]  (1 source(s))
+--- Toronto | Story 20 --- [not selected]  (1 source(s))
 Headline: Remi Wolf Announces 2027 North America Tour
 URL: https://pitchfork.com/story/remi-wolf-announces-north-america-tour/
 Feed: NewsAPI
@@ -467,7 +651,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 22 --- [not selected]  (1 source(s))
+--- Toronto | Story 21 --- [not selected]  (1 source(s))
 Headline: Architecture & Design Film Festival (ADFF): Toronto
 URL: https://www.archdaily.com/1186781/architecture-and-design-film-festival-adff-toronto
 Feed: NewsAPI
@@ -475,7 +659,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 23 --- [not selected]  (1 source(s))
+--- Toronto | Story 22 --- [not selected]  (1 source(s))
 Headline: Upcoming Speaking Engagements
 URL: https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html
 Feed: NewsAPI
@@ -483,7 +667,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 24 --- [not selected]  (1 source(s))
+--- Toronto | Story 23 --- [not selected]  (1 source(s))
 Headline: Cyber Extortion Expert Charged With Cyber Extortion Amid FBI Website Hack Manhunt
 URL: https://gizmodo.com/cyber-extortion-expert-charged-with-cyber-extortion-amid-fbi-website-hack-manhunt-2000824622
 Feed: NewsAPI
@@ -491,7 +675,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 25 --- [not selected]  (1 source(s))
+--- Toronto | Story 24 --- [not selected]  (1 source(s))
 Headline: Author Correction: A chemical defence against phage infection
 URL: https://www.nature.com/articles/s41586-026-11302-z
 Feed: NewsAPI
@@ -499,7 +683,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 26 --- [not selected]  (1 source(s))
+--- Toronto | Story 25 --- [not selected]  (1 source(s))
 Headline: What are self-replicating 'AI worms', and why is Anthropic worried about them?
 URL: https://tech.yahoo.com/cybersecurity/articles/self-replicating-ai-worms-why-133000706.html
 Feed: NewsAPI
@@ -507,7 +691,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 27 --- [not selected]  (1 source(s))
+--- Toronto | Story 26 --- [not selected]  (1 source(s))
 Headline: Melania Trump secures ceasefire in Russian-held Ukrainian city, White House says
 URL: https://www.yahoo.com/news/articles/melania-trump-secures-oleshky-ceasefire-132259233.html
 Feed: NewsAPI
@@ -515,9 +699,17 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Toronto | Story 28 --- [not selected]  (1 source(s))
+--- Toronto | Story 27 --- [not selected]  (1 source(s))
 Headline: This Jenga tower is also a lamp, and it lights up as you stack it
 URL: https://www.yankodesign.com/2026/10/25/this-jenga-tower-is-also-a-lamp-and-it-lights-up-as-you-stack-it/
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Toronto | Story 28 --- [not selected]  (1 source(s))
+Headline: This Ontario Cottage Puts a Covered Outdoor Room Between Its Two Halves
+URL: https://www.yankodesign.com/2026/10/30/this-ontario-cottage-puts-a-covered-outdoor-room-between-its-two-halves/
 Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
@@ -527,151 +719,187 @@ Feed: NewsAPI
 CITY: London, Ontario
 ##################################################
 
---- London, Ontario | Story 1 --- [✓ SELECTED]  (1 source(s))
-Headline: Police dismantle $4.8M London grow operation, charge 23 people - CTV News
-URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxNYVc3V3VfZUNpUzJYSDJZTm1WWWU3YkVnc0lDSm0wY1JydnpObDkySDV0YTd0WkYxaFJ2V3ZRWFBFbHA0VzVLWmZRODZ3N2hBOHEtbGdYTHBCbjYwcWhNX2dxMERMU0IwVU16S2ZNdzB5THNZQU5kNERqcW9Celh3cXpNcWwzNDk1RnFHMDFJUTZhT0NEUDFTemY5QVRqLUU?oc=5
+--- London, Ontario | Story 1 --- [not selected]  (2 source(s))
+Headline: Video. UK: Thousands gather as London switches on its Christmas lights - Euronews.com
+URL: https://news.google.com/rss/articles/CBMipwFBVV95cUxOaWxrbFl3TlhRYV9rMEdJd1FXRHRlbmhPTkxSWF9kVmVjb2RzNHVial9aWF9nZ18ybmVSWnBKemR0eXd5QWlrMzFJSHdLdnR3dDhkaGs2cURsR3dRNndsQ042RDByLVdpMFhHSGRaMlFZUGFFbkpUSHpXRDZWMldNQWNLNjFRWlRUbVdGeW9OU21VcS03bTZDMnU4cUdvYmpUVDQtWUx4VQ?oc=5
 Feed: GoogleNews
-Category: Local
-Summary: London police have successfully dismantled an illegal cannabis grow operation valued at $4.8 million. Authorities have arrested and charged 23 individuals in connection with the sophisticated illicit enterprise.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
   Notes:                            
 
---- London, Ontario | Story 2 --- [✓ SELECTED]  (1 source(s))
-Headline: Porter Airlines to launch year-round route between Vancouver and London, Ontario - Daily Hive
-URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxPalE4NkQxV01Zc3VzTTAtSXgyUmxaTGJadGpScHBnd21DTEhyUlkzbzZpUTlFV3J2aG9SRkRRQkE2YlJQUW50dFhDUS1vTzEtdzFmVzJ4MzlKTVBuSDJNRnRrODB3amNmdUtDWGVTcGlpYnhQdXhBQTZFRUFIYlpiaVJRQ3BHTEdBRTk0OUFyN0JrUXQ0Zmc?oc=5
+--- London, Ontario | Story 2 --- [not selected]  (2 source(s))
+Headline: London Tube strikes: What you need to know as RMT drivers plan walk out - BBC
+URL: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NSXVzWU9HYmM1eUkwUnhWQjhPcEpMMG05cnQ1Q3RZZHJIaHR1Nm53eXo2dU9EdHl2VzBPbnF5TUp0VFc4R0cxTnVMZDBqdjUxcDlfYkFVSHRGdw?oc=5
 Feed: GoogleNews
-Category: Business
-Summary: Porter Airlines is launching a new year-round service connecting Vancouver and London, Ontario. This expansion aims to increase travel options between the two Canadian cities.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 3 --- [not selected]  (1 source(s))
-Headline: VASP Digital: Digital Marketing Agency in London, Ontario for Local Businesses - EIN News
-URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxQX2dUX0xja3dkNFFHcWtuWVF5X1dRQ240U0tibjlXa0htX3pBNU5OWjZPMFZmQndPRWN0U0k5RVZHUVZxcHRFTThrS0EyRFZCbHlQZDlBeGcxM3ZkcTJaZTlSWlY3dnAzT0tkZU1ta1lycGw0RVdtWUVlSWRSeWVHUi1vMnV4NzNEb18wdkR4SWVWeEtNalVTdmNMSDB6a2JoTENUUTJ2VzRDVlVyTFdkZ2RPSDExZHhzU1E?oc=5
-Feed: GoogleNews
+Headline: Star Moles Signs to Dead Oceans, Readies 2027 Tour
+URL: https://pitchfork.com/story/star-moles-signs-to-dead-oceans-readies-2027-tour/
+Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 4 --- [not selected]  (1 source(s))
-Headline: MACDOUGALL: Roderick of London, formerly of Paisley and Toronto - Haskett Funeral Homes
-URL: https://news.google.com/rss/articles/CBMikgFBVV95cUxOTHlLWV9zTXdNZ0wzU1M1cEYyaV9acHdjOWx0MXRrc3h2STJJZFRRbWlhUGFsY1p6Qi1mYnNUVFN4WWlHT3VwMmRGMWJCWlZGcmE5dkxTbTRnY1FGTm5jaFI0WUF3Mm9SQ2gzZVhVMWJDSnJLQkVMT1VFeEdrd0xEQ2JHam5mYnBDVVRReXFJNjA0QQ?oc=5
-Feed: GoogleNews
+Headline: Angine de Poitrine Set 2027 International Tour
+URL: https://pitchfork.com/story/angine-de-poitrine-set-2027-international-tour/
+Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- London, Ontario | Story 5 --- [✓ SELECTED]  (1 source(s))
-Headline: War stories debut on two London stages as Remembrance Day nears - London Free Press
-URL: https://news.google.com/rss/articles/CBMikwFBVV95cUxQOVB1bXRfMG1QNTVRZmo5VTZwT0M3SDBOOHNNNWtndDFTRDdaZ0FtVEN0aFZCR252dW4tb3BwTjZYbTRmTVJ3MVZPMDk0M2V6WFY0elBkazk3d01hQWZWQkd1clpkT1dKNF9qbVFFYWVLUUM5UFA0c0U5Nl9qRFV4TVlNSDcweFJxaUYyVVBBMGR3eEk?oc=5
-Feed: GoogleNews
-Category: Culture
-Summary: Two London stages are debuting war-themed theatrical productions just in time for Remembrance Day. These performances aim to honor veterans and engage the local community through powerful storytelling.
+--- London, Ontario | Story 5 --- [not selected]  (1 source(s))
+Headline: Sophia Stel Is Going on the “Greatest Tour of All Time”
+URL: https://pitchfork.com/story/sophia-stel-is-going-on-the-greatest-tour-of-all-time/
+Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 6 --- [not selected]  (1 source(s))
-Headline: Selfridges Is Opening a Grand Theft Auto VI Experience in London on November 9 - GTA BOOM
-URL: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZ21hU2dCdHNKUDlIbXZpVHRrOU1XX2htTWJZd0NLTjVCLTA1dEV2dXpxWk1wWXRnMU1mX0E1aVpJOFRla1ZwcDA0eEVvUUJqakNVZkU2b1N2MEViV2JoX01Yc0Q5M2NhdTIwd1pwLWJQaVZ6YzRWZzVwOHFVUF9LcmxjZER2d3J6Wk5YaE1pTmN2T2twV2RNS1BlcXgwcXdneGxrS2U2QkhMWDA?oc=5
-Feed: GoogleNews
+Headline: Shygirl Lines Up 2027 Full-Band Tour
+URL: https://pitchfork.com/story/shygirl-lines-up-2027-full-band-tour/
+Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 7 --- [not selected]  (1 source(s))
-Headline: Free VIA Rail trips for young patients to cover six children’s hospitals - Railway Supply
-URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxPbHRDUEdJaG1fRDJNRElhWEFXc1hpNnlaLTVKalUzcVVpX1NqOTI0SVVkNlFsc3ZWZ0llY2R1QVUzTG5PNzg0YktoYUJDNXNXb19HU1UyZTV3ekdiQ3RwV0dKRFVNdFVsX3hsWDBJTnFGZ3NiVkEtWlNRSXAycFd6ajR0aW5QVWRBdlgwdHNMalp4OUVoZk5YaEc4dVN0SURD?oc=5
-Feed: GoogleNews
+Headline: Diiv Announce Massive 2027 World Tour
+URL: https://pitchfork.com/story/diiv-announce-2027-world-tour/
+Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 8 --- [not selected]  (1 source(s))
-Headline: Griffin Dunne on Practical Magic Resurgence, American Werewolf in London - Variety
-URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQemF0czFxLWtsQmZJZW1vdHhDa1RZbHU3V2RIRVFMMUVqLTJzNTF0MFA1dFhqV0FRWktMbjRSNmZfSVlHNmg3SjZWNkVONnk2U1BwaXBnWmRTTDdGajNKUUpRT21xZ2dGUjM2STJmWFdXWFJXd0p0V09YTGxYVVhLRVZPM2YyUm9pSmxjRnZvemdWVVBqSWdBbC01Nl9xcVdpVkQ0X2tsbjZCZnlaSHpuZjYtSGw?oc=5
-Feed: GoogleNews
+Headline: 2Hollis Announces 2027 Tour
+URL: https://pitchfork.com/story/2hollis-announces-2027-tour/
+Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 9 --- [not selected]  (1 source(s))
-Headline: Ahead of the Curve: Costain Advises on West London Orbital’s Constructability - EME Outlook Magazine
-URL: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbEcxTlhPTXpUV3B3NWdXeHRvSjR5aFdWR2FNQ2d3SVYwcnJjbGJxN1VibEZobnh4UmEwdFc0R0FGTnM5aER6Mk81N3IwS3RjWUF6WjZyZFVDcmxCTko3dHJKcFYxdmwtdmVyNi1rb1k3Q0Joc2haZGgxcnpvNE5YYm1aLUZhRnhQN3pBdXNEbnpwZmdGckxLWkgtbE9ObW1EYVBISUt5Z0s0LTZJX1RyVWlvSTFudE91TmtMQm5GSWc?oc=5
-Feed: GoogleNews
+Headline: Chvrches Announce First Album in Six Years and 2027 Tour
+URL: https://pitchfork.com/story/chvrches-announce-first-album-in-six-years-and-2027-tour/
+Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- London, Ontario | Story 10 --- [✓ SELECTED]  (1 source(s))
-Headline: Boxing legend Roy Jones Jr. coming to London, Ont. in partnership with Boomerz Boxing Club - CTV News
-URL: https://news.google.com/rss/articles/CBMixAFBVV95cUxNUzBfUVlCNDJLQlBhbjB1ZzNDLVUxYnZWQndRckdncGFTdTJsc01OR3BuaDYycG9JU2xMUnF6Y0pjOGZLenJBUFpESEhleW5FM0dRRnA4WlZoS3JsU3hDXzV2cFlKb1E2dWJIMklRMWNyN0tQLVhPSzNDLXZka1BlLVRQQ3pOSC1IWnRhQlM0bXk5WUdYZ0sxbXlRa3dEdXQyb1k1Z0M0RDVlR0huUjJjaTMxUk0tOGd3NEdPUTVRTFhPMjBK?oc=5
+--- London, Ontario | Story 10 --- [not selected]  (1 source(s))
+Headline: Haywire Set Jam-Packed 2027 Tour
+URL: https://pitchfork.com/story/haywire-set-jam-packed-2027-tour/
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- London, Ontario | Story 11 --- [✓ SELECTED]  (1 source(s))
+Headline: Peterborough Petes acquire Canucks prospect Aleksei Medvedev from London Knights - Canadian Hockey League
+URL: https://news.google.com/rss/articles/CBMiekFVX3lxTE9vQ1pxVm5WUWVneDlWLWg1d2ZOTHN4clFPM2t1LXlOVXRKdTYzeG5YQThWYU5OemNrT2VjVllrWWE3ZE9ybFZWSGx0NVg3QjRaZl9OR1o4OG4wTUtRdm1ON2QyNlBXU2JFRXdscGhscl9JLUlVcC1PSVV3?oc=5
 Feed: GoogleNews
 Category: Sports
-Summary: Boxing legend Roy Jones Jr. is scheduled to visit London, Ontario. The visit is arranged in partnership with the local Boomerz Boxing Club.
+Summary: The Peterborough Petes have acquired Vancouver Canucks prospect Aleksei Medvedev from the London Knights. The trade strengthens the Canadian Hockey League team's roster for the upcoming season.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- London, Ontario | Story 11 --- [not selected]  (1 source(s))
-Headline: Drake London Says Falcons Are Getting Back to Basics on Offense This Week - roundtable.io
-URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVjE2TFFLVk9IOWNrTVBuYnZfQTN4Mkx0Rk1CQVEtdzdRM3I1NWl0amFqVE92NlYtLUhLZ0NDRFNpTzBtOVMzM2RXTDg0RHQ4S3lodVluX0hVNHJ5WGxCTVJQa3Z5RGsySTJmU2xOejZaamtLajJqczIxenU5UklTT0hDMVBCb1VNdGEzNW9ja3JBckp1bm1ESEtVbDhXOElFOGdFUjBUREVCQ09VQmstbWpNWlRGeWUxYy1R?oc=5
+--- London, Ontario | Story 12 --- [✓ SELECTED]  (1 source(s))
+Headline: Air Transat grounds Ottawa-London, England flights in 2027 - CTV News
+URL: https://news.google.com/rss/articles/CBMinAFBVV95cUxPbUlSbjFlSXY4Z1dabzk0Z1ZjQXQwcG5tcGdZVFIwakQwQWV3bGIwby1wbThtTE5yLXhqZXF5aHVjdWJRVlpkaGpaQzZlYW1PMkdVVXhhUU82N09fNkxjVzBVQVc5Y3c1Y091RjgzdGxieVNRcGIySTVFX0dXamVWYXdKMGJNWmtldTdZaFI4cFpjNEJ4RzNaM1h5TmI?oc=5
 Feed: GoogleNews
+Category: Business
+Summary: Air Transat has announced it will permanently ground its direct flights between Ottawa and London, England, starting in 2027. The decision impacts international travel options for passengers in the Canadian capital region.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Notes:                            
-
---- London, Ontario | Story 12 --- [not selected]  (1 source(s))
-Headline: 'We can’t legislate idiots': Will Labour's e-bikes crackdown make any difference? - London Evening Standard
-URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSlRuRTczUVF6RXhjU0ZpcHZNNnF5Q3RyVjRfLXFjSjM2XzhtV1A5dWlxeXlRVEpMNXJpQ2kxYThTaEZ4a1pOaFZxNXVJd01melVkZzRuRDVhMWUyeFNkNGkyN1ZOVWd3MVNiS25ocXRQRHRKTHdWeUs2OTBoQ00xN3lLMjZoRUdsWGw3YXFqM040dlJ4TlBLSmU5cFVQS0JTMG81R2d3Um0wdw?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 13 --- [not selected]  (1 source(s))
-Headline: Phoebe Waller‑Bridge offers rent‑free London flat – on one condition - The Independent
-URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzNTcUpldVh0cnJuUEZYRlhqMWRWZzFPME5UNmhaOGJlS0FJMTFOaFZtc0lWZlZkNXhfelotN3ZEbzhOeEpFOXkzYUxUZU5WSUZTVjNmSDB4WVEtQ0pYVVBubG1DLTlNV01NVzhLdTVPZ05BQkprbXdaSmh2c3E4Vm1VTkFDVGZmU1ZuNTJaTGxUMnBWWGxGRHZwTV9mZm16cmJpa2J3NGpRQ2VTMG11NEZkR2dWdm5xTEdSMw?oc=5
+Headline: Rock The Runway London tickets on sale now - TicketNews
+URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNdWoyUWcxWVJ4RkVnb1Z2VnpjRzhzYXdhRGhtSmZOM0R5djhtQjNaUzFXRTd5MGktZlBtQzgzMm9xeU1DdGlIQnFEVG9RVEE4UTNFc0NoU2p1STkxM1h3UFlZeGtndnVkdVFKaVRMam9jUHYxdXhoNkhJd0dFR2oydUhvaGE?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 14 --- [not selected]  (1 source(s))
-Headline: How Much Premium Economy Costs On London-New York Flights In 2026 - Simple Flying
-URL: https://news.google.com/rss/articles/CBMijgFBVV95cUxQcUQ3enJnWnhOelNLSThrNHozWEFoMHZlUmh1UEFiTGVOVnRkRmh0amJwbUdkcTQwbkxSLUstVWk3ZktRWi1oTW0zNUZLMk15a0NWTG9MeU1yS0JwVFluUEEyWEtBZ2gtNGpkM3VUOVVfYmZBdUgtTmJFdmpneTg4eHV0WWtfVHdKbjZBME5B?oc=5
+Headline: Architect Asif Khan lifts the lid on a new home for the London Museum - Wallpaper*
+URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE9rSFdkWERNRmN0RlBJY1pMUGNFZUVOWGpJXzR1SVBfZFBNV0U1NGF6WlBFMDk5TDlQVFVPZjgzRzdIdFNRVkQxb3RwUlhQT2x6QkVGVC1UYTRaN0xwVVh5U0t4OHprWVVmbFRYYUJCTGVrcFI4Rk5WbGRDWFRUUQ?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 15 --- [not selected]  (1 source(s))
-Headline: London ISP Community Fibre offers 6 months free on all FTTP broadband plans - ISPreview UK
-URL: https://news.google.com/rss/articles/CBMixAFBVV95cUxQWXBxVUtmUG9kUkw1bWs3RXREVTdfM0MzU2tLMnI2ZURmaDkxczZ3OVNEMWRfV3F6SGFkUmozMmhfT3VLMDFmQmljblV2Y1NKQUNEYVNWNXR6b3daRWFqR2MzbGFXSlNNUGlPSzJnR3AwYVRfb2t0SnkzQmlFa2NsWERERnBqMnpDd0NGWUQ3OVFqQ0RZTjY1eExJNTMwNjl2R1E5TmlwZ2hUdmNkcmc3d0g3aFVTX2JSZ3c3djlYQ3VoZG53?oc=5
+Headline: London’s only known surviving wartime ambulance to star on ITV this Remembrance Sunday - London Ambulance Service NHS Trust
+URL: https://news.google.com/rss/articles/CBMizAFBVV95cUxNWFg4bTAwdU9EbzVESUtJRElIOVpxU1hja3lmQTZJNF83YzdlVTEweHFiMUNWQmRRTTlCekFaR3psNTRaRWFySFdwX2pJV3U5bDVGaERlakN4eFpfdjktYUQza2Q1UmZERFM5bDViQlJGN0FkMmZTU3gyQVR2SGdPaHNfbzVLNmNsSVNRdGhpOFNOQXlNNm5Ea2FlbnFIYVp1UkZCVUVmbE5sV0M2c0JaUFMxdHEzYXJVLTk1Y2l4THVjZlRtS0FIU0paajk?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- London, Ontario | Story 16 --- [not selected]  (9 source(s))
-Headline: Flo Announce Therapy at the Club North America and Europe Tour
-URL: https://pitchfork.com/story/flo-announces-therapy-at-the-club-north-america-and-europe-tour/
-Feed: NewsAPI
+--- London, Ontario | Story 16 --- [not selected]  (1 source(s))
+Headline: The exact date that Oxford Street’s 2026 Christmas lights will switch on – with a magical Harry Potter theme - Time Out Worldwide
+URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOWIzcG5TNGFQbUFtNWhkMnlxRjRwWndVeE9YOW41ZkZJcEdyT09EM3pDeDhEdDdPWFJOVnFiY3piSk1GQ1M3MUpsbF9ocTN0eExaN3UwYXA4Uk9SdVdnQlNMYVN0VUQ4cXNMOXotSlhzUE9kejBZaVFxNVJyb0Vrc01DTWxHYlhyXzdKRGtmN0pMWWg0MVg2TDRqVV9ZWHNLT3lOSzlDc0VVZw?oc=5
+Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- London, Ontario | Story 17 --- [not selected]  (1 source(s))
+Headline: Harvey Nichols London flagship 'at risk' as rent talks go on - FashionNetwork - The World's Fashion Business News
+URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdGExa0tMTEhnV0dYSE1KejFIQXdqNlo5SjJPWk1YLU82Q1pJRlRNOFZmbWp3TkVaQkdmX3VnR3Z5OWdQZGhtSFZSdXktRVZCMHZ1alJWYlRkTG1jNEQ3TTNEY2hxUzBtaHl4TUV6THc2Z1cycFlrcmI2NTdqWW53X1Z1TUNrT3pkVGFnTWZiM250SnhxWHk4Sm1OVWJqdGZab3l4OVBpdGZFQQ?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- London, Ontario | Story 18 --- [✓ SELECTED]  (1 source(s))
+Headline: ‘Downtown is the heart of London!’: Businesses sign off on BIA plan to keep the core safe, clean and promoted - CTV News
+URL: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSGV3SEQ3ckhOU0JZWjBjbWJzMkNUUUtSbndnRkRFUG1VZ2VkSTd3NTRCSHdSdTFmS0lPUElsdF9EYjV2YV8zUmJUaFlKTGJkU0xSZllyLVhTbEl2WXZuQkRoc3NWU25hX3RTcXdKb3pKQ2Q2UnQxV0U1Y09QOTNGQXBEYkpFSEJMWmFWQlFzWXJfMTRYZ085WWlpSUFYMzJMcDhjWWJDY2o0bXdGUkFRQjdoNk10dTctN1RRWk1RNWF1ZFd2YU9nQU5DNFNaalFKRURPSzE4emJ1SW8?oc=5
+Feed: GoogleNews
+Category: Local
+Summary: London businesses have approved a new Business Improvement Area plan focused on keeping the downtown core safe, clean, and actively promoted. Stakeholders expressed strong support for the initiative to revitalize and protect the heart of the city.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- London, Ontario | Story 19 --- [not selected]  (1 source(s))
+Headline: WTM London 2026 closes with advice on careers, marketing and AI - TravelMole
+URL: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtR3Vaby1rNGlUd1ZoZk55OTIyVm9EdnhJMTZ3ZmZpREltQUVUa2NWLWQzY3BQZFd4UkE3ZWtVTHpQQzZaSFUzREUySmNaNkJ5aDRUN3VNdHg5WjM3V1RJTg?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- London, Ontario | Story 20 --- [not selected]  (1 source(s))
+Headline: New night tube posters on the London Underground - ianVisits
+URL: https://news.google.com/rss/articles/CBMilwFBVV95cUxNVjgwRHZpbmV3b1BKd0hKUmNtMXFXaVR4WDlsWjBFWG1mRFhSckhaRTRnaXJCX1MzTktVb1pmVTRMR2plLTlzLWJUcW9yMjk3X3FrVDZNdDNZZmlpQzZ4X0pWc0hFVlpVOXdadUF2MU4xa2pPVnZld004YWdJb1dkSkpIMDM2YUU3RzNBSUdrNXBhbkRjNUhF?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- London, Ontario | Story 21 --- [not selected]  (1 source(s))
+Headline: London’s first major Christmas lights display will be switched on this weekend - Time Out Worldwide
+URL: https://news.google.com/rss/articles/CBMiogFBVV95cUxQdE41SkJKWFZrbEhSd2VHMkFEX19qZENtaWVSMnpEczVoZDM3Z05XcW1ZRnN3MzNXUzhNN0JlS2wyR0JwTGN2ZWZ3TnM2aU1aMEhkUjBiRjB4Zm5qaG96VWh5aTllYVZZOUlJU2dIdmxKSV85SGtSVVpwTjFmMU51MHI4ZmJZbWVxMzlWUnlSZzZwZnNoT0tFR3dqUEU4V05Lc1E?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- London, Ontario | Story 22 --- [not selected]  (1 source(s))
 Headline: World leaders who sparred with Trump express relief mixed with caution at midterms
 URL: https://www.yahoo.com/news/world/articles/world-leaders-sparred-trump-express-150340519.html
 Feed: NewsAPI
@@ -679,27 +907,39 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- London, Ontario | Story 18 --- [not selected]  (1 source(s))
+--- London, Ontario | Story 23 --- [✓ SELECTED]  (1 source(s))
 Headline: Ontario private school scrutinized over class video surveillance, making kids watch themselves ‘misbehaving’
 URL: https://www.cbc.ca/news/canada/london/infinity-school-acton-academy-cameras-classrooms-9.7390109
 Feed: NewsAPI
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- London, Ontario | Story 19 --- [✓ SELECTED]  (1 source(s))
-Headline: Big wins, shocking losses, and goodbye to a 46-year mayor: what to know about Ontario's 400+ elections
-URL: https://www.cbc.ca/news/canada/ontario-election-roundup-toronto-ottawa-hamilton-kw-london-9.7397644
-Feed: NewsAPI
-Category: Politics
-Summary: Ontario held over 400 municipal elections on Monday, resulting in a widespread anti-incumbent wave that affected several long-serving mayors. The diverse election outcomes featured notable shifts in local leadership and a strong night for female candidates across the province.
+Category: Local
+Summary: An Ontario private school is facing scrutiny and an investigation by the province's privacy commissioner over its use of constant classroom video surveillance. Parents and a former student raised concerns after children were allegedly made to watch and critique footage of themselves misbehaving with their peers.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- London, Ontario | Story 20 --- [not selected]  (1 source(s))
+--- London, Ontario | Story 24 --- [✓ SELECTED]  (1 source(s))
+Headline: Big wins, shocking losses, and goodbye to a 46-year mayor: what to know about Ontario's 400+ elections
+URL: https://www.cbc.ca/news/canada/ontario-election-roundup-toronto-ottawa-hamilton-kw-london-9.7397644
+Feed: NewsAPI
+Category: Local
+Summary: Ontario held over 400 municipal elections on Monday, resulting in a widespread anti-incumbent wave that affected numerous long-serving politicians. The notable outcomes included historic losses for several veteran mayors alongside significant gains for female candidates across the province.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- London, Ontario | Story 25 --- [not selected]  (1 source(s))
+Headline: Beach weather in November? In Canada? These photos prove it
+URL: https://www.cbc.ca/news/canada/warm-weather-photos-9.7409603
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- London, Ontario | Story 26 --- [not selected]  (1 source(s))
 Headline: Mournful elephant mom wins 2026 Wildlife Photographer of the Year
 URL: https://www.cbc.ca/news/science/wpy-2026-9.7380334
 Feed: NewsAPI
@@ -707,7 +947,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- London, Ontario | Story 21 --- [not selected]  (1 source(s))
+--- London, Ontario | Story 27 --- [not selected]  (1 source(s))
 Headline: How the $90M Lotto Max jackpot stacks up against other big Canadian lottery prizes
 URL: https://www.cbc.ca/news/canada/lotto-max-prize-9.7381723
 Feed: NewsAPI
@@ -715,7 +955,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- London, Ontario | Story 22 --- [not selected]  (1 source(s))
+--- London, Ontario | Story 28 --- [not selected]  (1 source(s))
 Headline: The First 19 Seasons Of Canada's Hit Western Series Are Streaming On Netflix
 URL: https://www.tvline.com/2285212/heartland-19-seasons-hit-western-series-canada-streaming-netflix/
 Feed: NewsAPI
@@ -727,131 +967,99 @@ Feed: NewsAPI
 CITY: Brampton
 ##################################################
 
---- Brampton | Story 1 --- [✓ SELECTED]  (2 source(s))
-Headline: Missing 16-year-old Female from Brampton - Peel Regional Police
-URL: https://news.google.com/rss/articles/CBMimwFBVV95cUxQN0FOZ0tpWE8wSEg4TE5uQVlfOU8zd0tuVTdXVTR6YzlLYkZyUFNiVHVyekd3NHBMN0dmR1MydjdVUkVvYTg0dVpmSW9xc05SSHJQQlZmSUt5ZW1PWng3SmpNRTl3SmFobE9fNUw2Z0JCbVRXTlRxdFFma2UzdGtEbnEyM01oa09DR1JWaDhmZ0ZEcTFVVy1PRklBbw?oc=5
+--- Brampton | Story 1 --- [not selected]  (3 source(s))
+Headline: Conservative Leader Pierre Poilievre Holds a News Conference in Brampton, Ont. - Headline Politics - CPAC
+URL: https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaFpTRDhlbmtXZ3V3WnE0SVFmVWV2VHV2N1o5SUhyOFpuekgzQzQwQ3BxdHZQNzJLYTZReS1vUmV2R0JsNlpoeUhUa200cDZWMzh2bkZTWHhzVDRHMjJUcldGSVFFZnNMUE9TeFNNdzBadTljZzk0T3hLMUJGRzdLQlFtUXdHc2ozTW5VRnJNLTUydk5WMHFxQnkxNmlwNnNnbVJnUWkxb1F1cHlmRFpkMDRQb1RpcDNGUEFUSFFuakZwYndvREk2Vl9TdGJMQXBUOFBqWTZhT29Lb3VNYmdWSUJNUmpqMWNxU3puMG5DNlhqN0Ja?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Story 2 --- [✓ SELECTED]  (1 source(s))
+Headline: Peel cops look to identify 2 suspects after lit fireworks tossed into Brampton home - Brampton Guardian
+URL: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNekotT3ctTUg5YzZhMmxxODRrLUJqemFwRDBINzB4QUJPb0hySTFVZUpSamladFZtLTA4dW9aRVpCZHhLb0lPRVhqdjcwanNVRk82b3NBaU1WWEZYMVc1Q0VvaDY0akJ6eGhQMzFlWERLSXVSZjRIUzZtOEwtYXh3dXlTNUh6b01RY0ZBYjdjUjRfMjBReWNQMWE4bFVnTjdQQ2hwNXFSRldaVDFuYzljbERQN2R4b2ozLVVUdU5ZcXZoNWRKM0l5dTgtUlBnekhQS0Q0clZHM0JaSTlManc?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: Peel Regional Police are searching for a missing 16-year-old female from Brampton. Authorities have released an appeal to the public for assistance in locating her.
+Summary: Peel Regional Police are attempting to identify two suspects involved in an incident where lit fireworks were thrown into a Brampton residence. Authorities are asking the public for assistance to help further their ongoing investigation into the reckless act.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 2 --- [not selected]  (5 source(s))
-Headline: Union upset with Brampton MP’s visit to Chinese auto plant - insauga.com
-URL: https://news.google.com/rss/articles/CBMiigFBVV95cUxPLVZXcGhCZ0NfUThtVk9MX3BqRG82X1dOYkJxMEUtS21iZkJ0TzBCdnJsazdJbDE0YzdyRm5uekJsNDhKN0RLb1FaNngtY0ZZN08yLXZFWGJTUF80TWNYVnlNNllLRUVSeVpqTkZHaU5tVG1LemRfMXd5SkNEaEJYSG5pUDRtT0hqMmc?oc=5
+--- Brampton | Story 3 --- [✓ SELECTED]  (1 source(s))
+Headline: Major underground infrastructure upgrades planned for downtown Brampton - insauga.com
+URL: https://news.google.com/rss/articles/CBMinAFBVV95cUxQem8zSWRvWkRnM00zVkhQdi1VNXlJTmJ3eTdsczRGeV9jMDJ3WHlpSFpGWEd3TnRncWlGelhibW1qekluNTZzX2NHcnhiMkItTzM1ckladjlDTmo2TGRQa3JsZDJoQXRMbDYyc2xDemZtdnUxZ1J5MFFJUFBsREFZVDVaOEVCY2V6Q1ExQXM1WExWYTZYMHM5MGgwQXE?oc=5
 Feed: GoogleNews
+Category: Local
+Summary: Downtown Brampton is planning major underground infrastructure upgrades to improve its aging municipal systems. The upcoming construction project aims to modernize essential services in the urban core.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 3 --- [not selected]  (2 source(s))
-Headline: Key organizer of Pearson gold heist to testify at trial of former Air Canada employee
-URL: https://www.cbc.ca/news/canada/livestory/pearson-gold-heist-9.7378520
-Feed: NewsAPI
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 4 --- [not selected]  (2 source(s))
-Headline: Big wins, shocking losses, and goodbye to a 46-year mayor: what to know about Ontario's 400+ elections
-URL: https://www.cbc.ca/news/canada/ontario-election-roundup-toronto-ottawa-hamilton-kw-london-9.7397644
-Feed: NewsAPI
+--- Brampton | Story 4 --- [not selected]  (4 source(s))
+Headline: Tyler Cooper Goal (2) | 2026 Brampton Steelheads vs Niagara IceDogs | Nov 5 - FloHockey
+URL: https://news.google.com/rss/articles/CBMijgFBVV95cUxPbE9wX0h1M3FfRnRoOC1iZ0dHTEtzWUNDbjFCMG5RUm1mRkZCY3pRbV9QRi1TNVZXa1B2SXRzTW1QWUdsVDM3WEF2aGRUMWNkVjFKYUNpcVZPb1hFaGw4TnB4ZFB0VTNhcmtHOFQ2LW9mS0UzS2NEZ0ZWdW81MUVLTGlhTDZWQUhjOTFhZ1VR?oc=5
+Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Brampton | Story 5 --- [not selected]  (1 source(s))
-Headline: Events this weekend in Brampton from Nov. 6 to Nov. 8 - Brampton Guardian
-URL: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTXZzWlA2U2VHX09BYmJlYzVZaDdFazRQaTl1WGtaNVZwSElFeDNNdkl3a3I0YzV0SmdmM3FDblpVZVRqLU0wSWtJOWoycTBtbXJ4OGNoQWxuaEk4V1FDc3pPWk5WeGkwZFZEUHVHUGI0bnpsa01GRGZBcjdfSHpkYUZKM2RGbVhHVmdMUDM2M0dPdkY0LUpKT2xsYU14TmVDOXhiWFh0MXQxZHQ1R21KZ3dHV3lSN2lZSWEyT0wyd1ZKSmJFUnB0MmdRa3c1R252TEJfNGZKejNwb1VLWGhSYg?oc=5
+Headline: Claireville fall programmes for families in Brampton - Bramptonist
+URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPN1hjdDZIYkd6ckxVYjhrOHczVFhGOEtWdkVtSC1fQlNfekotWEpUTTRzOFJfU0xVT0hFRng2Nkd3QVVCYm9RSTRyXzFwb0FtaU5SelJNWFA2dENXa3Q0Wnk4ZFU4LURYdjZDQTVFWER3N25TQzNQZHlHU2tVNllZSXZENEczNGZV?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 6 --- [not selected]  (1 source(s))
-Headline: Ballinafad man taken to hospital following two-vehicle crash - Halton Hills News
-URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxOS0dLVjZlazF4WnMzR19ERzM3djgzdUhiZnAySWk0M2F5YnlSN2lFVnBuOHptNjV4YTFacm5HQWZPSzRMcU9UZ054TEJhOU5vSlNRZDFCNEJHWlVqakZ6YkFPODd2ZldVY1h1TWdqSnBCVk9wNHlyei1rQWdEaHRjVVdtNkJYRFlDUTc2TFYyaElkcldSOHUyM3hqM0k5Y1psUkp6WmpDXzlFZnNzYWM0RE9jTQ?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 7 --- [✓ SELECTED]  (1 source(s))
-Headline: Construction underway to protect Brampton trail from creek erosion - insauga.com
-URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWxjZDlabWJieGdMVldvVGc1ckR0RmF5UHJrZ0JrNTVvQjhNaE9lOVJZZVJDU201ZEJNcV9hN0x0RXItNkVrUzhlamtUVE9YNTZTSWVad2Vzc3NNeEc3RFhWYzg1TGFIZEJqRjBPY2JDWndzZUxSc3AyOV9IZ1A3Qms5UFNGVG9idE1ZdWhoTGpvNU5IYVE?oc=5
+--- Brampton | Story 6 --- [✓ SELECTED]  (1 source(s))
+Headline: Residents push back on Brampton plaza proposal anchored by GTA-based grocery chain - Brampton Guardian
+URL: https://news.google.com/rss/articles/CBMisAFBVV95cUxNR1Q5a2xoamJyMU53cG1fNHZnVWV6ejNoTy1nc3VCYXJiYVVFcFRNZ0pIVUF5ek1MUUJKaER3MVF0RmhjX1gzQ3VuSzBld2lWWnhZdUNhSjA4cUxRc0RWYmp6MGRRdzBhQm1MZnVoT0l5LWttRmxGam1NeS1naUlCbWZPeVpfTmNiUEVJWEppeXphT2dxSG93bkhjQ0tWSEhBMmZORVE0dEM0b0NVeEllaw?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: Construction has begun in Brampton to protect a local recreational trail from ongoing creek erosion. The project aims to stabilize the shoreline and ensure the pathway remains safe and accessible for the community.
+Summary: Brampton residents are expressing opposition to a new commercial plaza proposal in their neighborhood. The proposed development is set to be anchored by a prominent grocery chain based in the Greater Toronto Area.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
+--- Brampton | Story 7 --- [not selected]  (1 source(s))
+Headline: Diwali fireworks rules: What residents need to know to celebrate in different cities across the GTA - CBC
+URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxNcUhSUk4wcUpXUVNURVVVZllDa2VicDY5N0dFT0RzVEx0YnNIenNHSHhNUWExeGZQbzVONnNndEFqY2pDczlZWm1rTlFtZWg2QzhQaUo1VHZTb0V4cXpsOG80QjdWOVJVSVA1S3NQdmVnRkFhLUdXYTFxMlFBQ1Rzeg?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
 --- Brampton | Story 8 --- [not selected]  (1 source(s))
-Headline: OPP charge driver travelling 105 km/h in a 60 zone on Hwy. 17 - CTV News
-URL: https://news.google.com/rss/articles/CBMirAFBVV95cUxNbjdKWUp6Qm5JVmQ1bUJUV3dLc3E5V0J2UHNzblV0aVEza2VJVUE3VWhUQ1VSQm1qbXQ4MjdESFl6Njd2LVAzUXRmUmIyOS04LU41azdSQXBibzNyelhWaC10eDJ0Ri11YjBneUJFT2hoaTQ4aURYcFBNbllZdmJ2Wm1oUjVDZ0JKTF9sSE56bTRfbENaVWNwRXJFR01GUVItcldhUXR3NHVzcnhu?oc=5
+Headline: Brampton’s weather, highway closures and top stories on Nov. 6 - Brampton Guardian
+URL: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQai1VREV0Uy1KcDdLSlI0c0ZhV1VYek15SmJxR2dKRDZmUGNMeTdPTElTcjdpNTBrcV9SVXNGb0dIZDhpNExEcG5PTEVBWkFSQmdkT1RRQ3l5SU1pdGl5V0YzaWo2eW5vSVlHSGpKaGYzS3JxZi1JYzloNmZicHpDeTJtMmxyT0wtZW5uNXNMQzFLSGlRRDZ4TmRPamViVWFGN0cyVWZlNF9SSFdGcU11aGZPX0VIYkxnMFZ2S3YxTU5pMGhQSDZveExiQzZlbWFiZjhuVzR5WFVNSk9iQjZYRg?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Brampton | Story 9 --- [not selected]  (1 source(s))
-Headline: Brampton Steelheads 2027 NHL Draft Eligible Peter Green Commits To Arizona State - The Hockey News
-URL: https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGRCaGRDVXpkdDNSb25seHA3Skg4TkFXMXNVMnBabVN5MGo5X3FiLXUtVUo0dl9mVlhrUVBjeE1jUzBiQWMyUkhVdnd4cnU1YzdCS0ZvS0pqNURMZzVmNVMtSlRZUnBSWGNCLWlaQWl3WGgyeVh4QnFZQlNpbUpaVjkwZ2NCUDBKaHdwbHZFMjZvZmVzR3M1Ykt1eklmdWdobU8zXw?oc=5
+Headline: Thanasi Marentette Goal (3) | 2026 Windsor Spitfires vs Peterborough Petes | Nov 5 - FloHockey
+URL: https://news.google.com/rss/articles/CBMijgFBVV95cUxQQ1RZcFU2SGQ2V3I1VlhieGxOOWh3YjBSbEdhQmE4aDZGQnVhQWhKTlExTTJScFJhU1JSMk1WQWRIYWl6a21sR1pyODktUFBVQ0FMU1NYMmFMUE5PWlo1Q0VLcnpGNVdqYmNoTW9rMUFQQl9lQ3dMSzZxQ2E5SExVNkNhN21fNVlxRHdKUm5B?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Brampton | Story 10 --- [not selected]  (1 source(s))
-Headline: Hockey - FloHockey
-URL: https://news.google.com/rss/articles/CBMipAFBVV95cUxQVzBnUUx2T1BYUHZWeUtuSmRIS09MbkFxeFpWcWNWWl9WeS1YWjJRTG9sSDM5c24yNy01YVNKeEExSXVESS1qS1VwXzdxVExxMzQyYjk3Z2ZkZzh5bU9Na2I1X2JXRUUtOHpHd0ZfVy1uYUtJdVJHNFhCQ2lTUF9VN0szakNubjYxSldyZFB3eWQzOEVNRGhjX2FvUUNrZ0tfdjhibQ?oc=5
+Headline: Elliott Mullen First Career QMJHL Goal (1) | 2026 Moncton Wildcats vs Newfoundland Regiment | Nov 5 - FloHockey
+URL: https://news.google.com/rss/articles/CBMijgFBVV95cUxQZExEeEVqc2V0bjVySTdwdzhvTmxKYlZaTUxaOXJhazVHRHFIdkFsQTB3S0Z5ZFpBRXRIYnNLdDE1VUlBOWU2OWFnQjlKeE5kSldBdXRIalhqTHhyUWJoNGVyQ0p3QVFEZW1YMFBvUUQtQ0ZScnhqSjVlU3JwdHZ2dmtIMFljMTJ5YjRHV213?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Notes:                            
 
 --- Brampton | Story 11 --- [not selected]  (1 source(s))
-Headline: £250,000 Brampton bog held back 500,000 litres of water an hour to protect homes from flooding - Cumbria Crack
-URL: https://news.google.com/rss/articles/CBMixwFBVV95cUxOdmlEcnZVZlIzX1BlQmo5VnZycVNyckIyS1NCelRJeFVoVUVXRFQzNXpfeUVNZzlzMEhKbEo2NEZZa01zTnZzU3p6M1pRSWpiaUdMTFYwLUJqM3VDZldncUQwaENLVjl4WTBEWHBVb3JURXozUWVSNUV0YWQwLWpVYUk2X2tsc2dWamJXcTA3ZUEzN184MG92WFMzNzdzRXp4S3FIRzVabEhTd0ZwOFhsbFhJVDZHWndvaWJJTmNVQWlqN0tqbGRJ?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 12 --- [not selected]  (1 source(s))
-Headline: Paramedic from Brampton wins big on Canadian version of The Price Is Right - insauga.com
-URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxNTm1QVFN3RFo1QnlVQU1ubi1pTy1TUEFHOGxyWXY3MGVnTlJreVhDM0toWmFVaXpwM0VlbFd2R21ULUVwaTkwWHozS3JMcjdUdDBsVkFGSVQ3RGx6Yk9sMGtFak1mV0JScG1IeUNMNHVUTy15Y0dDdXpSWTlGVzZfS3NoVDcydFphaGNPSUZSSEZyTlJTZTd1SWdMYUVGeldR?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 13 --- [not selected]  (1 source(s))
-Headline: Brampton’s weather, highway closures and top stories on Nov. 5 - Brampton Guardian
-URL: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTkk0dkg4RHl4UExURGFkWmM5Y3VtQ0x1T1ZVa2N3WW55dzFKVjlQOXYxVVFBRGN6bDNTNTZkOGtuUGJJeUJSaWRGZTY0Z2c0dVpYSzM2VkwzVzVTdVVfRTI4bFVobkNhZkZ2MThBeE84aWwxT0pKcDZqN0lFWWZvMF8wdUF5aFczLS1OM3BOaWZxb1VzU3hVRGNFUVFIdGlSX2RaSXNOYW5HQlRoX2Y2Z1RQeWZVa3gtWFNaVHVxQ1pFY3hvY2ItcVFmN3dNcjR6RXpSQjEwbDBxbmNMZkxlQw?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 14 --- [✓ SELECTED]  (1 source(s))
-Headline: MAP: 240 auto thefts reported in Brampton in past 2 months with some areas hit harder than others - Brampton Guardian
-URL: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU0VzR2pSdk56T3N5ZjVCWURVNHZ6X0xJSnRFYm96ZmJ6MG5xS19VbHJ2SXlrQnY2ampwdHpkNjc4b2w1QmNIU2lzYXl4Uzk4MHNvTmlTWXhhTHpzTVJNcU0zZFBRZDFoM1dxYUpIbS1JaFlDdUF6QkJ2REduUzhwc3Z3N0xyOGp2bV9EbVVxTGhXNjQ0U0JKNGhRSnVrNEdsa1gwSmUxMVotTmxrcjlEV09HNmdXUDhOUWtvU3ZkMlFpZURFeEJsSHZseVRWQnlYd0dKY203OA?oc=5
-Feed: GoogleNews
-Category: Local
-Summary: Police data reveals that 240 auto thefts were reported across Brampton over the past two months. Certain neighborhoods experienced significantly higher concentrations of vehicle thefts than others during this period.
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
-  Notes:                            
-
---- Brampton | Story 15 --- [not selected]  (1 source(s))
 Headline: YouTuber Says Cops Paid Him a Visit After He Built Flock-Style Camera to Track Cops
 URL: https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306
 Feed: NewsAPI
@@ -859,7 +1067,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 16 --- [not selected]  (1 source(s))
+--- Brampton | Story 12 --- [not selected]  (1 source(s))
 Headline: Upcoming Speaking Engagements
 URL: https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html
 Feed: NewsAPI
@@ -867,7 +1075,15 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 17 --- [not selected]  (2 source(s))
+--- Brampton | Story 13 --- [not selected]  (2 source(s))
+Headline: Unifor Stellantis workers vote 97% in favour of strike mandate with talks still stalled
+URL: https://www.cbc.ca/news/canada/windsor/unifor-stellantis-favour-strike-mandate-9.7386680
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Story 14 --- [not selected]  (2 source(s))
 Headline: Crown says DNA evidence helped ID man now on trial for decades-old sex assaults against children
 URL: https://www.cbc.ca/news/canada/toronto/richard-neil-trial-sex-assaults-children-ontario-9.7369806
 Feed: NewsAPI
@@ -875,7 +1091,15 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 18 --- [not selected]  (1 source(s))
+--- Brampton | Story 15 --- [not selected]  (2 source(s))
+Headline: Key organizer of Pearson gold heist to testify at trial of former Air Canada employee
+URL: https://www.cbc.ca/news/canada/livestory/pearson-gold-heist-9.7378520
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Story 16 --- [not selected]  (1 source(s))
 Headline: Minimum wage rise 'a massive blow' says farmer
 URL: https://www.bbc.co.uk/news/articles/c6zxj9qy4yg8o
 Feed: NewsAPI
@@ -883,7 +1107,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 19 --- [not selected]  (1 source(s))
+--- Brampton | Story 17 --- [not selected]  (1 source(s))
 Headline: Zelda: Ocarina of Time gets midnight launch at select Best Buy Canada stores
 URL: https://mobilesyrup.com/2026/10/30/zelda-ocarina-of-time-midnight-launch-best-buy-canada/
 Feed: NewsAPI
@@ -891,31 +1115,39 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 20 --- [✓ SELECTED]  (1 source(s))
+--- Brampton | Story 18 --- [not selected]  (2 source(s))
+Headline: Big wins, shocking losses, and goodbye to a 46-year mayor: what to know about Ontario's 400+ elections
+URL: https://www.cbc.ca/news/canada/ontario-election-roundup-toronto-ottawa-hamilton-kw-london-9.7397644
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Brampton | Story 19 --- [✓ SELECTED]  (1 source(s))
 Headline: Man dead after industrial accident in Brampton, police say
 URL: https://www.cbc.ca/news/canada/toronto/fatal-industrial-accident-brampton-9.7373520
 Feed: NewsAPI
 Category: Local
-Summary: A man died following an industrial accident in Brampton on Wednesday. Peel police responded to the incident near Auction Lane and Queen Street to investigate the fatality.
+Summary: A man has died following an industrial accident in Brampton on Wednesday. Peel Regional Police and emergency services responded to the incident near Auction Lane and Queen Street.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 21 --- [✓ SELECTED]  (1 source(s))
+--- Brampton | Story 20 --- [✓ SELECTED]  (1 source(s))
 Headline: Patrick Brown outlines key priorities after cruising to 3rd term as Brampton mayor
 URL: https://www.cbc.ca/news/canada/toronto/patrick-brown-outlines-key-priorities-after-cruising-to-3rd-term-as-brampton-mayor-9.7396755
 Feed: NewsAPI
 Category: Local
-Summary: Patrick Brown secured a third consecutive term as the mayor of Brampton following a comfortable electoral victory. He emphasized that the newly united council's main priorities will include infrastructure development, recreation projects, and public safety.
+Summary: Patrick Brown secured a third consecutive term as the mayor of Brampton with a comfortable election victory. He stated that his newly united council will prioritize public safety, infrastructure development, and local recreation projects.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Brampton | Story 22 --- [not selected]  (1 source(s))
+--- Brampton | Story 21 --- [not selected]  (1 source(s))
 Headline: Police seek Brampton man in connection with fatal stabbing in Mississauga
 URL: https://www.cbc.ca/news/canada/toronto/suspect-mississauga-fatal-stabbing-industrial-area-9.7396455
 Feed: NewsAPI
@@ -927,131 +1159,83 @@ Feed: NewsAPI
 CITY: York
 ##################################################
 
---- York | Story 1 --- [not selected]  (2 source(s))
-Headline: Police charge 23, seize $7.5 million in illicit cannabis bust - Village Report
-URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxOVjlXc3R5dmlKdndQQ21IZzM3OEptdDJSY0F5U0ZfaGFlb3BIMzN1WEZJS0xOaVAzMDEyNnVzWkdQZkJHbEpQa0lRZFNKeVhSay15MWhpVTlGYi1wQ3lVZUtXNC1fYU1QalZLQWEzV1pOdkExU3g2TlRfMnpRZ2gtN0w4a0swTGstOTltX1VXUGVZendiZDFMbkVtRnNTM3I4b2J4RnplWHJmWWI5d01J?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 2 --- [not selected]  (2 source(s))
-Headline: Woman hit, killed by car on W. Pembroke and Vaughan intersection: HPD - WTKR
-URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMXlOelV6c1ZDRTVobkF3eHFkQW82eGRfU09ZUXItZVRUT3dWTmYwdkp1TmltR2RndHR1bUZVanRPSVlCX2R1OFJJdlREaGJTTUZVamd5bzB1WUxOalZmM3JydVlxb01zNWVkZXZjY3hKNFBVYzhfbTJDUGNQLWZsX0ZqRWdPRHNjYmxrYkZUTXU4M0xBbUpaLWxzWFlENlR5em9WZFJtRmdhelRjVHliNktMbVFFaWdX?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 3 --- [not selected]  (2 source(s))
-Headline: NYPD investigating after 5-year-old Queens girl found dead
-URL: https://gothamist.com/news/nypd-investigating-after-5-year-old-queens-girl-found-dead
-Feed: NewsAPI
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 4 --- [not selected]  (2 source(s))
-Headline: Alfonso Cuaron’s Apple TV Cult Series ‘Ascension’ Adds Amanda Plummer, Christopher Chung, T’Nia Miller
-URL: https://variety.com/2026/tv/news/alfonso-cuaron-apple-tv-ascension-cast-1236933558/
-Feed: NewsAPI
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 5 --- [not selected]  (1 source(s))
-Headline: This huge new park in the Greater Toronto Area spans more than 3 city blocks - Toronto.com
-URL: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR0ZiMkdab2ZFZnpnTVdrRXdXR2E4Rzk4czFvOGFqTy1ZekYtajFiWTFqUWlLREVVSWF0NjktMEF2LVVSY2wxSUJxUnJWUzBDdFo4OHhqaFYxU2N0TTRCcHdYOGpJZ1pSem1TWmcxb0ZQYzZUcVVEZzcxcmdDSElkOWdMemtaaHN1MV9nMHVnLUNDNXBySV9UUF9GbE1LZU9SSUdVSnd5N2dVeVhsQ0thYzlDa0NiM05zTkc1c244eUZVMGJfbGc5MGZObENlYmJ3YkZKb3RPYmt6eXp5ZFE?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 6 --- [✓ SELECTED]  (1 source(s))
-Headline: The CPKC Holiday Train is coming to York Region – Here's when and where to catch it - YorkRegion.com
-URL: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZ0VxX1VRMEFwWlJmeWNVQlc0N0dXZ0dwY2lkdUxpWmE0bndDUlNmTnhQYy04ZDg1N0pSRUo5YjZDMVNwR1dOTmpxaW53TW1SbUFIUkVPY21JTlRJYmxialUtZGxOVG9nOUtDdnRuOXF4WlRiOHRRV1pmNVNsTXhRUlJFbG15R094Q1RJekMycllub2tfRUxPamVHN21uT3RtR1haeUtwSkFfSlJNd2ZoUEI4cTh5UnlvcFJJa3h2YVdIeDJTdmFHR2lnWXJqTURWMGc?oc=5
+--- York | Story 1 --- [✓ SELECTED]  (9 source(s))
+Headline: Multiple Pedestrians Struck in Richmond Hill - York Regional Police
+URL: https://news.google.com/rss/articles/CBMic0FVX3lxTFAwczRDNlBHQnF4QUtsWHdiS0lHRFlNdzRtdFZ5TlZKYlFRT2tJUXhLb2lOY0RQM0RDUXlRTkZCVjlocHRhRmtDdXFNQzZ0NElEMWhhbEtSbUoyTkNvWVZsZFZXUDBnSlBFOHh5M0x2VnJ6OFk?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: The CPKC Holiday Train is scheduled to make stops across the York Region, bringing festive celebrations to local residents. The article provides community members with the specific dates, times, and locations needed to attend the upcoming holiday event.
+Summary: York Regional Police report that multiple pedestrians were struck by a vehicle in Richmond Hill. Authorities are currently investigating the incident and managing the affected area.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- York | Story 7 --- [not selected]  (1 source(s))
-Headline: Man dies following incident involving construction equipment in Scarborough - CityNews Toronto
-URL: https://news.google.com/rss/articles/CBMihwFBVV95cUxPb2drUzRfMTdRUjhBdmRRN04wZUFOc0xFTGdLSkh1dDQyM05Xeml0WExOaDJENUs0NFFWUWVnWjZMMDhOeHh5elk1VFk5X082clA3bHd0QllPVjJwOEMxWFpTOVdQTUg2ZlVCbG0yR3d3aUVLUDZiV29hSlhvSk91RTFmWkJfdEk?oc=5
+--- York | Story 2 --- [✓ SELECTED]  (1 source(s))
+Headline: Driver stopped doing 213 km/h on Hwy. 407 in Vaughan: OPP - CP24
+URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxNNWlKbEZ4X2ZiOW9WcGp4aXdGMEY2X2hiZmlhak1xLVRpdi1nRERYUnhnZXdHUkxrb2VpLUhKcFRpLW1Wa1JtWUxROXNLWlhILXZnek9ZT0RTM3Y5WWRud3p3Y1JoRnFmclpNd3ROMWZOSVltNVAtSGx4a2RObFRvSWhUQ2hCM0lyMHpmZE96bzJsbnBjQXkyRUxjeDhMTlk?oc=5
+Feed: GoogleNews
+Category: Local
+Summary: Ontario Provincial Police stopped a motorist travelling at 213 kilometres per hour on Highway 407 in Vaughan. The driver now faces stunt driving and excessive speeding charges.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- York | Story 3 --- [not selected]  (1 source(s))
+Headline: Minuteman Press Franchise Owners Celebrate Grand Opening of New Business in Markham, Ontario - SME & Entrepreneurship Magazine
+URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxNc0RjTkpXRU5kSUt0QS1kRFhYSTN4dGViWWRWbzJSWk1fQkhaamFvYXdpajZxOFhOa1lFTEltWmZMckVNaFpLdWJ6OHVMRy1xdk1xaWltVzJiXy1TaTdFSVdfYlQ2M2paNnRtbXZmal9kenYzMzhVRlJWcktzcHFpdUJ4TWFQRDlXMElHLWRuTExnUFBQa285MXlENGFfVDNqOENfX3A3VUpTaGRiMmc?oc=5
 Feed: GoogleNews
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
+  Notes:                            
+
+--- York | Story 4 --- [✓ SELECTED]  (1 source(s))
+Headline: Happy Belly Food Group's Heal Wellness QSR Announces the Grand Opening of Its 55th Location in Richmond Hill, Ontario - The Globe and Mail
+URL: https://news.google.com/rss/articles/CBMiowJBVV95cUxPRy01SmQyZ25NQlJRSDJCOGlpbVd1Q0hobHZabFNyQzQ1ZElYc0NhYmQya2dLR0xTd2lEdlhPSmJSMmY3dnM0bUdYa3MzYmdSb1M5bkQ2aFMtZW9nUWh0eUxSMnotZkgxY0lyWUNMc3hvYjNrZUtMOHkxYnlEQzdXTG1tanBHNTZiOThqS2Z5Zmdmb0xlRXZfd2F6UGZBRkNtMTQ5SHFlb0RYRk41cVg1OVBvRGtyUzJvQjhFWXdaT3BGM3NOUS1Dd3lpcUxwYzQ3ZXdITWl6bHk2R1cwaXZ5cDgxVG01aVlEWFFfVXhLMTN2ZnRaUHhnb0pMbnhFMENQRElCc2duQ1YxYkY0ZkhNVnB6YmhHUDRuanJaZllRZ0Zvam8?oc=5
+Feed: GoogleNews
+Category: Business
+Summary: Happy Belly Food Group has announced the grand opening of the 55th location for its Heal Wellness quick-service restaurant brand. The new franchise is located in Richmond Hill, Ontario.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- York | Story 5 --- [not selected]  (1 source(s))
+Headline: Justice Institute of British Columbia - JIBC appoints Colleen Vaughan as Interim President & CEO - Education News Canada
+URL: https://news.google.com/rss/articles/CBMizwFBVV95cUxOUkRRZlZIdUFaanNtZVBuUWhOZjVkMnNQQ29DTlh1Tm91cjJTWjRmYkFwdTR4S1FHczIwMmRQOW50UlFXNEh1VWZrZEcyMzRPSDJlT2t1eDdJajJhZ0g0U0dvYXUwcXdOclI5VTdwN2pBcVdRZ1BtMHRjRDBUazFzOENxdHJSbnpYZE5jV2wtUVEzWks5N0VBWnczLWtETnkwUzd3TFBILVZRSnowSVdlWEFEelZsYldFUmluTm5ta1VCUlkwOS11d3diOEF6Qk0?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- York | Story 6 --- [✓ SELECTED]  (1 source(s))
+Headline: Comics, superheroes, gaming and anime: Vaughan Public Libraries hosts free fan fest this weekend - YorkRegion.com
+URL: https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcHktMmRSY0JiOURRbDdoMDcxV3RlckVrWlE2ZFJWZTVaaDRXSmwtWUtIbW9faV8wd0pGSGFITGRjb0tfaU12Mm45dzJON2lCM24yTXhScDd5RUo3OWpXVlhqYVhubURtYUdvV2dzdFRUd2g1YU9MQ0RCWlZEcnNSb2w2emJlelNtYVVnYl9yR0JjVzBHcE50UmI3YjQ0TVUzTjVXR0RsRGI0LU1mMGRPdDlFSC1lQUh0UDVhZ1NVZWU2NHZPUmFSdXZ3eU9xeFFzcDJscWlKTk1PQmR3YXB2dUV3?oc=5
+Feed: GoogleNews
+Category: Culture
+Summary: Vaughan Public Libraries is hosting a free fan festival this weekend celebrating comics, superheroes, gaming, and anime. The community event offers local enthusiasts an opportunity to engage with various aspects of pop culture.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- York | Story 7 --- [✓ SELECTED]  (1 source(s))
+Headline: 100 Men Who Care Markham makes first $5,000 donation to Stouffville-based charity - The Spec
+URL: https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMDljZmtUb3NGZEdFRlBaMElaSmJyWENVVmtudG9aQ2dDMlp6SEF0NEhBZTBrTXhKZkJ0UE9qanZ2VnpVQ29PWHBqcWpJSlJId0J4cFRfMzhSVVZTeUM4STVRRllXc0RjRTN3SW1LMGo4ZzJZX09OaUJjVTctWkdreXU0ZXZtaTZhaEVQcno1Wmd0NERUbUVDZml3dFB0eThIV1lobFVYWTNzS2JkaFBQR1VVbzRTNzRpbjl5UERwYjVuQ1pycW5WaDE4d3NWU1NHZFFVeTE0cWp5bGROVmxnMDJzQ0dRcHBrYlliUEZmbkNCaGZ2Q2lNLVFn?oc=5
+Feed: GoogleNews
+Category: Local
+Summary: The 100 Men Who Care Markham organization made its inaugural donation of $5,000 to a charity based in Stouffville. This contribution marks a significant milestone for the community group's local philanthropic efforts.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
   Notes:                            
 
 --- York | Story 8 --- [not selected]  (1 source(s))
-Headline: Herran Seepaul Obituary (2026) - South Richmond Hill, NY - Leo F. Kearns, Inc. Funeral Homes - South Richmond Hill - Legacy | Obituary
-URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxQNkxpakVla0lwSDFfTmpXLS1qTExudFhILXhHZVVnR3VkeVJUUS03SlJ6bGpRUTFsNnVCSkRLZmVvdHpET1gxS2haOXM0d0xxZlQ0VWc3UkxwSDJHaGtZWkkxcG1WWmhRaFQ3emV5bUx6UkF1bE52ZGRsSHk3bUZ0VDdCMA?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 9 --- [not selected]  (1 source(s))
-Headline: Gurganus home is Richmond Hill Garden Club's Yard of the Month for November - Bryan County News
-URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxOcnZYbVcyRzlXeHpUZU4yMVJRdXlWYTN5VDRMbFdrTmxzanhFTURzdnMwdmtHR3d0S2o4N2ltVC02dE96NE1DVnlqdlliS2tFbVdLLTZlc0FyMGhrRy1QaVBiN3FPanJNYkpWOHB4OTZoTW9WUU5YWXh1c3ozajVoMnNiQ0pRTUFURGFzY3kyN1BlZ2RYSk5LdG9sYmdLMTBNOEtNdTZkcXA0MlhGelhxVWFn?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 10 --- [not selected]  (1 source(s))
-Headline: Parliament needs HR - The Spectator
-URL: https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yTk13Z0M1TE41ZW1pd1pxMnZ6WEg3MEdGYUFVSXUtXzdMbEdGTTR6a3JSVEpnbV9kajdxUE5MbWExUHcycVY3emVDZkpSeXVSdE1kX2FFdW1ZTlc0aW5R?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 11 --- [not selected]  (1 source(s))
-Headline: Vaughan Williams: A Sea Symphony, Nocturne for Orchestra ★★★★ - Limelight magazine
-URL: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYlNmajRRVGR5d0hKMVZRNnhiNTdTZ001VkhGRjE1LThvcHJYWFpEUUFtM2FUQWdHbUlCNklLU2RLbHpJZ0dfVmp2SkpaejI1RTZOYjc3VmxobGZHamwwS0w1c1ZKN0ctcHV0SklYRXU3S0Z1bHdvMUpEcTVneGJIdy0tME5SUm1oM2ktVWdfM0lzODY0c0xMVk4xb0tzWEJ1U2FMdEowZVVVQVBWRkZRZlZzckxoVW1JN2JrTUFlYi1SakVpa0Zsc0JndmVsM3NJ?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 12 --- [not selected]  (1 source(s))
-Headline: Alabama Fire College Remembers Chief Reid Vaughan’s Lifetime of Service - weisradio.com
-URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ2xyV3k1NE5qUldYODlaOGNuTkpCcUl4dXpOSkRMMW9VbTdDTVhYTzJMMGJrQmpwZW0xUDFqUTBhbDhaSnZGMjEyWFcxVFBMM043aEVtbVZQektyMnFNWmxBMnZ6QUdQVUhfS0ZXX1I5dUl3QS1tY2lPVHYyNVZxaklral9QdElkalg0cHJzX3BFMFZaZVE?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 13 --- [not selected]  (1 source(s))
-Headline: Here are the Section III field hockey playoff stats leaders (through Nov. 4) - Syracuse.com
-URL: https://news.google.com/rss/articles/CBMixwFBVV95cUxQbUlnRllyWkIzUTlIbGRzdzhtMHJZRzcwY3RGSnh5RFBOUDFEUUI4ODNicmZ4VUx2LTNFQzU1bXV3VFpWcUt3SWdLSjlvQjlrdWZ0UFoxWnJYMk5hMU5GRVZyWFdOWnBUUkpjU09DTkJONHBKaUxVVFBhYkZBVzFfdEhUdXFoRjlCMzBaQ0UtLWdoZzEzNjVfbjlzbWJuenB5NUFnQ0JRXzhGUmkxaGZBYTY1cDgxYUtpOWM2VXFsRTZQeDc5LWRv?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 14 --- [not selected]  (1 source(s))
-Headline: Dawn Baumgartner Vaughan breaks down Governor Josh Stein’s post-election priorities (Video) - Raleigh News & Observer
-URL: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BQmZEMHNjZkNCQ3lfVXVaWXJ2ejllQnR2UVBzd2NPclo3TWNNMl9KWXRIeEFNczVUZWg5cU1aSG93V0lBSlZfXzVpa3ByajhBdnROT0dHT05uV2l0NENhdV90WkRoUQ?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 15 --- [not selected]  (1 source(s))
-Headline: Britain appointed Vaughan Lowe as ad hoc judge to confront Argentina at the International Tribunal for the Law of the Sea. - Agenda Malvinas
-URL: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNX0VMNDFGWC14RVFQN08zZll6eWxWLW9hXzNxYzRSdnRod0ZSdWJfYXJocHZHdHdBS1R0TEs2ZGVEcC0yd1Bpa0ljbXhRcmZpazdJNjlJVjIyX0p3LVBiaXVrcEx2VGR3S1ZTS29IZHVHNXViX0NRMEtvSENsRFNKa0k4ZVFUVDB0TzBlSmV3NGIza0ZvdUR5clZMaGVjVDduRUhuX2c3SjNKNUlINlRxYWNvaDR2Z2p0UnBkdThCQnhuTExBNEdMaWdPTlozQmhJQWZxLVlzQXRCLV9QZ3Fv?oc=5
-Feed: GoogleNews
-  Selection (good / bad / missed): 
-  Headline  (good / bad / note):   
-  Notes:                            
-
---- York | Story 16 --- [not selected]  (1 source(s))
 Headline: MrBeast Joins Shark Tank, Invests Quarter Million In AI-Powered ‘Ball 2’
 URL: https://kotaku.com/mrbeast-joins-shark-tank-invests-quarter-million-in-ai-powered-ball-2-2000747308
 Feed: NewsAPI
@@ -1059,7 +1243,15 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 17 --- [not selected]  (1 source(s))
+--- York | Story 9 --- [not selected]  (2 source(s))
+Headline: NYPD investigating after 5-year-old Queens girl found dead
+URL: https://gothamist.com/news/nypd-investigating-after-5-year-old-queens-girl-found-dead
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- York | Story 10 --- [not selected]  (1 source(s))
 Headline: Daughter Of Dead BBC & ‘Paddington’ Star Accuses Royal Mail Of Resurrecting Her Father’s Voice Using AI: “It’s Outrageous”
 URL: http://deadline.com/2026/10/paul-vaughan-bbc-paddington-ai-royal-mail-1237149879/
 Feed: NewsAPI
@@ -1067,7 +1259,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 18 --- [not selected]  (1 source(s))
+--- York | Story 11 --- [not selected]  (1 source(s))
 Headline: September 2026 Photo Contest Winners: Decisive Moments
 URL: https://www.lightstalking.com/september-2026-photo-contest-winners-decisive-moments/
 Feed: NewsAPI
@@ -1075,7 +1267,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 19 --- [not selected]  (1 source(s))
+--- York | Story 12 --- [not selected]  (1 source(s))
 Headline: Peter Facinelli Among Cast Set For Indie Drama ‘1 AM Pacific Time’
 URL: http://deadline.com/2026/10/peter-facinelli-1-am-pacific-time-1237156648/
 Feed: NewsAPI
@@ -1083,7 +1275,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 20 --- [not selected]  (1 source(s))
+--- York | Story 13 --- [not selected]  (1 source(s))
 Headline: Decades Before Landman, Billy Bob Thornton Was In A Sitcom Featuring A TV Legend
 URL: https://www.slashfilm.com/2293914/landman-billy-bob-thornton-john-ritter-sitcom-hearts-afire/
 Feed: NewsAPI
@@ -1091,7 +1283,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 21 --- [not selected]  (1 source(s))
+--- York | Story 14 --- [not selected]  (1 source(s))
 Headline: I despaired of the dark circles under my eyes and didn't believe anything could shift them, but this 'salmon sperm' treatment not only transformed them - it gave me the best skin of my life
 URL: https://www.dailymail.com/lifestyle/article-16232861/I-despaired-dark-circles-eyes-didnt-believe-shift-salmon-sperm-treatment-not-transformed-gave-best-skin-life.html
 Feed: NewsAPI
@@ -1099,7 +1291,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 22 --- [not selected]  (1 source(s))
+--- York | Story 15 --- [not selected]  (1 source(s))
 Headline: Final Trailer for 'Dune: Part Three' Sci-Fi Feat. Chalamet & Pattinson
 URL: https://www.firstshowing.net/2026/final-trailer-for-dune-part-three-scifi-chalamet-pattinson/
 Feed: NewsAPI
@@ -1107,7 +1299,15 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 23 --- [not selected]  (1 source(s))
+--- York | Story 16 --- [not selected]  (2 source(s))
+Headline: Alfonso Cuaron’s Apple TV Cult Series ‘Ascension’ Adds Amanda Plummer, Christopher Chung, T’Nia Miller
+URL: https://variety.com/2026/tv/news/alfonso-cuaron-apple-tv-ascension-cast-1236933558/
+Feed: NewsAPI
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- York | Story 17 --- [not selected]  (1 source(s))
 Headline: These are the NYC neighborhoods that will get free 2-K next fall
 URL: https://gothamist.com/news/these-are-the-nyc-neighborhoods-that-will-get-free-2-k-next-fall
 Feed: NewsAPI
@@ -1115,7 +1315,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 24 --- [not selected]  (1 source(s))
+--- York | Story 18 --- [not selected]  (1 source(s))
 Headline: This Artist Proves Comedy Can Come From Anywhere, And Here Are His 43 New Comics
 URL: https://www.boredpanda.com/funny-one-panel-cartoons-vaughantomlinson-part-7/
 Feed: NewsAPI
@@ -1123,7 +1323,7 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 25 --- [not selected]  (1 source(s))
+--- York | Story 19 --- [not selected]  (1 source(s))
 Headline: October Surprise: ‘The Diplomat’ Kills Off One Politician, Brings In Another In Season 4
 URL: http://deadline.com/2026/10/the-diplomat-season-4-death-prime-minister-change-explained-1237153276/
 Feed: NewsAPI
@@ -1131,9 +1331,9 @@ Feed: NewsAPI
   Headline  (good / bad / note):   
   Notes:                            
 
---- York | Story 26 --- [not selected]  (1 source(s))
-Headline: Entertainment Partners Names UK Boss For European Expansion
-URL: http://deadline.com/2026/10/entertainment-partners-names-uk-boss-1237146861/
+--- York | Story 20 --- [not selected]  (1 source(s))
+Headline: Anthropogenic aerosol reduction contributes to faster flash drought onset in a changing climate
+URL: https://www.nature.com/articles/s41467-026-78230-4.pdf
 Feed: NewsAPI
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
@@ -1143,24 +1343,24 @@ Feed: NewsAPI
 CITY: Peel
 ##################################################
 
---- Peel | Story 1 --- [✓ SELECTED]  (2 source(s))
-Headline: Mississauga certified election results show Tedjo winning all but 1 ward — here’s how the mayoral vote broke down - Mississauga.com
-URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZkQzUU5zMDg3bDNIN1lYZG9XVTFOMXRWcEJrUXUxTE4ybi1NSjZBNV9lTU9FZ01CSjIwWmRsWUVaUkcyVHEzaVNaMlhHbENoOGlNNnVrTkVRTVREVHBIREZHTlpKLXFJaGM5UUM3MTNBY1FxZ3RXZ0pkdzZSTHZJcjJVUFV3cVJFQmJhOWF1SjF5UVV0OU5JbjVEbGtkZEVid2R5bFRvYWJLNTgzNnRSNm1FRVRLQklOMDBCalhnOEJMQQ?oc=5
+--- Peel | Story 1 --- [✓ SELECTED]  (1 source(s))
+Headline: ‘It’s an ecosystem’: Inside the Caledon woodlot teeming with life set to be cleared for Highway 413 - The Pointer
+URL: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTUJiLWxhRXc3MXFZRGlHV1pob05aVDk5WUMyZ0RQb3YtREZrR2xrRTd4eUNNWGM5Mmg4M0RxNlczMWRnRGZmYm1EQVdfOC1pT0d2QnJhd1h0Y0ZBQTVRc1RoVjB6X1pfYXYtd1FnS3FjblpONWxVOUhlTkVJcjRqQ3lyOWpOakZIWF9hVktER2dtS01RQkZjX19FMVpwUnZZMlRRNVZJNzJvSXg0VmtVejBWWE53ZW84TTRxenVTUGFLbks2Vk9XQnUzT202Yk0taTRaVA?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: Certified election results show that Tedjo won all but one ward in the Mississauga mayoral race. The newly released data provides a detailed breakdown of how the municipal vote unfolded across the city.
+Summary: A sensitive woodlot in Caledon teeming with diverse wildlife faces imminent destruction to make way for the planned Highway 413 project. Environmental advocates and local residents are raising concerns about the loss of this vital local ecosystem.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Peel | Story 2 --- [✓ SELECTED]  (2 source(s))
-Headline: Nov. 5 weather: Showers and 50 km/h winds in southern Ontario - insauga.com
-URL: https://news.google.com/rss/articles/CBMijAFBVV95cUxOWVhiRml5RHllVWJBdFlaY3ZIY25rejJNaGRCaDBaU2Nnd215ZS1yV0YyYmd3VG9YMTcyRXNCSnhialkxUVRuZEZSbmU1VVczdWx3VnRhY0xmc04yTkhoUDJmNHRrMjdMVF8yM1MxZU83ZS1mZHBpRzRIMmJpVWxWX0tOQ0VDSVgwNjRHMg?oc=5
+--- Peel | Story 2 --- [✓ SELECTED]  (1 source(s))
+Headline: Opinion: Caledon’s spirit should wake up the rest of the province - Just Sayin' Caledon
+URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxNak1yZEIwallZZW9EY2hSeHhUdTBQMS1UVXJuU3BDVmtMc1pMZkdURU5FUU16YUFfRFZBSmphb2pqQXhvNS1pMEg2LThvUUsxVWxFdUd3LUJ2SzEtSnVGd19qMEM1ZUh5cHJjdG1fSHBaR19ZWVFuNjBOeEFHQWc5WDhaMm1KX0ViTnNuU0FLaWp5STZOSzgyRQ?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: Southern Ontario is forecasted to experience rain showers and strong winds reaching up to 50 km/h on November 5. Residents in the region should prepare for the inclement weather conditions as they travel.
+Summary: An opinion piece argues that the community spirit found in Caledon serves as a positive example that the rest of the province should follow. The article highlights local resilience and community engagement as a model for broader provincial inspiration.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
@@ -1168,35 +1368,31 @@ Summary: Southern Ontario is forecasted to experience rain showers and strong wi
   Notes:                            
 
 --- Peel | Story 3 --- [✓ SELECTED]  (1 source(s))
-Headline: 7 new and unique events happening this month at PAMA - insauga.com
-URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxPNTJHRXZ0cjVzMzdOaWIzMTBXVEtGOGRtN0dTTXVmNk1YT29FR2laQlNZTVlVWElZd2hCcWRwbmZKRWxlaldFdDdxbjdiRGVUcnpjVXVaUVRlamxIZlBHUktQX3J2NGhkMjl0QnZCRlZyYm9CcEctNE5DZ2w5RWVweE5GMA?oc=5
+Headline: Nov. 6 weather: Showers throughout the day in southern Ontario - insauga.com
+URL: https://news.google.com/rss/articles/CBMijgFBVV95cUxNYmozcWlkZm5PZGN4MG5NNGNleVlGb3VmbzZocjZuQ000RTJoWE9qaTJGangyQXhRSWIwaHBrY3BYMVlVM0VkMzBUbER3ZzFvVG4wdjRiZ0liel9tR0lsQWl4SkhHRk12aVlab3p2Y0ttaF9PQW1YaUlxQUxaMm9EZ0JiN1h1eUVmS0FIcVJR?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: Peel Art Gallery, Museum and Archives (PAMA) is hosting seven new and unique events throughout the month. These community-focused activities offer residents diverse cultural and educational experiences.
+Summary: Southern Ontario can expect persistent rain showers throughout the day on November 6. Residents should prepare for wet conditions and plan their commutes accordingly.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
   Summary   (good / bad / note):   
   Notes:                            
 
---- Peel | Story 4 --- [✓ SELECTED]  (1 source(s))
-Headline: Critics question how Peel Police could be recognized for human rights work - The Pointer
-URL: https://news.google.com/rss/articles/CBMitwFBVV95cUxNNEZfT203Z1V6dzBTQTd1LUx2VzZQem9Sb1VhNjRPTnUySzh1MHJTVVhuUktncjl4QWN3NlRtbDNuQkwtM0RtOXQtdXlXLWxBWk8xSkpxWTNaalNhbHhrQkROTXZGTVZrUjJkbkpZWDNpVW1zZHV6RlZrcFVmM0lTWEpYblRmUE1lZFF2WUVXMkV2ZGthU29NczcwTms5eE9IZjBuNmNvYUdPSHo2T0d1V0ZHQTNVYVU?oc=5
+--- Peel | Story 4 --- [not selected]  (1 source(s))
+Headline: Metro Tiles & Flooring Releases 2027 Tile and Flooring Trends Forecast for Brampton and GTA Homes - FinancialContent
+URL: https://news.google.com/rss/articles/CBMi-AFBVV95cUxQVGdTWGZZMXZhQUQ1aEhoRVdNeW5GT1MySkxFdkNMS013bElGYXpwYjA3OTZJQ2tNSk0yNGVKRkhFMXoxQ2t3UndmQklaakZKdEhxYjB0a0ZTTGdEVkFQRmV6N2F2T0U0aURTd0U4ZkFxOThmbjdmLXpEOVVoYkJyQ1U1Ynh5QVd1YnlkTkdvWGY4M0FxVm5Db2Rtai1vd3VOblEzSFA2ZDMxM055UGdOdFI5WU5Fb08xTDNGdEVZYmRFWFNEdklTUHV0MVR4Wi1VTkU1UmhCNFFxejJydDVZY2x0NDBTeExlYTh4YU0tbi1pWmxQdzR6TQ?oc=5
 Feed: GoogleNews
-Category: Local
-Summary: Critics are questioning the decision to recognize Peel Police for their human rights work. The controversy has sparked debate among community members and stakeholders regarding the police force's record on human rights issues.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
-  Category  (good / bad / note):   
-  Summary   (good / bad / note):   
   Notes:                            
 
 --- Peel | Story 5 --- [✓ SELECTED]  (1 source(s))
-Headline: Make a difference by serving on a Peel Regional Council committee - Just Sayin' Caledon
-URL: https://news.google.com/rss/articles/CBMimwFBVV95cUxOZXoyY252Zk1qUzV5SVBmMGNyRk1oUWlGSjNJTEQ1dFBMNU9VMUhyY09aV29IN3FJdkRQUXJCdU16VXBYMDRpM084Z09GLUNSWUdBdHVGaEdNZkFkOHlOTjB4aWFIVEVGYU9pT05YSGl6cnRFRzV3blRpaGkyR3RLcW1SdW05RV82eU5MU1VMeEUwR0Q3RHI5Rm1Hdw?oc=5
+Headline: Strong winds may hit large part of Ontario, including Toronto area - insauga.com
+URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxPVkw3UE5sTUdnRVNBS2NPVEEtSkVyYk5CZmF4RkpWQjV0dXFVSHRrSXlCWnM0WEZJWXpmY2ZQV21vZUJIVDktWmxHUFh5R2s0U0tkZVpMRV9aMDhYemlaNVk1RWJRd2xxLVNIMGNhOTdMcV8wcGQxTVlTam5QZlNmNEpaSEZZTVlTM19aUUhZbU9fTzBi?oc=5
 Feed: GoogleNews
 Category: Local
-Summary: Residents are encouraged to apply for positions on the Peel Regional Council committees to help shape community decisions. This civic engagement opportunity allows local individuals to contribute directly to regional governance and local development.
+Summary: Environment Canada has issued a warning that strong winds could impact a large portion of Ontario, including the Greater Toronto Area. Residents are advised to prepare for potential weather disruptions and hazardous conditions as the system moves through the region.
   Selection (good / bad / missed): 
   Headline  (good / bad / note):   
   Category  (good / bad / note):   
@@ -1204,6 +1400,26 @@ Summary: Residents are encouraged to apply for positions on the Peel Regional Co
   Notes:                            
 
 --- Peel | Story 6 --- [not selected]  (1 source(s))
+Headline: First North American elected as Vice President of ACCA - The Manila Times
+URL: https://news.google.com/rss/articles/CBMixwFBVV95cUxQTUM5QjZXT3FTUFRkOE5oVDk3d2x5YlltVVNqRmd1MmEtdmxKX2U0dVZLSWdyNmRkN2gyS3A3Y3dKSEpabXZlODdBRzgzbWJFWmpJOGZCQzdxRUppLWtleGltREZOc01iNkZ5cE5tWVRVTFI2QXJ6dlc4WjE2TlQzYm9vR3lodXkwb3RnSS04MTdJUkZmTUhvTUZzTGR2bWowTmgyR2NYbU1RSXUyaUNpakIzTDZjaVhlS3JNMGhuRENqaXBJYWVR0gHMAUFVX3lxTE9hZzEyWFVVNk9LY2VJOEl0NVdneHdqX0FadGEwWWNvUnRVWkRUcjAtLWZNemViVDc3YUprN0hpSE5OcW16RHFycWVxMlBLVldBVzEyT0RUMm9JNnNDc2lPZ29OWk9sX0JXNlRNWHpzMERLakNPR0lRSW1rSDhuQm5hVWtTUGhNVXZRU3VmVG5Jc2JLcVNPQ0lnUFJFUXRVc3hHeWRpZUU3Qlc2V2lSZlNRZzMzcWF4ZEJydjdxQ1dwMVdhcFk1ZVlWSGNQVw?oc=5
+Feed: GoogleNews
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Notes:                            
+
+--- Peel | Story 7 --- [✓ SELECTED]  (1 source(s))
+Headline: Alvin Tedjo elected Mississauga mayor; Patrick Brown re-elected in Brampton
+URL: https://www.cbc.ca/news/canada/toronto/mississauga-mayor-result-9.7397010
+Feed: NewsAPI
+Category: Local
+Summary: Alvin Tedjo won the mayoral race in Mississauga, defeating the incumbent and former mayors. Additionally, Patrick Brown secured a third term as mayor in neighboring Brampton.
+  Selection (good / bad / missed): 
+  Headline  (good / bad / note):   
+  Category  (good / bad / note):   
+  Summary   (good / bad / note):   
+  Notes:                            
+
+--- Peel | Story 8 --- [not selected]  (1 source(s))
 Headline: Early voting starts across Toronto today. Here's what you need to know
 URL: https://www.cbc.ca/news/canada/toronto/toronto-how-to-vote-early-9.7369576
 Feed: NewsAPI
